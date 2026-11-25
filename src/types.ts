@@ -15,6 +15,10 @@ export interface Entry {
   auto?: boolean
   /** Set on the day's Wordle entry, which is built from the screenshot and/or typed guesses. */
   wordle?: WordleDay
+  /** Set on the day's activity rings entry. */
+  rings?: Rings
+  /** Don't show this entry's emoji on the calendar (rings that weren't all closed). */
+  noEmoji?: boolean
 }
 
 export interface WordleDay {
@@ -33,7 +37,20 @@ export interface Day {
   note?: string
   /** Wordle guesses typed in by hand, one five-letter word per guess. Overrides the screenshot. */
   wordle?: string[]
+  /** Apple Watch activity rings, sent from the "Care rings" iPhone Shortcut. */
+  rings?: Rings
   entries: Entry[]
+}
+
+export interface Rings {
+  move: number
+  moveGoal: number
+  /** "kJ" or "kcal", whatever the Health app uses. */
+  moveUnit: string
+  exercise: number
+  exerciseGoal: number
+  stand: number
+  standGoal: number
 }
 
 /** public/data/journal.json: everything typed in on the site. Keys are local dates, "YYYY-MM-DD". */

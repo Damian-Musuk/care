@@ -236,7 +236,7 @@ textarea { resize: vertical; }
 .toast {
   position: fixed; z-index: 100; left: 50%; transform: translateX(-50%); margin: 0; border: 0; inset: auto auto auto 50%;
   bottom: calc(84px + env(safe-area-inset-bottom));
-  max-width: calc(100vw - 32px); padding: 10px 16px; border-radius: 12px;
+  width: max-content; max-width: min(460px, calc(100vw - 32px)); padding: 10px 16px; border-radius: 12px;
   background: var(--text); color: var(--bg); font-weight: 600; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
 }
 
@@ -274,3 +274,20 @@ textarea { resize: vertical; }
 .wordle-edit { display: grid; gap: 10px; margin-top: 6px; }
 .wordle-edit label { display: grid; gap: 6px; font-weight: 650; font-size: 0.95rem; }
 .wordle-edit textarea { font: 700 1.1rem/1.5 ui-monospace, 'SF Mono', Menlo, monospace; letter-spacing: 0.15em; text-transform: uppercase; max-width: 220px; }
+
+/* ---------- Activity rings ---------- */
+
+.rings-layout { display: flex; flex-wrap: wrap; align-items: center; gap: 18px; }
+.rings-svg { width: 132px; height: 132px; flex: none; }
+.rings-numbers { margin: 0; display: grid; gap: 6px; }
+.rings-numbers dt { font-weight: 700; font-size: 0.9rem; }
+.rings-numbers dd { margin: 0; font-variant-numeric: tabular-nums; }
+.ring-move { color: #fa114f; }
+.ring-exercise { color: #6fbf12; }
+.ring-stand { color: #12b8bd; }
+@media (prefers-color-scheme: dark) {
+  .ring-exercise { color: #92e82a; }
+  .ring-stand { color: #1eeaef; }
+}
+.small { font-size: 0.85rem; }
+.notice { background: var(--green-soft); border: 1px solid var(--green-line); border-radius: var(--radius); padding: 14px 16px; margin-bottom: 12px; display: grid; gap: 10px; }

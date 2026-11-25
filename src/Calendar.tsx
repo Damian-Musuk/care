@@ -10,7 +10,7 @@ function dayEmojis(entries: Entry[]): string[] {
   const seen = new Set<string>()
   const out: string[] = []
   for (const e of entries) {
-    if (seen.has(e.activity)) continue
+    if (e.noEmoji || seen.has(e.activity)) continue
     seen.add(e.activity)
     out.push(activity(e.activity).emoji)
   }

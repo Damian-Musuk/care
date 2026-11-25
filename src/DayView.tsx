@@ -5,6 +5,7 @@ import { longDate } from './dates'
 import { Modal } from './Modal'
 import type { Entry, Photo } from './types'
 import { WordleCard } from './WordleCard'
+import { RingsCard } from './Rings'
 
 function linkLabel(url: string): string {
   try {
@@ -113,6 +114,7 @@ export function DayView({ date, note, entries, editing, busy, photoUrl, onClose,
           />
         )}
         {entries.map((entry) => {
+          if (entry.rings) return <RingsCard key={entry.id} rings={entry.rings} />
           if (entry.wordle) {
             return (
               <WordleCard

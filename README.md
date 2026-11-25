@@ -32,6 +32,11 @@ workflow. Each Wordle shows as a coloured grid with the answer. While editing, t
 Wordle to type the guesses yourself (one word per line), or 🧩 Add Wordle on a day without one.
 Typed guesses win over the screenshot. To hide a screenshot, tap the eye button.
 
+**Activity rings:** the "Care rings" iPhone Shortcut reads today's Move, Exercise and Stand from
+Apple Health and opens `/?rings=YYYY-MM-DD&move=…&moveGoal=…&unit=kJ&exercise=…&exerciseGoal=…&stand=…&standGoal=…`.
+With editing on in that browser, the journal saves them to the day (`rings` in journal.json). ⭕ shows
+on the calendar when all three are closed.
+
 In a day's view, swipe left or right (or use the ‹ › buttons or arrow keys) to move between days.
 
 ## Run it

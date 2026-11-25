@@ -3,13 +3,14 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { ACTIVITIES } from './activities'
 import { Calendar } from './Calendar'
 import { BRANCH, REPO_NAME, REPO_OWNER } from './config'
-import { addMonths, dateKey, monthTitle, parseKey, todayKey } from './dates'
+import { addMonths, dateKey, longDate, monthTitle, parseKey, todayKey } from './dates'
 import { DayView } from './DayView'
 import { EditorSetup } from './EditorSetup'
 import { EntryForm, type EntryDraft } from './EntryForm'
 import { explain, getToken, loadLatest, save, setToken as storeToken, type Change } from './github'
 import { newId } from './images'
 import { Lightbox } from './Lightbox'
+import { ringsClosed, ringsFromUrl } from './ringsData'
 import type { Entry, Journal, Photo, WordleData, WordleDay } from './types'
 
 const EMPTY_JOURNAL: Journal = { version: 1, days: {} }
@@ -30,14 +31,16 @@ function readUrl() {
 
 export default function App() {
   const [initial] = useState(readUrl)
+  // Rings sent by the iPhone Shortcut, waiting to be saved.
+  const [incomingRings, setIncomingRings] = useState(() => ringsFromUrl(location.search))
   const [journal, setJournal] = useState<Journal>(EMPTY_JOURNAL)
   const [wordle, setWordle] = useState<WordleData>(EMPTY_WORDLE)
   const [answers, setAnswers] = useState<Record<string, string>>({})
   const [loaded, setLoaded] = useState(false)
   const [loadError, setLoadError] = useState('')
   const [token, setTokenState] = useState<string | null>(getToken)
-  const [view, setView] = useState({ year: initial.year, month: initial.month })
-  const [selected, setSelected] = useState<string | null>(initial.day)
+  const [view, setView] = useState(() => incomingRings ? { year: +incomingRings.date.slice(0, 4), month: +incomingRings.date.slice(5, 7) - 1 } : { year: initial.year, month: initial.month })
+  const [selected, setSelected] = useState<string | null>(incomingRings?.date ?? initial.day)
   const [editingEntry, setEditingEntry] = useState<Entry | null>(null)
   const [showSetup, setShowSetup] = useState(false)
   const [lightbox, setLightbox] = useState<{ photos: Photo[]; index: number } | null>(null)
@@ -127,7 +130,9 @@ export default function App() {
 
   const entriesFor = useCallback((key: string) => {
     const w = wordleByDate.get(key)
-    return [...(w ? [w] : []), ...(journal.days[key]?.entries ?? [])]
+    const r = journal.days[key]?.rings
+    const rings: Entry[] = r ? [{ id: `rings:${key}`, activity: 'rings', auto: true, rings: r, noEmoji: !ringsClosed(r) }] : []
+    return [...rings, ...(w ? [w] : []), ...(journal.days[key]?.entries ?? [])]
   }, [journal, wordleByDate])
 
   const hasNote = useCallback((key: string) => !!journal.days[key]?.note, [journal])
@@ -191,7 +196,7 @@ export default function App() {
         const day = j.days[date]
         if (!day) return j
         day.entries = day.entries.filter((e) => e.id !== entry.id)
-        if (!day.entries.length && !day.note) delete j.days[date]
+        if (!day.entries.length && !day.note && !day.wordle && !day.rings) delete j.days[date]
         return j
       },
     }, 'Deleted.')
@@ -213,7 +218,7 @@ export default function App() {
         const day = j.days[date] ?? { entries: [] }
         if (guesses) day.wordle = guesses
         else delete day.wordle
-        if (!day.entries.length && !day.note && !day.wordle) delete j.days[date]
+        if (!day.entries.length && !day.note && !day.wordle && !day.rings) delete j.days[date]
         else j.days[date] = day
         return j
       },
@@ -235,12 +240,34 @@ export default function App() {
         const day = j.days[date] ?? { entries: [] }
         if (note) day.note = note
         else delete day.note
-        if (!day.entries.length && !day.note) delete j.days[date]
+        if (!day.entries.length && !day.note && !day.wordle && !day.rings) delete j.days[date]
         else j.days[date] = day
         return j
       },
     }, 'Note saved.')
   }
+
+  // Save rings from the Shortcut once editing is available in this browser.
+  const savingRings = useRef(false)
+  useEffect(() => {
+    // Without editing the banner below asks for it; once it's on, this runs again and saves.
+    if (!incomingRings || !token || savingRings.current) return
+    savingRings.current = true
+    const { date, rings } = incomingRings
+    run({
+      message: `${date}: activity rings`,
+      journal: (j) => {
+        const day = j.days[date] ?? { entries: [] }
+        day.rings = rings
+        j.days[date] = day
+        return j
+      },
+    }, ringsClosed(rings) ? 'Rings saved. All closed! 🎉' : 'Rings saved.').finally(() => {
+      savingRings.current = false
+      setIncomingRings(null)
+    })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [incomingRings, token])
 
   const go = (delta: number) => setView((v) => addMonths(v.year, v.month, delta))
   const t = parseKey(today)
@@ -272,6 +299,15 @@ export default function App() {
         </div>
 
         {loadError && <p className="error banner">{loadError}</p>}
+        {incomingRings && !token && (
+          <div className="notice">
+            <p>Your rings for {longDate(incomingRings.date)} are ready to save. Turn on editing in this browser to save them.</p>
+            <div className="row-end">
+              <button className="btn" onClick={() => setIncomingRings(null)}>Not now</button>
+              <button className="btn btn-primary" onClick={() => setShowSetup(true)}>Turn on editing</button>
+            </div>
+          </div>
+        )}
 
         <div className={loaded ? '' : 'is-loading'}>
           <Calendar
