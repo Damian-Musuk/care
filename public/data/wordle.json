@@ -15091,6 +15091,17 @@
         "SNEER"
       ],
       "answer": "SNEER"
+    },
+    "B88A6BE1-D9D7-4002-BA45-CDEB5EB25A0B": {
+      "date": "2026-11-25",
+      "file": "wordle/2026-11-25-b88a6be1d9.jpg",
+      "guesses": [
+        "SNEER",
+        "CLOUD",
+        "STACK",
+        "SPICY"
+      ],
+      "answer": "SPICY"
     }
   },
   "hidden": []
