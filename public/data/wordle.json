@@ -1,4 +1,5569 @@
 {
-  "photos": {},
+  "photos": {
+    "DFF04739-6A18-44D7-9E51-3827282F3310": {
+      "date": "2022-03-26",
+      "file": "wordle/2022-03-26-dff047396a.jpg"
+    },
+    "8F6390F5-04AC-4D72-9684-8F2243D65DCD": {
+      "date": "2022-03-27",
+      "file": "wordle/2022-03-27-8f6390f504.jpg"
+    },
+    "CC31D40C-ED54-4FB2-9F6E-685E2E413E96": {
+      "date": "2022-03-28",
+      "file": "wordle/2022-03-28-cc31d40ced.jpg"
+    },
+    "2E5F1F6D-19FD-41C7-9962-B48FC5499840": {
+      "date": "2022-03-29",
+      "file": "wordle/2022-03-29-2e5f1f6d19.jpg"
+    },
+    "15EE0355-DEB7-42F8-812E-9A65DAE9DB4D": {
+      "date": "2022-03-30",
+      "file": "wordle/2022-03-30-15ee0355de.jpg"
+    },
+    "9930D0B0-E041-4CDB-90F5-39BA12987471": {
+      "date": "2022-03-31",
+      "file": "wordle/2022-03-31-9930d0b0e0.jpg"
+    },
+    "FB796E1E-8929-42B9-80DB-4E12B05F2050": {
+      "date": "2022-04-01",
+      "file": "wordle/2022-04-01-fb796e1e89.jpg"
+    },
+    "CE530C95-7219-40D6-8A62-4C4B24DAFE79": {
+      "date": "2022-04-05",
+      "file": "wordle/2022-04-05-ce530c9572.jpg"
+    },
+    "A14E3189-9837-4B27-AD36-D9C61AB8CCAF": {
+      "date": "2022-04-07",
+      "file": "wordle/2022-04-07-a14e318998.jpg"
+    },
+    "50FED1BA-4664-4D25-A94A-755282DB1701": {
+      "date": "2022-04-08",
+      "file": "wordle/2022-04-08-50fed1ba46.jpg"
+    },
+    "7C44CEF5-D090-4B70-952D-6176EAC7F11F": {
+      "date": "2022-04-09",
+      "file": "wordle/2022-04-09-7c44cef5d0.jpg"
+    },
+    "01AD52DB-AC57-4B33-BC2A-886F683F075E": {
+      "date": "2022-04-12",
+      "file": "wordle/2022-04-12-01ad52dbac.jpg"
+    },
+    "79ED934D-9B0D-425F-A340-D980359F459E": {
+      "date": "2022-04-13",
+      "file": "wordle/2022-04-13-79ed934d9b.jpg"
+    },
+    "5CE2F189-1C57-48CE-910E-AF9F9238A765": {
+      "date": "2022-04-14",
+      "file": "wordle/2022-04-14-5ce2f1891c.jpg"
+    },
+    "B0481FEC-DC94-4CB7-B6FD-9273558F72F7": {
+      "date": "2022-04-15",
+      "file": "wordle/2022-04-15-b0481fecdc.jpg"
+    },
+    "14B20C36-35A6-481C-9F18-96E33B5B9A81": {
+      "date": "2022-04-16",
+      "file": "wordle/2022-04-16-14b20c3635.jpg"
+    },
+    "6F9B367C-24DD-4BEE-BCC5-ED22B48610FC": {
+      "date": "2022-04-17",
+      "file": "wordle/2022-04-17-6f9b367c24.jpg"
+    },
+    "30C60AE5-DF0E-44F9-92D9-2EA662020526": {
+      "date": "2022-04-18",
+      "file": "wordle/2022-04-18-30c60ae5df.jpg"
+    },
+    "1A381E68-6174-4304-8823-A667C9874AF0": {
+      "date": "2022-04-19",
+      "file": "wordle/2022-04-19-1a381e6861.jpg"
+    },
+    "A959C378-18BD-4661-BF35-0140CB0CE708": {
+      "date": "2022-04-20",
+      "file": "wordle/2022-04-20-a959c37818.jpg"
+    },
+    "7BC0329E-428E-4DF6-A5C5-50457B806E4D": {
+      "date": "2022-04-21",
+      "file": "wordle/2022-04-21-7bc0329e42.jpg"
+    },
+    "CC2A9FA6-91D6-4633-928D-D59618E75372": {
+      "date": "2022-04-22",
+      "file": "wordle/2022-04-22-cc2a9fa691.jpg"
+    },
+    "45D3D9F9-63B0-40F8-895B-8EF442AA168B": {
+      "date": "2022-04-23",
+      "file": "wordle/2022-04-23-45d3d9f963.jpg"
+    },
+    "01D13356-66F7-411E-9662-1770D370F3D0": {
+      "date": "2022-04-24",
+      "file": "wordle/2022-04-24-01d1335666.jpg"
+    },
+    "430C8A7B-5954-4A2F-9615-5C9637FF7A0B": {
+      "date": "2022-04-25",
+      "file": "wordle/2022-04-25-430c8a7b59.jpg"
+    },
+    "D9C65255-F9C3-4813-8A9C-618FBB1ADC37": {
+      "date": "2022-04-27",
+      "file": "wordle/2022-04-27-d9c65255f9.jpg"
+    },
+    "26EE6044-D29C-4326-9D9C-CD67A197C02C": {
+      "date": "2022-04-28",
+      "file": "wordle/2022-04-28-26ee6044d2.jpg"
+    },
+    "6818B95B-CAAA-48FF-8C0F-F35F692CCDBF": {
+      "date": "2022-04-29",
+      "file": "wordle/2022-04-29-6818b95bca.jpg"
+    },
+    "382BBA1D-8A84-4380-A2BD-30FB8F878C84": {
+      "date": "2022-04-30",
+      "file": "wordle/2022-04-30-382bba1d8a.jpg"
+    },
+    "F25BB417-F01E-47B1-9212-B1BD4BE0D4AA": {
+      "date": "2022-05-01",
+      "file": "wordle/2022-05-01-f25bb417f0.jpg"
+    },
+    "B9DD3A1D-8467-4CFF-A443-A78E0A539DA3": {
+      "date": "2022-05-03",
+      "file": "wordle/2022-05-03-b9dd3a1d84.jpg"
+    },
+    "EE616B18-3CA7-451E-B32D-9367C4E2D83D": {
+      "date": "2022-05-07",
+      "file": "wordle/2022-05-07-ee616b183c.jpg"
+    },
+    "6F9CCDB3-2352-45E1-A806-1D2F8EF5313A": {
+      "date": "2022-05-08",
+      "file": "wordle/2022-05-08-6f9ccdb323.jpg"
+    },
+    "BDCAF2C8-2205-41A9-9B98-123E2F4BB941": {
+      "date": "2022-05-10",
+      "file": "wordle/2022-05-10-bdcaf2c822.jpg"
+    },
+    "E6B5B25C-1EB0-4054-A9C7-74BBAE05FE09": {
+      "date": "2022-05-11",
+      "file": "wordle/2022-05-11-e6b5b25c1e.jpg"
+    },
+    "1B68E3CC-EA61-4535-AD8A-9C8C491F2057": {
+      "date": "2022-05-12",
+      "file": "wordle/2022-05-12-1b68e3ccea.jpg"
+    },
+    "E879D95F-977B-4162-97E6-42F279D21ADD": {
+      "date": "2022-05-13",
+      "file": "wordle/2022-05-13-e879d95f97.jpg"
+    },
+    "D571E398-02A9-4C8C-8C7E-A4F67E0FF644": {
+      "date": "2022-05-14",
+      "file": "wordle/2022-05-14-d571e39802.jpg"
+    },
+    "9BC8C693-2722-4C43-8078-CE6E10BA753A": {
+      "date": "2022-05-15",
+      "file": "wordle/2022-05-15-9bc8c69327.jpg"
+    },
+    "A9FFF1BB-8181-450A-9F8D-29C5792265F7": {
+      "date": "2022-05-16",
+      "file": "wordle/2022-05-16-a9fff1bb81.jpg"
+    },
+    "EA0A69E3-00A6-438D-8A36-68EA52430D5D": {
+      "date": "2022-05-17",
+      "file": "wordle/2022-05-17-ea0a69e300.jpg"
+    },
+    "4DC50147-D64C-4155-917C-A03E3B7FD4E5": {
+      "date": "2022-05-18",
+      "file": "wordle/2022-05-18-4dc50147d6.jpg"
+    },
+    "E9DE1437-B5E8-4188-A418-8B4CF210573B": {
+      "date": "2022-05-20",
+      "file": "wordle/2022-05-20-e9de1437b5.jpg"
+    },
+    "CD460DEC-5E42-414E-AC82-6F3A9E7E3D78": {
+      "date": "2022-05-21",
+      "file": "wordle/2022-05-21-cd460dec5e.jpg"
+    },
+    "B1041391-132F-4F55-96A3-4605EEBAACC9": {
+      "date": "2022-05-22",
+      "file": "wordle/2022-05-22-b104139113.jpg"
+    },
+    "2FF405D6-D551-4FF0-9392-18E56707F7B9": {
+      "date": "2022-05-23",
+      "file": "wordle/2022-05-23-2ff405d6d5.jpg"
+    },
+    "1083DDB4-1225-4E36-AB03-C3BEF3C66001": {
+      "date": "2022-05-24",
+      "file": "wordle/2022-05-24-1083ddb412.jpg"
+    },
+    "E550C838-BE23-47AB-98C6-800CDC94827F": {
+      "date": "2022-05-25",
+      "file": "wordle/2022-05-25-e550c838be.jpg"
+    },
+    "91D7A25D-08E9-4DCC-9A70-7DFD1C09A3E6": {
+      "date": "2022-05-27",
+      "file": "wordle/2022-05-27-91d7a25d08.jpg"
+    },
+    "6B2B1ED9-4DF0-4D62-A98F-F9C784547C2D": {
+      "date": "2022-05-28",
+      "file": "wordle/2022-05-28-6b2b1ed94d.jpg"
+    },
+    "84E5B4E9-78C9-44D0-B70A-4CD0795F8086": {
+      "date": "2022-05-29",
+      "file": "wordle/2022-05-29-84e5b4e978.jpg"
+    },
+    "409FED07-1217-4B62-A5F8-DD64336CE386": {
+      "date": "2022-05-30",
+      "file": "wordle/2022-05-30-409fed0712.jpg"
+    },
+    "299E0461-8537-49F9-9062-5212D0026EEC": {
+      "date": "2022-06-03",
+      "file": "wordle/2022-06-03-299e046185.jpg"
+    },
+    "3DB38E0D-CA6D-4C4F-8AA2-A7C5836264E4": {
+      "date": "2022-06-05",
+      "file": "wordle/2022-06-05-3db38e0dca.jpg"
+    },
+    "4F942DF2-550F-474E-9DE3-3412B0F63897": {
+      "date": "2022-06-06",
+      "file": "wordle/2022-06-06-4f942df255.jpg"
+    },
+    "E4981EAE-78D6-4685-B527-76449F3AF55F": {
+      "date": "2022-06-07",
+      "file": "wordle/2022-06-07-e4981eae78.jpg"
+    },
+    "94D9AE19-A66D-4F9C-815B-7D8CA207A5EB": {
+      "date": "2022-06-08",
+      "file": "wordle/2022-06-08-94d9ae19a6.jpg"
+    },
+    "24D89C1D-3EA3-4E49-AA0B-B79D3D815B99": {
+      "date": "2022-06-09",
+      "file": "wordle/2022-06-09-24d89c1d3e.jpg"
+    },
+    "1BC0A4F6-A6AA-47A4-A310-0AD7C927A01E": {
+      "date": "2022-06-10",
+      "file": "wordle/2022-06-10-1bc0a4f6a6.jpg"
+    },
+    "2E78DC65-0651-4930-9889-1A22310312B8": {
+      "date": "2022-06-12",
+      "file": "wordle/2022-06-12-2e78dc6506.jpg"
+    },
+    "2D5BDD69-C700-412E-883D-AACA6312148C": {
+      "date": "2022-06-13",
+      "file": "wordle/2022-06-13-2d5bdd69c7.jpg"
+    },
+    "70FD997F-3E72-4F66-BBDA-4676BD3D1692": {
+      "date": "2022-06-14",
+      "file": "wordle/2022-06-14-70fd997f3e.jpg"
+    },
+    "FDCED60D-A154-4657-95A7-52BC6E05877D": {
+      "date": "2022-06-15",
+      "file": "wordle/2022-06-15-fdced60da1.jpg"
+    },
+    "5CA84BFA-77F9-4C1D-B0B9-0E3447D8159E": {
+      "date": "2022-06-17",
+      "file": "wordle/2022-06-17-5ca84bfa77.jpg"
+    },
+    "C5A2B16D-E374-48A8-8AAC-52C07CE600A0": {
+      "date": "2022-06-18",
+      "file": "wordle/2022-06-18-c5a2b16de3.jpg"
+    },
+    "C13E494E-3A6E-4029-AB00-A9A1933E5A8B": {
+      "date": "2022-06-20",
+      "file": "wordle/2022-06-20-c13e494e3a.jpg"
+    },
+    "8A388F06-FE18-4C1D-A22B-66047C8A2E17": {
+      "date": "2022-06-22",
+      "file": "wordle/2022-06-22-8a388f06fe.jpg"
+    },
+    "1C35267C-68CD-4FAC-8B53-DC4274158809": {
+      "date": "2022-06-23",
+      "file": "wordle/2022-06-23-1c35267c68.jpg"
+    },
+    "EFCF50C1-F7BB-4B35-BC97-73E486F9640B": {
+      "date": "2022-06-24",
+      "file": "wordle/2022-06-24-efcf50c1f7.jpg"
+    },
+    "AD79634E-1F95-4C52-8112-972D75AE45D5": {
+      "date": "2022-06-25",
+      "file": "wordle/2022-06-25-ad79634e1f.jpg"
+    },
+    "53BDEF0A-841B-4DD7-87AA-4239B411D13D": {
+      "date": "2022-06-26",
+      "file": "wordle/2022-06-26-53bdef0a84.jpg"
+    },
+    "14CE0A40-BA7C-4027-9ED6-76CCB31C9FFA": {
+      "date": "2022-06-29",
+      "file": "wordle/2022-06-29-14ce0a40ba.jpg"
+    },
+    "CFCF3A32-2BD1-40BC-8538-055A4C15C2C7": {
+      "date": "2022-06-30",
+      "file": "wordle/2022-06-30-cfcf3a322b.jpg"
+    },
+    "421DEBCC-CD47-48D3-83D0-C1E5EBB709B2": {
+      "date": "2022-07-01",
+      "file": "wordle/2022-07-01-421debcccd.jpg"
+    },
+    "385ABAA3-BC72-4459-9A73-DFAFBCB3893C": {
+      "date": "2022-07-02",
+      "file": "wordle/2022-07-02-385abaa3bc.jpg"
+    },
+    "172FC3B6-D72C-41C8-A4CA-F3E03D7280AB": {
+      "date": "2022-07-03",
+      "file": "wordle/2022-07-03-172fc3b6d7.jpg"
+    },
+    "E70AFC68-DED7-4D3E-BB5C-B5CEB490FD07": {
+      "date": "2022-07-04",
+      "file": "wordle/2022-07-04-e70afc68de.jpg"
+    },
+    "DE5A92B0-28A6-4B13-9A10-444B7F6C88D9": {
+      "date": "2022-07-06",
+      "file": "wordle/2022-07-06-de5a92b028.jpg"
+    },
+    "BD8DB738-C00F-484F-9818-57547D3B9C67": {
+      "date": "2022-07-07",
+      "file": "wordle/2022-07-07-bd8db738c0.jpg"
+    },
+    "DEF99A5E-D52F-48C5-9FD4-A79B41F07DDF": {
+      "date": "2022-07-08",
+      "file": "wordle/2022-07-08-def99a5ed5.jpg"
+    },
+    "88CD55C5-4685-4941-BCF2-0D349AD12904": {
+      "date": "2022-07-11",
+      "file": "wordle/2022-07-11-88cd55c546.jpg"
+    },
+    "64D71F3F-F7A6-447C-B71B-02FCCCEAEC99": {
+      "date": "2022-07-13",
+      "file": "wordle/2022-07-13-64d71f3ff7.jpg"
+    },
+    "07DD6EC3-4528-44CD-BD74-1C546B31763A": {
+      "date": "2022-07-14",
+      "file": "wordle/2022-07-14-07dd6ec345.jpg"
+    },
+    "9825F4ED-5094-4CE9-9123-BC38BAC24E4C": {
+      "date": "2022-07-15",
+      "file": "wordle/2022-07-15-9825f4ed50.jpg"
+    },
+    "2473550B-B1BC-4454-BAAC-B7D8B18DF469": {
+      "date": "2022-07-16",
+      "file": "wordle/2022-07-16-2473550bb1.jpg"
+    },
+    "6FBAD7A2-B279-4EB7-B5DC-711327AB811A": {
+      "date": "2022-07-17",
+      "file": "wordle/2022-07-17-6fbad7a2b2.jpg"
+    },
+    "0298E721-73FF-47FA-A01F-A90CBBFB7B12": {
+      "date": "2022-07-18",
+      "file": "wordle/2022-07-18-0298e72173.jpg"
+    },
+    "0E9B9947-6C76-41A8-BEC1-594AE5C58A09": {
+      "date": "2022-07-19",
+      "file": "wordle/2022-07-19-0e9b99476c.jpg"
+    },
+    "8922A3D4-27C8-4ED3-BFA7-B895CB29F1DE": {
+      "date": "2022-07-21",
+      "file": "wordle/2022-07-21-8922a3d427.jpg"
+    },
+    "EB3DB930-790B-4EE6-A1B5-C0A04C9A0D83": {
+      "date": "2022-07-22",
+      "file": "wordle/2022-07-22-eb3db93079.jpg"
+    },
+    "8980F9DE-1DAC-4A57-B3C6-11740D6F9E6F": {
+      "date": "2022-07-23",
+      "file": "wordle/2022-07-23-8980f9de1d.jpg"
+    },
+    "B511A348-B38C-46AA-9D94-0F4FA3415AA0": {
+      "date": "2022-07-24",
+      "file": "wordle/2022-07-24-b511a348b3.jpg"
+    },
+    "76CC5992-8E6C-443D-9905-F58A95D59276": {
+      "date": "2022-07-25",
+      "file": "wordle/2022-07-25-76cc59928e.jpg"
+    },
+    "7EE693E4-90E4-4E54-88EF-302B2183D377": {
+      "date": "2022-07-27",
+      "file": "wordle/2022-07-27-7ee693e490.jpg"
+    },
+    "5A2FB675-5F70-4EBF-93DB-9C61881949E6": {
+      "date": "2022-07-28",
+      "file": "wordle/2022-07-28-5a2fb6755f.jpg"
+    },
+    "16AEB827-21F6-4D1E-AFD4-16F6DFADEC16": {
+      "date": "2022-07-29",
+      "file": "wordle/2022-07-29-16aeb82721.jpg"
+    },
+    "412B815A-1B2B-4A83-8345-85981C4AA135": {
+      "date": "2022-07-30",
+      "file": "wordle/2022-07-30-412b815a1b.jpg"
+    },
+    "706AC327-31F6-4297-A3A7-AF5EBCCC5370": {
+      "date": "2022-07-31",
+      "file": "wordle/2022-07-31-706ac32731.jpg"
+    },
+    "85D9E1F9-1AEB-4022-90F8-BABB3C5A608C": {
+      "date": "2022-08-01",
+      "file": "wordle/2022-08-01-85d9e1f91a.jpg"
+    },
+    "174641CB-2D32-4358-940F-33A2A15FE576": {
+      "date": "2022-08-02",
+      "file": "wordle/2022-08-02-174641cb2d.jpg"
+    },
+    "79433F51-E794-4F73-98CE-371EB12E83EE": {
+      "date": "2022-08-03",
+      "file": "wordle/2022-08-03-79433f51e7.jpg"
+    },
+    "819AF78D-3312-4497-877D-E7E9CE30E727": {
+      "date": "2022-08-04",
+      "file": "wordle/2022-08-04-819af78d33.jpg"
+    },
+    "41BAE56D-FF39-41B6-8BF5-A032290BE483": {
+      "date": "2022-08-05",
+      "file": "wordle/2022-08-05-41bae56dff.jpg"
+    },
+    "CA9DA2AA-39B3-46AD-B8AC-C258F97721E6": {
+      "date": "2022-08-06",
+      "file": "wordle/2022-08-06-ca9da2aa39.jpg"
+    },
+    "3CA451E4-A6CA-4314-8AA4-E842D183ECB0": {
+      "date": "2022-08-10",
+      "file": "wordle/2022-08-10-3ca451e4a6.jpg"
+    },
+    "5D84C59C-0537-435F-AEBA-ACEFF65D795E": {
+      "date": "2022-08-11",
+      "file": "wordle/2022-08-11-5d84c59c05.jpg"
+    },
+    "5670EE50-478C-49AB-8536-C614F594C8BC": {
+      "date": "2022-08-12",
+      "file": "wordle/2022-08-12-5670ee5047.jpg"
+    },
+    "007AAC41-FA88-4E93-BDA2-79AB64920F4B": {
+      "date": "2022-08-13",
+      "file": "wordle/2022-08-13-007aac41fa.jpg"
+    },
+    "7BB3D4F8-A867-4E8F-A584-77B8D26A33DB": {
+      "date": "2022-08-14",
+      "file": "wordle/2022-08-14-7bb3d4f8a8.jpg"
+    },
+    "528CAEA0-8506-465A-9E47-60F770171412": {
+      "date": "2022-08-15",
+      "file": "wordle/2022-08-15-528caea085.jpg"
+    },
+    "8E317013-5D12-4471-82D1-4E7830BF7129": {
+      "date": "2022-08-16",
+      "file": "wordle/2022-08-16-8e3170135d.jpg"
+    },
+    "21B3198A-F85A-403C-82D6-093141029AD7": {
+      "date": "2022-08-17",
+      "file": "wordle/2022-08-17-21b3198af8.jpg"
+    },
+    "2D146094-15CD-42C4-B761-1F211DAD2369": {
+      "date": "2022-08-18",
+      "file": "wordle/2022-08-18-2d14609415.jpg"
+    },
+    "05594970-380C-4606-812D-481C061EBCF9": {
+      "date": "2022-08-19",
+      "file": "wordle/2022-08-19-0559497038.jpg"
+    },
+    "427B0984-8E40-43D4-A346-9C628DAD8DB6": {
+      "date": "2022-08-20",
+      "file": "wordle/2022-08-20-427b09848e.jpg"
+    },
+    "FDA450D7-6112-44EE-B026-1A8702E298ED": {
+      "date": "2022-08-22",
+      "file": "wordle/2022-08-22-fda450d761.jpg"
+    },
+    "6609C75C-C46D-4C0C-8004-5FB57867CB88": {
+      "date": "2022-08-24",
+      "file": "wordle/2022-08-24-6609c75cc4.jpg"
+    },
+    "BD228174-28E2-4102-BADF-0E22ADB287D2": {
+      "date": "2022-08-25",
+      "file": "wordle/2022-08-25-bd22817428.jpg"
+    },
+    "FDE6CD41-233D-4E8B-887E-89AEBCAAC35E": {
+      "date": "2022-08-26",
+      "file": "wordle/2022-08-26-fde6cd4123.jpg"
+    },
+    "97821A0B-07B4-4577-ADB2-120AA107491B": {
+      "date": "2022-08-28",
+      "file": "wordle/2022-08-28-97821a0b07.jpg"
+    },
+    "4B71F4BA-1800-4C1C-B480-9C3664CFE6BF": {
+      "date": "2022-08-29",
+      "file": "wordle/2022-08-29-4b71f4ba18.jpg"
+    },
+    "66E81E2B-C26C-415F-9B25-96D011FEA304": {
+      "date": "2022-09-01",
+      "file": "wordle/2022-09-01-66e81e2bc2.jpg"
+    },
+    "5519EED2-FC84-4027-A2A6-88CAFF4B0F18": {
+      "date": "2022-09-02",
+      "file": "wordle/2022-09-02-5519eed2fc.jpg"
+    },
+    "5CFF8304-A060-4BC6-B888-7BDC9D0C99F7": {
+      "date": "2022-09-03",
+      "file": "wordle/2022-09-03-5cff8304a0.jpg"
+    },
+    "0A0E6716-408F-479A-A294-70431CEF9734": {
+      "date": "2022-09-04",
+      "file": "wordle/2022-09-04-0a0e671640.jpg"
+    },
+    "542D5A5D-D423-460C-BA82-9D3A7BB22BC2": {
+      "date": "2022-09-05",
+      "file": "wordle/2022-09-05-542d5a5dd4.jpg"
+    },
+    "B6676BC6-DA0F-410B-BCFE-C65B0394B1C5": {
+      "date": "2022-09-07",
+      "file": "wordle/2022-09-07-b6676bc6da.jpg"
+    },
+    "A9CA5FE7-A2B6-4770-AEFC-BACB2BA5024C": {
+      "date": "2022-09-09",
+      "file": "wordle/2022-09-09-a9ca5fe7a2.jpg"
+    },
+    "8EF474B7-0391-46A5-B1D5-3D266DA51839": {
+      "date": "2022-09-10",
+      "file": "wordle/2022-09-10-8ef474b703.jpg"
+    },
+    "DC1D25C8-792F-40E0-AD04-E24502B6C452": {
+      "date": "2022-09-11",
+      "file": "wordle/2022-09-11-dc1d25c879.jpg"
+    },
+    "9C83CF43-A3F8-4E2C-9469-01692D3331F2": {
+      "date": "2022-09-12",
+      "file": "wordle/2022-09-12-9c83cf43a3.jpg"
+    },
+    "9E479AAC-4069-4768-A425-684A824B2FF6": {
+      "date": "2022-09-13",
+      "file": "wordle/2022-09-13-9e479aac40.jpg"
+    },
+    "782E4AB1-90C5-4458-AF0F-0AB9C43A0008": {
+      "date": "2022-09-14",
+      "file": "wordle/2022-09-14-782e4ab190.jpg"
+    },
+    "F64BE368-8C49-40FA-B12E-A36BF5C8F381": {
+      "date": "2022-09-15",
+      "file": "wordle/2022-09-15-f64be3688c.jpg"
+    },
+    "11169543-B2CF-4C5E-9240-2553C796901A": {
+      "date": "2022-09-16",
+      "file": "wordle/2022-09-16-11169543b2.jpg"
+    },
+    "A8F575C0-54EE-4310-ABF0-2D43061EAB53": {
+      "date": "2022-09-18",
+      "file": "wordle/2022-09-18-a8f575c054.jpg"
+    },
+    "9393575E-6085-4080-B501-2D6D94E3C079": {
+      "date": "2022-09-19",
+      "file": "wordle/2022-09-19-9393575e60.jpg"
+    },
+    "779C9809-5A35-4E4D-824C-DCE7D08ACACB": {
+      "date": "2022-09-20",
+      "file": "wordle/2022-09-20-779c98095a.jpg"
+    },
+    "C63C386A-77F3-4F1B-9022-FA6DE8046965": {
+      "date": "2022-09-21",
+      "file": "wordle/2022-09-21-c63c386a77.jpg"
+    },
+    "4EA5AEF0-CBA1-4D96-8766-3ED401570CEB": {
+      "date": "2022-09-22",
+      "file": "wordle/2022-09-22-4ea5aef0cb.jpg"
+    },
+    "231FE88C-FC4A-4DB5-8A8B-D1348FE61671": {
+      "date": "2022-09-23",
+      "file": "wordle/2022-09-23-231fe88cfc.jpg"
+    },
+    "616666AD-F2CA-40D0-ABB4-205E546EEB2B": {
+      "date": "2022-09-26",
+      "file": "wordle/2022-09-26-616666adf2.jpg"
+    },
+    "583D74A5-E483-4174-ABF0-6DC334C4F060": {
+      "date": "2022-09-27",
+      "file": "wordle/2022-09-27-583d74a5e4.jpg"
+    },
+    "EE049B1A-71B7-4553-A661-0D9489F6A6A7": {
+      "date": "2022-09-30",
+      "file": "wordle/2022-09-30-ee049b1a71.jpg"
+    },
+    "EA20BC7A-0C72-44FB-847F-C610A73F3815": {
+      "date": "2022-10-01",
+      "file": "wordle/2022-10-01-ea20bc7a0c.jpg"
+    },
+    "09A45508-4962-47F7-9FCE-E7D086F76B79": {
+      "date": "2022-10-02",
+      "file": "wordle/2022-10-02-09a4550849.jpg"
+    },
+    "BB7AB775-9506-45C3-8860-DC930B00AEB0": {
+      "date": "2022-10-03",
+      "file": "wordle/2022-10-03-bb7ab77595.jpg"
+    },
+    "4600C8A4-8BF5-425A-8C31-ADFB30AC6AC3": {
+      "date": "2022-10-06",
+      "file": "wordle/2022-10-06-4600c8a48b.jpg"
+    },
+    "213181D2-7CDE-4049-9CCB-B6C88A75A866": {
+      "date": "2022-10-07",
+      "file": "wordle/2022-10-07-213181d27c.jpg"
+    },
+    "EEEA2309-D787-425F-9BF2-84B72DB914B7": {
+      "date": "2022-10-09",
+      "file": "wordle/2022-10-09-eeea2309d7.jpg"
+    },
+    "34845555-682F-47EE-9AEC-877D2D89D962": {
+      "date": "2022-10-10",
+      "file": "wordle/2022-10-10-3484555568.jpg"
+    },
+    "6D642025-5218-4DA3-8EE5-10D286EF2EC7": {
+      "date": "2022-10-12",
+      "file": "wordle/2022-10-12-6d64202552.jpg"
+    },
+    "F258ABD8-58D2-4211-84CB-88FDCED0BC89": {
+      "date": "2022-10-13",
+      "file": "wordle/2022-10-13-f258abd858.jpg"
+    },
+    "5A6CF135-F877-43F0-8BA3-49C9AD0FBE50": {
+      "date": "2022-10-14",
+      "file": "wordle/2022-10-14-5a6cf135f8.jpg"
+    },
+    "8C49268E-BAFF-4D19-85DC-A5FE846E2C8B": {
+      "date": "2022-10-15",
+      "file": "wordle/2022-10-15-8c49268eba.jpg"
+    },
+    "306EBD82-5FDC-489E-96D3-D8F941CCDF11": {
+      "date": "2022-10-18",
+      "file": "wordle/2022-10-18-306ebd825f.jpg"
+    },
+    "CBA1B90F-2434-4F19-9839-83EC142AE080": {
+      "date": "2022-10-19",
+      "file": "wordle/2022-10-19-cba1b90f24.jpg"
+    },
+    "5FDEEE71-FFF5-4477-AA78-AFB6AE0D2A79": {
+      "date": "2022-10-20",
+      "file": "wordle/2022-10-20-5fdeee71ff.jpg"
+    },
+    "D819ED9A-F202-4BF9-A8E3-7ECF18B7E487": {
+      "date": "2022-10-22",
+      "file": "wordle/2022-10-22-d819ed9af2.jpg"
+    },
+    "58C0A127-0EF0-458D-BBAE-190D029EDD1F": {
+      "date": "2022-10-23",
+      "file": "wordle/2022-10-23-58c0a1270e.jpg"
+    },
+    "04407170-E701-4B6F-A93A-0EAB8B1B067A": {
+      "date": "2022-10-24",
+      "file": "wordle/2022-10-24-04407170e7.jpg"
+    },
+    "EC237529-73AF-4E11-8565-863E14217FEA": {
+      "date": "2022-10-26",
+      "file": "wordle/2022-10-26-ec23752973.jpg"
+    },
+    "283CA96E-1A86-40A1-BD17-15017CFC8B41": {
+      "date": "2022-10-27",
+      "file": "wordle/2022-10-27-283ca96e1a.jpg"
+    },
+    "BB4E89C3-4E94-4A97-9B37-1E6A5D724482": {
+      "date": "2022-10-28",
+      "file": "wordle/2022-10-28-bb4e89c34e.jpg"
+    },
+    "2B8FDA8A-D849-4087-B0E3-8000C19F68FF": {
+      "date": "2022-10-29",
+      "file": "wordle/2022-10-29-2b8fda8ad8.jpg"
+    },
+    "C48E6BD1-F1B3-49A4-9FFB-E096FE748F66": {
+      "date": "2022-10-30",
+      "file": "wordle/2022-10-30-c48e6bd1f1.jpg"
+    },
+    "ED5CA31C-FD5C-4714-A1AA-F98B59F5DA9D": {
+      "date": "2022-11-01",
+      "file": "wordle/2022-11-01-ed5ca31cfd.jpg"
+    },
+    "8996A230-2471-4A3E-9869-04226135A28B": {
+      "date": "2022-11-02",
+      "file": "wordle/2022-11-02-8996a23024.jpg"
+    },
+    "8652C90D-5E0F-41BA-A8F4-6C8A67233148": {
+      "date": "2022-11-03",
+      "file": "wordle/2022-11-03-8652c90d5e.jpg"
+    },
+    "D798B4AB-931E-49CC-B243-C1B8B3636EA4": {
+      "date": "2022-11-04",
+      "file": "wordle/2022-11-04-d798b4ab93.jpg"
+    },
+    "3FFDD403-688D-4187-8769-B7F5CE656442": {
+      "date": "2022-11-05",
+      "file": "wordle/2022-11-05-3ffdd40368.jpg"
+    },
+    "0B72FFFA-AB00-464C-A9C5-7888421B5474": {
+      "date": "2022-11-06",
+      "file": "wordle/2022-11-06-0b72fffaab.jpg"
+    },
+    "975FF18B-928A-421C-A069-18359A28E594": {
+      "date": "2022-11-07",
+      "file": "wordle/2022-11-07-975ff18b92.jpg"
+    },
+    "FF057976-4BDD-4F25-A034-0BAD476C97D2": {
+      "date": "2022-11-08",
+      "file": "wordle/2022-11-08-ff0579764b.jpg"
+    },
+    "10426DA5-B32E-4E9C-9CB7-1CBC0FCFF5D9": {
+      "date": "2022-11-09",
+      "file": "wordle/2022-11-09-10426da5b3.jpg"
+    },
+    "37365780-93FB-4BD0-9F56-B5525EFD505C": {
+      "date": "2022-11-10",
+      "file": "wordle/2022-11-10-3736578093.jpg"
+    },
+    "4ADC2C45-83FC-44B4-8DCA-CC25B880D0D3": {
+      "date": "2022-11-11",
+      "file": "wordle/2022-11-11-4adc2c4583.jpg"
+    },
+    "97B07371-39E7-490E-AFDE-C25ABAC984A1": {
+      "date": "2022-11-12",
+      "file": "wordle/2022-11-12-97b0737139.jpg"
+    },
+    "74992F39-C9ED-48EE-97F6-A297C26FB535": {
+      "date": "2022-11-13",
+      "file": "wordle/2022-11-13-74992f39c9.jpg"
+    },
+    "B9278F6F-8BEE-49A4-A203-C90965E4C514": {
+      "date": "2022-11-14",
+      "file": "wordle/2022-11-14-b9278f6f8b.jpg"
+    },
+    "1FCBC74C-763E-462D-B886-BC0D86E6C4E9": {
+      "date": "2022-11-15",
+      "file": "wordle/2022-11-15-1fcbc74c76.jpg"
+    },
+    "37AB1921-5F61-4EC7-9F13-619E0587E0F3": {
+      "date": "2022-11-16",
+      "file": "wordle/2022-11-16-37ab19215f.jpg"
+    },
+    "B4B6BBF2-3FE3-4BE2-9BC0-5BE8179E6518": {
+      "date": "2022-11-17",
+      "file": "wordle/2022-11-17-b4b6bbf23f.jpg"
+    },
+    "F98AE33A-1F06-4EEF-8AFB-E398933DF3C4": {
+      "date": "2022-11-18",
+      "file": "wordle/2022-11-18-f98ae33a1f.jpg"
+    },
+    "012219D0-8262-4263-ADD4-AC6DCF026BD7": {
+      "date": "2022-11-20",
+      "file": "wordle/2022-11-20-012219d082.jpg"
+    },
+    "18D7CD8C-3EE0-4E0A-96BC-ECD46743067C": {
+      "date": "2022-11-21",
+      "file": "wordle/2022-11-21-18d7cd8c3e.jpg"
+    },
+    "A2EF61E2-4513-45DF-A374-78F29AA23B7A": {
+      "date": "2022-11-22",
+      "file": "wordle/2022-11-22-a2ef61e245.jpg"
+    },
+    "A4EDD406-C7F7-42B9-BFB0-0B1BD4129F55": {
+      "date": "2022-11-24",
+      "file": "wordle/2022-11-24-a4edd406c7.jpg"
+    },
+    "EBA5F543-AE37-457F-BA3F-EF114AB9B9B1": {
+      "date": "2022-11-25",
+      "file": "wordle/2022-11-25-eba5f543ae.jpg"
+    },
+    "E7E569D1-A79E-4C2A-BD29-9ED662D2FA0D": {
+      "date": "2022-11-26",
+      "file": "wordle/2022-11-26-e7e569d1a7.jpg"
+    },
+    "4417F939-E843-4608-861F-49E9E3CBAA2B": {
+      "date": "2022-11-29",
+      "file": "wordle/2022-11-29-4417f939e8.jpg"
+    },
+    "957DDD27-B299-4D68-BAA1-0554E1E2496D": {
+      "date": "2022-12-01",
+      "file": "wordle/2022-12-01-957ddd27b2.jpg"
+    },
+    "6EDA2FD9-E08F-472B-AAFB-64FC04C08BAA": {
+      "date": "2022-12-02",
+      "file": "wordle/2022-12-02-6eda2fd9e0.jpg"
+    },
+    "E6374F52-F03F-4E8B-97AC-7FEE4A942842": {
+      "date": "2022-12-03",
+      "file": "wordle/2022-12-03-e6374f52f0.jpg"
+    },
+    "338327FC-43C1-463D-B1D3-5AF31BDDAB67": {
+      "date": "2022-12-06",
+      "file": "wordle/2022-12-06-338327fc43.jpg"
+    },
+    "28E5F88B-23D7-4B02-9DB0-8741E28873EA": {
+      "date": "2022-12-08",
+      "file": "wordle/2022-12-08-28e5f88b23.jpg"
+    },
+    "E8170F2D-CD9B-4912-AADE-7EBB839F6C40": {
+      "date": "2022-12-10",
+      "file": "wordle/2022-12-10-e8170f2dcd.jpg"
+    },
+    "9F869ADF-4641-437E-8677-1C0D2AFEF589": {
+      "date": "2022-12-11",
+      "file": "wordle/2022-12-11-9f869adf46.jpg"
+    },
+    "A2E330AF-AB0A-41C1-A859-D974F4D144E5": {
+      "date": "2022-12-15",
+      "file": "wordle/2022-12-15-a2e330afab.jpg"
+    },
+    "78153F17-9048-4CF2-964A-EE1A8AFE8F66": {
+      "date": "2022-12-16",
+      "file": "wordle/2022-12-16-78153f1790.jpg"
+    },
+    "2E184957-4D60-4F00-B04C-B5E6110DE751": {
+      "date": "2022-12-18",
+      "file": "wordle/2022-12-18-2e1849574d.jpg"
+    },
+    "7C923695-C1C8-41A1-B97A-EEFBCDFD84B2": {
+      "date": "2022-12-19",
+      "file": "wordle/2022-12-19-7c923695c1.jpg"
+    },
+    "931D2E51-9281-461B-8EB3-A38A3FBE7ED0": {
+      "date": "2022-12-20",
+      "file": "wordle/2022-12-20-931d2e5192.jpg"
+    },
+    "E5EE0C75-39F9-49B0-BD16-97B23B457EEF": {
+      "date": "2022-12-21",
+      "file": "wordle/2022-12-21-e5ee0c7539.jpg"
+    },
+    "0D0FF3DF-EC5A-41EE-9E1A-9E38CC36B30C": {
+      "date": "2022-12-22",
+      "file": "wordle/2022-12-22-0d0ff3dfec.jpg"
+    },
+    "C992EF70-FD4F-4407-968B-E589710E999C": {
+      "date": "2022-12-23",
+      "file": "wordle/2022-12-23-c992ef70fd.jpg"
+    },
+    "22D5195C-CB18-4A8E-97E1-9703208F4DB7": {
+      "date": "2022-12-24",
+      "file": "wordle/2022-12-24-22d5195ccb.jpg"
+    },
+    "411DBF4D-0272-4C1D-A325-82267E10513D": {
+      "date": "2022-12-25",
+      "file": "wordle/2022-12-25-411dbf4d02.jpg"
+    },
+    "3D010EF0-C546-4215-AA96-88F2E853AC56": {
+      "date": "2022-12-26",
+      "file": "wordle/2022-12-26-3d010ef0c5.jpg"
+    },
+    "5732B465-4691-48DD-ACC2-D0BF4BA60D84": {
+      "date": "2022-12-27",
+      "file": "wordle/2022-12-27-5732b46546.jpg"
+    },
+    "AA11FD1F-1A89-4FD7-B2BB-428E17C4B65B": {
+      "date": "2022-12-28",
+      "file": "wordle/2022-12-28-aa11fd1f1a.jpg"
+    },
+    "9A530AAF-428C-4175-8250-23681605F880": {
+      "date": "2022-12-29",
+      "file": "wordle/2022-12-29-9a530aaf42.jpg"
+    },
+    "B660D6CD-F6A3-4740-A3C9-F6A6565DAA30": {
+      "date": "2022-12-30",
+      "file": "wordle/2022-12-30-b660d6cdf6.jpg"
+    },
+    "91150CEC-ECE2-4CAD-B387-AE2EE2C59935": {
+      "date": "2022-12-31",
+      "file": "wordle/2022-12-31-91150cecec.jpg"
+    },
+    "A9EAE8C6-B780-40DD-BD71-BE87B0CE0361": {
+      "date": "2023-01-01",
+      "file": "wordle/2023-01-01-a9eae8c6b7.jpg"
+    },
+    "E47C3313-1EDC-4B4F-8668-9F0B9EC318EE": {
+      "date": "2023-01-02",
+      "file": "wordle/2023-01-02-e47c33131e.jpg"
+    },
+    "658B9193-C440-4150-920E-99CACC080F03": {
+      "date": "2023-01-03",
+      "file": "wordle/2023-01-03-658b9193c4.jpg"
+    },
+    "B6FB4804-DF80-4E48-801B-A32859AE6CED": {
+      "date": "2023-01-04",
+      "file": "wordle/2023-01-04-b6fb4804df.jpg"
+    },
+    "C002233E-304A-4E8D-BC8E-3C4F3FD2B392": {
+      "date": "2023-01-06",
+      "file": "wordle/2023-01-06-c002233e30.jpg"
+    },
+    "3C1BFA49-8415-4A20-BED9-318EA16A2E35": {
+      "date": "2023-01-07",
+      "file": "wordle/2023-01-07-3c1bfa4984.jpg"
+    },
+    "B73F7B3F-B0FB-456E-BF65-AD3BD2393FC8": {
+      "date": "2023-01-11",
+      "file": "wordle/2023-01-11-b73f7b3fb0.jpg"
+    },
+    "2C4DC4EF-3EF0-441E-B9F8-466AECFF90BB": {
+      "date": "2023-01-12",
+      "file": "wordle/2023-01-12-2c4dc4ef3e.jpg"
+    },
+    "ADE2A5BE-416C-4F4E-839E-AE6C103BCC49": {
+      "date": "2023-01-13",
+      "file": "wordle/2023-01-13-ade2a5be41.jpg"
+    },
+    "31DA82A2-B381-483F-8678-7899A148C6CB": {
+      "date": "2023-01-14",
+      "file": "wordle/2023-01-14-31da82a2b3.jpg"
+    },
+    "636EA56C-DF4E-4D6F-A92C-625E23ED117F": {
+      "date": "2023-01-15",
+      "file": "wordle/2023-01-15-636ea56cdf.jpg"
+    },
+    "A842BA6C-D76A-48EE-A77D-1F13CF134257": {
+      "date": "2023-01-16",
+      "file": "wordle/2023-01-16-a842ba6cd7.jpg"
+    },
+    "79339AD8-417B-4ECE-89A4-283FCA1B976B": {
+      "date": "2023-01-17",
+      "file": "wordle/2023-01-17-79339ad841.jpg"
+    },
+    "23E66678-C3AB-4339-8E32-E12209E5B16B": {
+      "date": "2023-01-19",
+      "file": "wordle/2023-01-19-23e66678c3.jpg"
+    },
+    "854F9901-7C1F-4FD8-B997-6BAE7FB35B37": {
+      "date": "2023-01-20",
+      "file": "wordle/2023-01-20-854f99017c.jpg"
+    },
+    "D7881202-1E5A-4578-B635-B65E0CA3E5B4": {
+      "date": "2023-01-21",
+      "file": "wordle/2023-01-21-d78812021e.jpg"
+    },
+    "904BA869-9076-4C00-98F8-C286AAC8E161": {
+      "date": "2023-01-22",
+      "file": "wordle/2023-01-22-904ba86990.jpg"
+    },
+    "C814ED0A-BE76-4820-B80C-4A56478E8B24": {
+      "date": "2023-01-23",
+      "file": "wordle/2023-01-23-c814ed0abe.jpg"
+    },
+    "07A23978-D9C9-4AFC-B48B-77367349976B": {
+      "date": "2023-01-24",
+      "file": "wordle/2023-01-24-07a23978d9.jpg"
+    },
+    "46FBB337-D51B-48A8-A41A-D4468B1119DF": {
+      "date": "2023-01-25",
+      "file": "wordle/2023-01-25-46fbb337d5.jpg"
+    },
+    "7F20E998-2624-45F4-8916-6E58DF5FA924": {
+      "date": "2023-01-26",
+      "file": "wordle/2023-01-26-7f20e99826.jpg"
+    },
+    "E9E91750-C878-4086-A0D1-90E1CDE1ED43": {
+      "date": "2023-01-27",
+      "file": "wordle/2023-01-27-e9e91750c8.jpg"
+    },
+    "A7B7E5BE-7019-4246-A6C9-ABEC3F913ACE": {
+      "date": "2023-01-28",
+      "file": "wordle/2023-01-28-a7b7e5be70.jpg"
+    },
+    "6BD782CC-B69A-4D0E-851A-76C6439846FE": {
+      "date": "2023-01-29",
+      "file": "wordle/2023-01-29-6bd782ccb6.jpg"
+    },
+    "9091C3A9-508F-4CC4-981F-8334A53A2186": {
+      "date": "2023-01-30",
+      "file": "wordle/2023-01-30-9091c3a950.jpg"
+    },
+    "CD60399A-E0C5-4DCC-9930-D6FBFF3F297E": {
+      "date": "2023-01-31",
+      "file": "wordle/2023-01-31-cd60399ae0.jpg"
+    },
+    "9D29E05B-D761-4507-98E4-58E297387891": {
+      "date": "2023-02-01",
+      "file": "wordle/2023-02-01-9d29e05bd7.jpg"
+    },
+    "35BFF446-D432-4B9C-8BB4-4BE3135731BF": {
+      "date": "2023-02-02",
+      "file": "wordle/2023-02-02-35bff446d4.jpg"
+    },
+    "8DAF6939-29BB-4E82-B99B-F0D08F2FC20D": {
+      "date": "2023-02-03",
+      "file": "wordle/2023-02-03-8daf693929.jpg"
+    },
+    "CAFBC78D-D5FE-4895-8AA3-9493CC86BAF8": {
+      "date": "2023-02-05",
+      "file": "wordle/2023-02-05-cafbc78dd5.jpg"
+    },
+    "A23AB77F-01D7-49D8-B827-720F9605DCCC": {
+      "date": "2023-02-06",
+      "file": "wordle/2023-02-06-a23ab77f01.jpg"
+    },
+    "3844BA10-DA5A-475E-988C-8794BF086AC3": {
+      "date": "2023-02-07",
+      "file": "wordle/2023-02-07-3844ba10da.jpg"
+    },
+    "A3F9298C-DFB1-4FB4-B310-182FB1BFA92A": {
+      "date": "2023-02-08",
+      "file": "wordle/2023-02-08-a3f9298cdf.jpg"
+    },
+    "C0B76769-6678-44F7-AA3D-6C0AFB6A8429": {
+      "date": "2023-02-10",
+      "file": "wordle/2023-02-10-c0b7676966.jpg"
+    },
+    "4EB98EAA-E63F-4F6E-AEC3-2C6CE654D629": {
+      "date": "2023-02-14",
+      "file": "wordle/2023-02-14-4eb98eaae6.jpg"
+    },
+    "6616ECE9-E3E6-4179-B12C-3A47E57C1BD8": {
+      "date": "2023-02-15",
+      "file": "wordle/2023-02-15-6616ece9e3.jpg"
+    },
+    "57250F64-DF60-4971-A40B-1E97C86EF49C": {
+      "date": "2023-02-16",
+      "file": "wordle/2023-02-16-57250f64df.jpg"
+    },
+    "82D3CA16-DFB5-4FB8-97C6-4B72A1109408": {
+      "date": "2023-02-17",
+      "file": "wordle/2023-02-17-82d3ca16df.jpg"
+    },
+    "8947D6D5-672F-4634-BDEE-BFC405D3BD64": {
+      "date": "2023-02-19",
+      "file": "wordle/2023-02-19-8947d6d567.jpg"
+    },
+    "AD99787F-BA62-4302-9F4D-A33A42C6DF7F": {
+      "date": "2023-02-20",
+      "file": "wordle/2023-02-20-ad99787fba.jpg"
+    },
+    "F700778C-2D59-4909-8D6F-A39F7F5A5676": {
+      "date": "2023-02-21",
+      "file": "wordle/2023-02-21-f700778c2d.jpg"
+    },
+    "96A396EB-07E9-4AA6-890D-20BF4B2C1187": {
+      "date": "2023-02-22",
+      "file": "wordle/2023-02-22-96a396eb07.jpg"
+    },
+    "112B2D70-347B-4C7E-BB48-3AD5FE2ADAD6": {
+      "date": "2023-02-24",
+      "file": "wordle/2023-02-24-112b2d7034.jpg"
+    },
+    "729C7AE2-2E24-43D6-9F1C-9A7F0332D6AA": {
+      "date": "2023-02-27",
+      "file": "wordle/2023-02-27-729c7ae22e.jpg"
+    },
+    "3F996DE6-1578-4B30-A818-7DD0E8217C13": {
+      "date": "2023-02-28",
+      "file": "wordle/2023-02-28-3f996de615.jpg"
+    },
+    "B22818C6-E96A-47EB-BF7C-7FCAFD83DE04": {
+      "date": "2023-03-01",
+      "file": "wordle/2023-03-01-b22818c6e9.jpg"
+    },
+    "9855D3EA-1977-4837-9573-509630F88D9F": {
+      "date": "2023-03-02",
+      "file": "wordle/2023-03-02-9855d3ea19.jpg"
+    },
+    "2BC2CEDD-3B62-4FAF-8719-57EAE3C55213": {
+      "date": "2023-03-03",
+      "file": "wordle/2023-03-03-2bc2cedd3b.jpg"
+    },
+    "79DDB3E0-AD3B-4CD4-A9D4-3719F26FA0A8": {
+      "date": "2023-03-04",
+      "file": "wordle/2023-03-04-79ddb3e0ad.jpg"
+    },
+    "1959BCE6-E928-46B5-971D-5458121EC577": {
+      "date": "2023-03-06",
+      "file": "wordle/2023-03-06-1959bce6e9.jpg"
+    },
+    "48066C51-2D46-4B30-A7A6-AF6943B4E8F7": {
+      "date": "2023-03-07",
+      "file": "wordle/2023-03-07-48066c512d.jpg"
+    },
+    "AF567F7F-24C7-41DF-B7E0-B9F0D9057F3B": {
+      "date": "2023-03-08",
+      "file": "wordle/2023-03-08-af567f7f24.jpg"
+    },
+    "90C34C47-52A4-4C43-977D-89E0574E8138": {
+      "date": "2023-03-09",
+      "file": "wordle/2023-03-09-90c34c4752.jpg"
+    },
+    "A826CE6E-8EFE-4641-8420-08383381757E": {
+      "date": "2023-03-10",
+      "file": "wordle/2023-03-10-a826ce6e8e.jpg"
+    },
+    "86F92B08-AC2E-4F04-B4AF-3A975946CE64": {
+      "date": "2023-03-11",
+      "file": "wordle/2023-03-11-86f92b08ac.jpg"
+    },
+    "3371C3F1-D3E6-4832-9EC1-830E45953E7E": {
+      "date": "2023-03-12",
+      "file": "wordle/2023-03-12-3371c3f1d3.jpg"
+    },
+    "B186A426-1493-467E-A1F5-177C128EA110": {
+      "date": "2023-03-14",
+      "file": "wordle/2023-03-14-b186a42614.jpg"
+    },
+    "3D52251E-9E33-4372-93FB-B23ED4515D32": {
+      "date": "2023-03-15",
+      "file": "wordle/2023-03-15-3d52251e9e.jpg"
+    },
+    "AF73C4DE-0376-4A2C-A855-426E6147B175": {
+      "date": "2023-03-16",
+      "file": "wordle/2023-03-16-af73c4de03.jpg"
+    },
+    "6E18A042-5A3B-4ACB-BBDE-8102ED78C9D1": {
+      "date": "2023-03-17",
+      "file": "wordle/2023-03-17-6e18a0425a.jpg"
+    },
+    "9E526C4C-5FE3-4898-B1E6-426E733E5804": {
+      "date": "2023-03-18",
+      "file": "wordle/2023-03-18-9e526c4c5f.jpg"
+    },
+    "9FC429CD-9077-48B7-AF50-47902F9D7B4C": {
+      "date": "2023-03-19",
+      "file": "wordle/2023-03-19-9fc429cd90.jpg"
+    },
+    "35C06B01-AB75-47FE-98A4-5699FB8271A4": {
+      "date": "2023-03-20",
+      "file": "wordle/2023-03-20-35c06b01ab.jpg"
+    },
+    "9BA28069-4D52-49DD-A47A-E1ED6F2378AB": {
+      "date": "2023-03-21",
+      "file": "wordle/2023-03-21-9ba280694d.jpg"
+    },
+    "813E62A8-A0E2-4C76-82C6-2CD6AE34B078": {
+      "date": "2023-03-22",
+      "file": "wordle/2023-03-22-813e62a8a0.jpg"
+    },
+    "B08CB588-6AA1-4412-9F8C-DFA0D26334C5": {
+      "date": "2023-03-23",
+      "file": "wordle/2023-03-23-b08cb5886a.jpg"
+    },
+    "CF5A210A-AA9E-462E-A22F-DA2FFCCAB85E": {
+      "date": "2023-03-24",
+      "file": "wordle/2023-03-24-cf5a210aaa.jpg"
+    },
+    "47961A8E-4EC1-46FE-8EB5-ABA3643DA066": {
+      "date": "2023-03-25",
+      "file": "wordle/2023-03-25-47961a8e4e.jpg"
+    },
+    "EACA58E8-9A7C-425F-9A46-232ABF5E5E45": {
+      "date": "2023-03-26",
+      "file": "wordle/2023-03-26-eaca58e89a.jpg"
+    },
+    "EF330668-2A55-4581-A485-77C11863BCAF": {
+      "date": "2023-03-27",
+      "file": "wordle/2023-03-27-ef3306682a.jpg"
+    },
+    "8C95B536-B1A6-4402-86CA-A3C2098482B6": {
+      "date": "2023-03-28",
+      "file": "wordle/2023-03-28-8c95b536b1.jpg"
+    },
+    "8198356D-3562-46C5-B687-720109B48CE2": {
+      "date": "2023-03-29",
+      "file": "wordle/2023-03-29-8198356d35.jpg"
+    },
+    "F5E8C1B5-FC76-4F0E-B2D7-7BB85259DFD1": {
+      "date": "2023-03-31",
+      "file": "wordle/2023-03-31-f5e8c1b5fc.jpg"
+    },
+    "1B57BADC-45D0-44F9-96F4-2B3A60B4D65B": {
+      "date": "2023-04-01",
+      "file": "wordle/2023-04-01-1b57badc45.jpg"
+    },
+    "67576211-04E6-4336-AA1D-336CBF1B5D15": {
+      "date": "2023-04-02",
+      "file": "wordle/2023-04-02-6757621104.jpg"
+    },
+    "98BDA446-EB3E-4775-8AE9-5F0D0F020BF4": {
+      "date": "2023-04-03",
+      "file": "wordle/2023-04-03-98bda446eb.jpg"
+    },
+    "30D9CA1A-3B28-45BA-AA94-C9AB1AF918C0": {
+      "date": "2023-04-04",
+      "file": "wordle/2023-04-04-30d9ca1a3b.jpg"
+    },
+    "37D1ACDE-A990-4D59-A62C-9A4F4F4AE877": {
+      "date": "2023-04-05",
+      "file": "wordle/2023-04-05-37d1acdea9.jpg"
+    },
+    "28D5C0A6-243D-41FC-8F18-348E860FEC7B": {
+      "date": "2023-04-06",
+      "file": "wordle/2023-04-06-28d5c0a624.jpg"
+    },
+    "F852DBD0-E516-4492-A3A8-19E5B0E055E9": {
+      "date": "2023-04-07",
+      "file": "wordle/2023-04-07-f852dbd0e5.jpg"
+    },
+    "E2EC1122-9120-48F9-BB02-B4DCD5148A2E": {
+      "date": "2023-04-08",
+      "file": "wordle/2023-04-08-e2ec112291.jpg"
+    },
+    "5609E674-A2E8-44B3-89F1-9DAF98DF5997": {
+      "date": "2023-04-09",
+      "file": "wordle/2023-04-09-5609e674a2.jpg"
+    },
+    "0E991601-DDFA-4817-921F-27E57694FD23": {
+      "date": "2023-04-10",
+      "file": "wordle/2023-04-10-0e991601dd.jpg"
+    },
+    "E2DF87D9-4360-4255-931A-C8BFF7BC9858": {
+      "date": "2023-04-11",
+      "file": "wordle/2023-04-11-e2df87d943.jpg"
+    },
+    "21973FD6-7457-44C0-BB81-005DC6E32A1B": {
+      "date": "2023-04-13",
+      "file": "wordle/2023-04-13-21973fd674.jpg"
+    },
+    "8C324D53-C389-4424-9861-B6334F2D7942": {
+      "date": "2023-04-14",
+      "file": "wordle/2023-04-14-8c324d53c3.jpg"
+    },
+    "A1E5A40F-C491-458B-9645-D0D0CB33B5D1": {
+      "date": "2023-04-15",
+      "file": "wordle/2023-04-15-a1e5a40fc4.jpg"
+    },
+    "0A4E2869-C603-4A91-A504-9D13E30C9FC2": {
+      "date": "2023-04-16",
+      "file": "wordle/2023-04-16-0a4e2869c6.jpg"
+    },
+    "41EFBDC1-E9F1-47C1-8535-E30A3A9E22DF": {
+      "date": "2023-04-17",
+      "file": "wordle/2023-04-17-41efbdc1e9.jpg"
+    },
+    "3D1396F2-71BF-492E-8FD4-855E987704E1": {
+      "date": "2023-04-18",
+      "file": "wordle/2023-04-18-3d1396f271.jpg"
+    },
+    "D3EE35C0-E1D5-4128-AE38-987F36BE76AE": {
+      "date": "2023-04-20",
+      "file": "wordle/2023-04-20-d3ee35c0e1.jpg"
+    },
+    "5D822D7E-020F-4DD9-9A19-CCB025BC539B": {
+      "date": "2023-04-21",
+      "file": "wordle/2023-04-21-5d822d7e02.jpg"
+    },
+    "92BA9E7A-B08C-4C45-B22F-A3C7BB6FD21E": {
+      "date": "2023-04-22",
+      "file": "wordle/2023-04-22-92ba9e7ab0.jpg"
+    },
+    "9BE7E11D-55E2-48A3-B5F9-6BB85E4A0FE9": {
+      "date": "2023-04-23",
+      "file": "wordle/2023-04-23-9be7e11d55.jpg"
+    },
+    "A25BF0C2-06E3-4C68-8417-EF0B95722190": {
+      "date": "2023-04-25",
+      "file": "wordle/2023-04-25-a25bf0c206.jpg"
+    },
+    "831BB2C3-B37A-4E02-A863-8AE844FAEB33": {
+      "date": "2023-04-26",
+      "file": "wordle/2023-04-26-831bb2c3b3.jpg"
+    },
+    "688D0544-418B-4FDF-897A-7C4003F4532B": {
+      "date": "2023-04-27",
+      "file": "wordle/2023-04-27-688d054441.jpg"
+    },
+    "3EF953E2-55C6-4EA4-BCB9-B81FE66F7CDF": {
+      "date": "2023-04-28",
+      "file": "wordle/2023-04-28-3ef953e255.jpg"
+    },
+    "AD5178E4-8E02-4BA7-8505-E5E004CCF72E": {
+      "date": "2023-04-29",
+      "file": "wordle/2023-04-29-ad5178e48e.jpg"
+    },
+    "075C77F8-DD99-48EE-8A78-DF9B2827AD07": {
+      "date": "2023-04-30",
+      "file": "wordle/2023-04-30-075c77f8dd.jpg"
+    },
+    "F3820FD1-91F5-4008-990F-C6E5E01CE72A": {
+      "date": "2023-05-01",
+      "file": "wordle/2023-05-01-f3820fd191.jpg"
+    },
+    "0DA604E0-3940-4367-AF4F-6DCBBF26EB8B": {
+      "date": "2023-05-02",
+      "file": "wordle/2023-05-02-0da604e039.jpg"
+    },
+    "2AA25B19-2F0A-4B65-A456-2CC224699D39": {
+      "date": "2023-05-03",
+      "file": "wordle/2023-05-03-2aa25b192f.jpg"
+    },
+    "05DC64D4-C56B-40DB-A1C7-69068983BC6C": {
+      "date": "2023-05-04",
+      "file": "wordle/2023-05-04-05dc64d4c5.jpg"
+    },
+    "0087FCA4-9D2A-418F-8F92-9B44569271BA": {
+      "date": "2023-05-05",
+      "file": "wordle/2023-05-05-0087fca49d.jpg"
+    },
+    "0706CBA7-DA12-4D50-A2BC-926B212CB572": {
+      "date": "2023-05-06",
+      "file": "wordle/2023-05-06-0706cba7da.jpg"
+    },
+    "D829AADB-A9FE-40E6-9848-7273FEE19D41": {
+      "date": "2023-05-07",
+      "file": "wordle/2023-05-07-d829aadba9.jpg"
+    },
+    "F7C23871-EF78-41A9-AE1F-71D3EA1802AE": {
+      "date": "2023-05-08",
+      "file": "wordle/2023-05-08-f7c23871ef.jpg"
+    },
+    "43EB572E-324A-4643-9848-D0C9DF953C7E": {
+      "date": "2023-05-09",
+      "file": "wordle/2023-05-09-43eb572e32.jpg"
+    },
+    "49C2A549-8069-49AB-B9B0-7B5BC9A84DC0": {
+      "date": "2023-05-10",
+      "file": "wordle/2023-05-10-49c2a54980.jpg"
+    },
+    "80FB5A62-200C-4499-BF8C-32B61E588A40": {
+      "date": "2023-05-11",
+      "file": "wordle/2023-05-11-80fb5a6220.jpg"
+    },
+    "12D1D388-ED84-4D9F-BCC3-5D8926BF725E": {
+      "date": "2023-05-13",
+      "file": "wordle/2023-05-13-12d1d388ed.jpg"
+    },
+    "B1DC5E65-8504-48B2-AA7B-57591370E09B": {
+      "date": "2023-05-14",
+      "file": "wordle/2023-05-14-b1dc5e6585.jpg"
+    },
+    "CF754A2D-BBFD-4055-A7CB-0EC9A52254B9": {
+      "date": "2023-05-15",
+      "file": "wordle/2023-05-15-cf754a2dbb.jpg"
+    },
+    "4D99132A-B179-430F-B55E-27148C13E9A2": {
+      "date": "2023-05-16",
+      "file": "wordle/2023-05-16-4d99132ab1.jpg"
+    },
+    "D9F497A5-2FFC-4DE7-BD7B-D96D93A77E9C": {
+      "date": "2023-05-17",
+      "file": "wordle/2023-05-17-d9f497a52f.jpg"
+    },
+    "B0AD2204-C5AA-4C23-B5D5-4640CA2F6881": {
+      "date": "2023-05-20",
+      "file": "wordle/2023-05-20-b0ad2204c5.jpg"
+    },
+    "7951B540-79DA-4FFD-B067-CE0C9A476CF7": {
+      "date": "2023-05-21",
+      "file": "wordle/2023-05-21-7951b54079.jpg"
+    },
+    "897FD406-4458-4B4E-9D1C-D312EC70574C": {
+      "date": "2023-05-22",
+      "file": "wordle/2023-05-22-897fd40644.jpg"
+    },
+    "310A5934-899A-4D4F-852E-A3C43C37ECFB": {
+      "date": "2023-05-23",
+      "file": "wordle/2023-05-23-310a593489.jpg"
+    },
+    "7E72AE1A-4F4C-43DF-B64E-B531AD836664": {
+      "date": "2023-05-25",
+      "file": "wordle/2023-05-25-7e72ae1a4f.jpg"
+    },
+    "4B3CFAC9-9777-4C8C-B1EE-EC39ECD1A09A": {
+      "date": "2023-05-26",
+      "file": "wordle/2023-05-26-4b3cfac997.jpg"
+    },
+    "D8AEE73E-E715-4309-84A0-192D9D6EEB82": {
+      "date": "2023-05-27",
+      "file": "wordle/2023-05-27-d8aee73ee7.jpg"
+    },
+    "248F1D16-CD21-49CD-9D57-ED7304FBF35A": {
+      "date": "2023-05-28",
+      "file": "wordle/2023-05-28-248f1d16cd.jpg"
+    },
+    "617D2AB7-ACE9-4BEC-A108-1F5C7486FFF6": {
+      "date": "2023-05-29",
+      "file": "wordle/2023-05-29-617d2ab7ac.jpg"
+    },
+    "3FB133EC-F35F-4526-91B6-C6FA148A1340": {
+      "date": "2023-05-30",
+      "file": "wordle/2023-05-30-3fb133ecf3.jpg"
+    },
+    "7B3CB6D9-A42D-437F-9C43-090CFC1FD9DB": {
+      "date": "2023-05-31",
+      "file": "wordle/2023-05-31-7b3cb6d9a4.jpg"
+    },
+    "1E807251-8219-4F73-A975-03EF89FB548A": {
+      "date": "2023-06-01",
+      "file": "wordle/2023-06-01-1e80725182.jpg"
+    },
+    "02BDAF5C-D4E6-4F5A-97B8-5ED5BDD8A1E7": {
+      "date": "2023-06-02",
+      "file": "wordle/2023-06-02-02bdaf5cd4.jpg"
+    },
+    "0A199F21-842F-4F03-B6B6-4FB9ADF34691": {
+      "date": "2023-06-04",
+      "file": "wordle/2023-06-04-0a199f2184.jpg"
+    },
+    "BE36D178-D597-443A-B62C-DE9AB09F69C4": {
+      "date": "2023-06-05",
+      "file": "wordle/2023-06-05-be36d178d5.jpg"
+    },
+    "FC5A1AE4-A157-44E9-9B61-324784341A9C": {
+      "date": "2023-06-06",
+      "file": "wordle/2023-06-06-fc5a1ae4a1.jpg"
+    },
+    "EB4E6743-D523-4842-A6F8-0E9D3CE0437B": {
+      "date": "2023-06-08",
+      "file": "wordle/2023-06-08-eb4e6743d5.jpg"
+    },
+    "B2F24236-E916-4EFE-8AF9-093C66E96E2C": {
+      "date": "2023-06-09",
+      "file": "wordle/2023-06-09-b2f24236e9.jpg"
+    },
+    "A83ABDD9-EC3B-473B-BCA4-8C87C464DCB7": {
+      "date": "2023-06-11",
+      "file": "wordle/2023-06-11-a83abdd9ec.jpg"
+    },
+    "24A541CA-D6AB-4FCA-8E97-7F726713E455": {
+      "date": "2023-06-12",
+      "file": "wordle/2023-06-12-24a541cad6.jpg"
+    },
+    "7914469E-558C-4C26-ADD1-43B087ECC6D0": {
+      "date": "2023-06-13",
+      "file": "wordle/2023-06-13-7914469e55.jpg"
+    },
+    "93FBB30D-89BE-46A8-90EC-FAF4133A3A73": {
+      "date": "2023-06-14",
+      "file": "wordle/2023-06-14-93fbb30d89.jpg"
+    },
+    "DAC74B95-D7AA-47B4-ABE2-33F6E61B84A6": {
+      "date": "2023-06-15",
+      "file": "wordle/2023-06-15-dac74b95d7.jpg"
+    },
+    "05BCD69D-5B91-4FF5-92AE-3CCA06BCBEB2": {
+      "date": "2023-06-17",
+      "file": "wordle/2023-06-17-05bcd69d5b.jpg"
+    },
+    "81AEEBFB-AA2B-4D8A-A8BB-FC76FC147B62": {
+      "date": "2023-06-18",
+      "file": "wordle/2023-06-18-81aeebfbaa.jpg"
+    },
+    "A0CDC566-33FE-4AD0-8700-12D32A1560F0": {
+      "date": "2023-06-19",
+      "file": "wordle/2023-06-19-a0cdc56633.jpg"
+    },
+    "79591516-57F9-4783-A056-BD3A5166FFD3": {
+      "date": "2023-06-21",
+      "file": "wordle/2023-06-21-7959151657.jpg"
+    },
+    "FCEDB4C4-0D4C-42D2-9EDB-2A50E6113C00": {
+      "date": "2023-06-22",
+      "file": "wordle/2023-06-22-fcedb4c40d.jpg"
+    },
+    "ED3E6B7E-87E5-4CC9-A242-429A971D415A": {
+      "date": "2023-06-23",
+      "file": "wordle/2023-06-23-ed3e6b7e87.jpg"
+    },
+    "050EBD96-241E-4A1E-8ABB-289BB933439B": {
+      "date": "2023-06-24",
+      "file": "wordle/2023-06-24-050ebd9624.jpg"
+    },
+    "C76062D4-3FDD-45E7-85CD-A8901AB97A66": {
+      "date": "2023-06-25",
+      "file": "wordle/2023-06-25-c76062d43f.jpg"
+    },
+    "4D2C4F07-7753-41A9-985D-E1B2F9DADD21": {
+      "date": "2023-06-27",
+      "file": "wordle/2023-06-27-4d2c4f0777.jpg"
+    },
+    "F917BBC2-9A68-49AC-B17E-D46C8660183E": {
+      "date": "2023-06-28",
+      "file": "wordle/2023-06-28-f917bbc29a.jpg"
+    },
+    "823EFD58-736B-4678-828D-447EC7C93684": {
+      "date": "2023-06-29",
+      "file": "wordle/2023-06-29-823efd5873.jpg"
+    },
+    "A879D0C6-BA05-4EA4-94F0-903ED48A4BD3": {
+      "date": "2023-06-30",
+      "file": "wordle/2023-06-30-a879d0c6ba.jpg"
+    },
+    "3F6E736D-4FD6-422E-8415-44638BB9B8E6": {
+      "date": "2023-07-01",
+      "file": "wordle/2023-07-01-3f6e736d4f.jpg"
+    },
+    "3B2D83F5-4108-44B3-836A-37676DE873E6": {
+      "date": "2023-07-02",
+      "file": "wordle/2023-07-02-3b2d83f541.jpg"
+    },
+    "394105AF-8DBF-49EE-8362-469438C03605": {
+      "date": "2023-07-03",
+      "file": "wordle/2023-07-03-394105af8d.jpg"
+    },
+    "7117FE46-F5F9-4786-A005-E1123B36193D": {
+      "date": "2023-07-04",
+      "file": "wordle/2023-07-04-7117fe46f5.jpg"
+    },
+    "E35FDA91-AB7C-4264-A9A4-1FF1642EAEC7": {
+      "date": "2023-07-05",
+      "file": "wordle/2023-07-05-e35fda91ab.jpg"
+    },
+    "C31C1575-C8E3-4046-B925-2171419D213E": {
+      "date": "2023-07-06",
+      "file": "wordle/2023-07-06-c31c1575c8.jpg"
+    },
+    "04662CFF-A2F7-4CC6-A04D-1F43D3D2C8E8": {
+      "date": "2023-07-07",
+      "file": "wordle/2023-07-07-04662cffa2.jpg"
+    },
+    "DB338E07-F9BD-4548-9D6F-D7D19AB0A8A3": {
+      "date": "2023-07-09",
+      "file": "wordle/2023-07-09-db338e07f9.jpg"
+    },
+    "C7DD0640-BA06-4136-9057-34383E818B86": {
+      "date": "2023-07-10",
+      "file": "wordle/2023-07-10-c7dd0640ba.jpg"
+    },
+    "CB2A0684-8012-4615-A6CB-8BFA02187C97": {
+      "date": "2023-07-12",
+      "file": "wordle/2023-07-12-cb2a068480.jpg"
+    },
+    "8B081B76-11B6-49D2-A4FF-3BCC22F64061": {
+      "date": "2023-07-13",
+      "file": "wordle/2023-07-13-8b081b7611.jpg"
+    },
+    "79BEE4C6-42B9-4EB8-A78F-F60B3F0345F3": {
+      "date": "2023-07-14",
+      "file": "wordle/2023-07-14-79bee4c642.jpg"
+    },
+    "F4DB67E6-2975-4B24-B92B-7B1CD3067992": {
+      "date": "2023-07-15",
+      "file": "wordle/2023-07-15-f4db67e629.jpg"
+    },
+    "430FDB56-E9D1-4D04-A8D2-BAA50140E155": {
+      "date": "2023-07-16",
+      "file": "wordle/2023-07-16-430fdb56e9.jpg"
+    },
+    "E7165B06-D2FF-49B2-9BBE-D03D44A86FB1": {
+      "date": "2023-07-17",
+      "file": "wordle/2023-07-17-e7165b06d2.jpg"
+    },
+    "B7DCF83D-E8DB-44C2-B4A0-0DE776D5C498": {
+      "date": "2023-07-18",
+      "file": "wordle/2023-07-18-b7dcf83de8.jpg"
+    },
+    "557BD37E-7146-40F8-8B5F-105550A8B29B": {
+      "date": "2023-07-19",
+      "file": "wordle/2023-07-19-557bd37e71.jpg"
+    },
+    "B110FF82-836A-4A4D-9484-98F9D837D4D1": {
+      "date": "2023-07-20",
+      "file": "wordle/2023-07-20-b110ff8283.jpg"
+    },
+    "1F060580-AA19-43D6-94E6-6A08BBEDA95B": {
+      "date": "2023-07-21",
+      "file": "wordle/2023-07-21-1f060580aa.jpg"
+    },
+    "647A8DFC-B6C7-413E-A1E0-6FEB979E018D": {
+      "date": "2023-07-23",
+      "file": "wordle/2023-07-23-647a8dfcb6.jpg"
+    },
+    "F9704E8E-015A-43A8-8B9A-60B901FC4379": {
+      "date": "2023-07-24",
+      "file": "wordle/2023-07-24-f9704e8e01.jpg"
+    },
+    "B77028D7-2BE0-4397-8139-DD221DDF4AD5": {
+      "date": "2023-07-25",
+      "file": "wordle/2023-07-25-b77028d72b.jpg"
+    },
+    "AC6AF768-5293-419F-8A35-2754F07FF38D": {
+      "date": "2023-07-26",
+      "file": "wordle/2023-07-26-ac6af76852.jpg"
+    },
+    "0AB7E21A-105E-4FAE-A705-17AE7F2DDC46": {
+      "date": "2023-07-27",
+      "file": "wordle/2023-07-27-0ab7e21a10.jpg"
+    },
+    "2D822C2E-1645-470C-83B2-360B87AEB9F7": {
+      "date": "2023-07-28",
+      "file": "wordle/2023-07-28-2d822c2e16.jpg"
+    },
+    "2EF60F5E-9660-4B45-AEC9-3396B7446527": {
+      "date": "2023-07-29",
+      "file": "wordle/2023-07-29-2ef60f5e96.jpg"
+    },
+    "C80FCB4F-C654-4726-8A9E-594CD1A54A75": {
+      "date": "2023-07-30",
+      "file": "wordle/2023-07-30-c80fcb4fc6.jpg"
+    },
+    "18AF7E89-55D5-4E0E-BA7F-813B9C2C928D": {
+      "date": "2023-07-31",
+      "file": "wordle/2023-07-31-18af7e8955.jpg"
+    },
+    "7153C1CF-6A50-49F5-AE44-E83C7B9B44C8": {
+      "date": "2023-08-01",
+      "file": "wordle/2023-08-01-7153c1cf6a.jpg"
+    },
+    "76DACACA-74F3-408C-A509-69ECD31634BE": {
+      "date": "2023-08-02",
+      "file": "wordle/2023-08-02-76dacaca74.jpg"
+    },
+    "365008AF-B61F-43BA-8FA0-4EC15387B3B4": {
+      "date": "2023-08-03",
+      "file": "wordle/2023-08-03-365008afb6.jpg"
+    },
+    "E44EE66A-5958-406A-BA21-72B2D84564F8": {
+      "date": "2023-08-04",
+      "file": "wordle/2023-08-04-e44ee66a59.jpg"
+    },
+    "33153EF7-8934-4BB1-A47B-7BB8B48AA855": {
+      "date": "2023-08-05",
+      "file": "wordle/2023-08-05-33153ef789.jpg"
+    },
+    "4E6CB920-38FC-4D94-915E-11D43F7F79DF": {
+      "date": "2023-08-06",
+      "file": "wordle/2023-08-06-4e6cb92038.jpg"
+    },
+    "3753337A-2B98-4F6A-AF28-94D1F87134F2": {
+      "date": "2023-08-07",
+      "file": "wordle/2023-08-07-3753337a2b.jpg"
+    },
+    "75048670-827F-438D-AB78-6F16195B0DEB": {
+      "date": "2023-08-08",
+      "file": "wordle/2023-08-08-7504867082.jpg"
+    },
+    "5989F8AD-4131-4F4C-AF43-A0DE74A4ABCE": {
+      "date": "2023-08-10",
+      "file": "wordle/2023-08-10-5989f8ad41.jpg"
+    },
+    "611F7592-2131-49E5-B447-201428604E8C": {
+      "date": "2023-08-12",
+      "file": "wordle/2023-08-12-611f759221.jpg"
+    },
+    "46BC1475-D087-4C36-B361-CDC83701FF23": {
+      "date": "2023-08-14",
+      "file": "wordle/2023-08-14-46bc1475d0.jpg"
+    },
+    "CDB1CCF7-8807-49AF-AF75-FF092D14FFA9": {
+      "date": "2023-08-15",
+      "file": "wordle/2023-08-15-cdb1ccf788.jpg"
+    },
+    "30FBB8C3-F047-44ED-9134-2F1D3D37D28F": {
+      "date": "2023-08-16",
+      "file": "wordle/2023-08-16-30fbb8c3f0.jpg"
+    },
+    "CABE58C2-F08B-46AE-BF10-FECADA6F9FA9": {
+      "date": "2023-08-18",
+      "file": "wordle/2023-08-18-cabe58c2f0.jpg"
+    },
+    "5DA3A558-C98C-4269-8BDE-0A2AD7B1093D": {
+      "date": "2023-08-19",
+      "file": "wordle/2023-08-19-5da3a558c9.jpg"
+    },
+    "1B210C53-BE94-4982-982B-CC1D720615A1": {
+      "date": "2023-08-21",
+      "file": "wordle/2023-08-21-1b210c53be.jpg"
+    },
+    "DF795888-5DB4-4AD1-97F2-37EED42B0A69": {
+      "date": "2023-08-22",
+      "file": "wordle/2023-08-22-df7958885d.jpg"
+    },
+    "3E1C105A-A4D2-4138-8DD4-0C10F9EBEF47": {
+      "date": "2023-08-24",
+      "file": "wordle/2023-08-24-3e1c105aa4.jpg"
+    },
+    "0DA73A3A-8799-4958-97EA-9A71F2729FEC": {
+      "date": "2023-08-26",
+      "file": "wordle/2023-08-26-0da73a3a87.jpg"
+    },
+    "AD2BA9F3-C027-4F0D-96D2-ECBDE715919A": {
+      "date": "2023-08-27",
+      "file": "wordle/2023-08-27-ad2ba9f3c0.jpg"
+    },
+    "81CB562A-BA2F-4874-BB1E-7F53BB212C45": {
+      "date": "2023-08-28",
+      "file": "wordle/2023-08-28-81cb562aba.jpg"
+    },
+    "F767397B-BD48-45B8-999B-E2022C79B4A6": {
+      "date": "2023-08-29",
+      "file": "wordle/2023-08-29-f767397bbd.jpg"
+    },
+    "279E8782-1631-4B25-ABAB-2A188C1F4A56": {
+      "date": "2023-08-30",
+      "file": "wordle/2023-08-30-279e878216.jpg"
+    },
+    "2A0DB396-2794-4118-8D0E-D7A78C17A9D1": {
+      "date": "2023-08-31",
+      "file": "wordle/2023-08-31-2a0db39627.jpg"
+    },
+    "9D60A545-8EA7-455E-BB82-549413907502": {
+      "date": "2023-09-01",
+      "file": "wordle/2023-09-01-9d60a5458e.jpg"
+    },
+    "10CCC5E9-9ADA-4937-9C9C-16A1FB94CB54": {
+      "date": "2023-09-02",
+      "file": "wordle/2023-09-02-10ccc5e99a.jpg"
+    },
+    "4A813623-BDB5-4BF5-9CDB-E584C0678A2F": {
+      "date": "2023-09-03",
+      "file": "wordle/2023-09-03-4a813623bd.jpg"
+    },
+    "D102D3F4-62D7-4754-B424-45A83733E194": {
+      "date": "2023-09-04",
+      "file": "wordle/2023-09-04-d102d3f462.jpg"
+    },
+    "2B05EB7E-2EFA-46D9-A0AA-EE0B4C7D6409": {
+      "date": "2023-09-05",
+      "file": "wordle/2023-09-05-2b05eb7e2e.jpg"
+    },
+    "39BC3ED3-31AD-4B5C-805A-184D6F74BBE3": {
+      "date": "2023-09-07",
+      "file": "wordle/2023-09-07-39bc3ed331.jpg"
+    },
+    "C5F463D0-02A5-4369-9F08-5FB16E665DB7": {
+      "date": "2023-09-09",
+      "file": "wordle/2023-09-09-c5f463d002.jpg"
+    },
+    "7B1A09AF-0692-4B7F-A84A-984D386FCE96": {
+      "date": "2023-09-10",
+      "file": "wordle/2023-09-10-7b1a09af06.jpg"
+    },
+    "948F05A3-946F-4590-95FC-022A13D67233": {
+      "date": "2023-09-11",
+      "file": "wordle/2023-09-11-948f05a394.jpg"
+    },
+    "6B7E9E04-FDD1-43FD-B818-AEFC955B611D": {
+      "date": "2023-09-12",
+      "file": "wordle/2023-09-12-6b7e9e04fd.jpg"
+    },
+    "DD89EEDF-54C4-4F53-8F93-9E6B07632FEB": {
+      "date": "2023-09-13",
+      "file": "wordle/2023-09-13-dd89eedf54.jpg"
+    },
+    "D6012E54-69E5-459C-903E-6AF5DC7BBBD9": {
+      "date": "2023-09-14",
+      "file": "wordle/2023-09-14-d6012e5469.jpg"
+    },
+    "570CF5CA-B90D-4F1B-8CEA-9701A268CFB2": {
+      "date": "2023-09-15",
+      "file": "wordle/2023-09-15-570cf5cab9.jpg"
+    },
+    "214A4613-8427-46BA-A6AF-DE478E9FBB03": {
+      "date": "2023-09-17",
+      "file": "wordle/2023-09-17-214a461384.jpg"
+    },
+    "3FEDBEA4-B7C1-4D0F-99F4-EEFC9F79D907": {
+      "date": "2023-09-18",
+      "file": "wordle/2023-09-18-3fedbea4b7.jpg"
+    },
+    "0770357A-0EB0-4333-89A7-39B294E3F783": {
+      "date": "2023-09-19",
+      "file": "wordle/2023-09-19-0770357a0e.jpg"
+    },
+    "1BD6ABAF-989D-4438-B28A-8CFC87F9B648": {
+      "date": "2023-09-20",
+      "file": "wordle/2023-09-20-1bd6abaf98.jpg"
+    },
+    "E70D5139-0686-4E6E-AA40-4B401B1A47AE": {
+      "date": "2023-09-21",
+      "file": "wordle/2023-09-21-e70d513906.jpg"
+    },
+    "24027086-108E-43B8-947E-FECEF756C9E9": {
+      "date": "2023-09-22",
+      "file": "wordle/2023-09-22-2402708610.jpg"
+    },
+    "13FD582A-0705-49D5-AC28-CF0410F373FD": {
+      "date": "2023-09-23",
+      "file": "wordle/2023-09-23-13fd582a07.jpg"
+    },
+    "3694496F-039B-4806-AFA6-399BE85DF8B3": {
+      "date": "2023-09-24",
+      "file": "wordle/2023-09-24-3694496f03.jpg"
+    },
+    "D719DBE6-0F8E-4F7F-BAAE-ABD37B51EA09": {
+      "date": "2023-09-25",
+      "file": "wordle/2023-09-25-d719dbe60f.jpg"
+    },
+    "DB8EF305-AB29-46C9-9378-9C86B573F848": {
+      "date": "2023-09-26",
+      "file": "wordle/2023-09-26-db8ef305ab.jpg"
+    },
+    "1A7E49AE-5B3D-4BEB-85F3-12B8F4E33549": {
+      "date": "2023-09-27",
+      "file": "wordle/2023-09-27-1a7e49ae5b.jpg"
+    },
+    "55DDA358-3EB2-49B7-B197-B468DB9D1438": {
+      "date": "2023-09-28",
+      "file": "wordle/2023-09-28-55dda3583e.jpg"
+    },
+    "87121DA8-398B-411C-B0C8-3849E2C28F4C": {
+      "date": "2023-09-29",
+      "file": "wordle/2023-09-29-87121da839.jpg"
+    },
+    "EB19FA43-EBB5-4257-9ED9-DE1CADDE5D45": {
+      "date": "2023-10-01",
+      "file": "wordle/2023-10-01-eb19fa43eb.jpg"
+    },
+    "D630E2E1-F0FD-4B92-919E-84453BA9974C": {
+      "date": "2023-10-02",
+      "file": "wordle/2023-10-02-d630e2e1f0.jpg"
+    },
+    "81469B86-B37B-4D1E-A752-2E102540E20C": {
+      "date": "2023-10-04",
+      "file": "wordle/2023-10-04-81469b86b3.jpg"
+    },
+    "93D085A6-F8B6-46A6-B546-ECD75BA57497": {
+      "date": "2023-10-06",
+      "file": "wordle/2023-10-06-93d085a6f8.jpg"
+    },
+    "79A100CF-8322-424C-8824-5438A16EE334": {
+      "date": "2023-10-07",
+      "file": "wordle/2023-10-07-79a100cf83.jpg"
+    },
+    "94759704-EEA1-495D-93F8-69FFCA6F9C19": {
+      "date": "2023-10-08",
+      "file": "wordle/2023-10-08-94759704ee.jpg"
+    },
+    "C9F613F2-8182-4C33-B33C-408F16322548": {
+      "date": "2023-10-09",
+      "file": "wordle/2023-10-09-c9f613f281.jpg"
+    },
+    "EE169E83-CEBA-4946-A7B3-837ACD388D0E": {
+      "date": "2023-10-10",
+      "file": "wordle/2023-10-10-ee169e83ce.jpg"
+    },
+    "9D98AB0F-42D3-42A6-9065-6330DAF135EB": {
+      "date": "2023-10-11",
+      "file": "wordle/2023-10-11-9d98ab0f42.jpg"
+    },
+    "8C6188A9-2BEA-493C-AF1F-9A8A7E2BD3CD": {
+      "date": "2023-10-12",
+      "file": "wordle/2023-10-12-8c6188a92b.jpg"
+    },
+    "13A323B9-3D3E-41C8-8A78-35173016C04E": {
+      "date": "2023-10-13",
+      "file": "wordle/2023-10-13-13a323b93d.jpg"
+    },
+    "60B29E15-F59C-4BB8-A7BA-E841A0FF54C6": {
+      "date": "2023-10-15",
+      "file": "wordle/2023-10-15-60b29e15f5.jpg"
+    },
+    "F12D0613-7F3F-496C-B744-FD5BE89110C1": {
+      "date": "2023-10-16",
+      "file": "wordle/2023-10-16-f12d06137f.jpg"
+    },
+    "5972342A-AC5F-48B4-B5B5-52E93DF5BBFA": {
+      "date": "2023-10-17",
+      "file": "wordle/2023-10-17-5972342aac.jpg"
+    },
+    "540F67C0-6432-401D-902D-418BD0FC9C9B": {
+      "date": "2023-10-18",
+      "file": "wordle/2023-10-18-540f67c064.jpg"
+    },
+    "8DF59F5A-089C-410B-92A2-F6C6BB4127B4": {
+      "date": "2023-10-19",
+      "file": "wordle/2023-10-19-8df59f5a08.jpg"
+    },
+    "F661C757-4FD2-4653-BFDB-56F2698D0299": {
+      "date": "2023-10-20",
+      "file": "wordle/2023-10-20-f661c7574f.jpg"
+    },
+    "5FBD5B07-97D1-43D1-83E1-599152D53D42": {
+      "date": "2023-10-21",
+      "file": "wordle/2023-10-21-5fbd5b0797.jpg"
+    },
+    "670A9D71-1AF9-4874-9A74-B1B0D15D3BCF": {
+      "date": "2023-10-22",
+      "file": "wordle/2023-10-22-670a9d711a.jpg"
+    },
+    "96F19B5E-C958-4DF9-B31C-EAED5841EC32": {
+      "date": "2023-10-23",
+      "file": "wordle/2023-10-23-96f19b5ec9.jpg"
+    },
+    "7AAFB798-B521-4B4A-932C-061E6A8391EC": {
+      "date": "2023-10-24",
+      "file": "wordle/2023-10-24-7aafb798b5.jpg"
+    },
+    "587F0674-07EC-4790-B043-8E2D3361EE69": {
+      "date": "2023-10-25",
+      "file": "wordle/2023-10-25-587f067407.jpg"
+    },
+    "7E2DA637-67F4-448F-A61D-6024612DEC65": {
+      "date": "2023-10-27",
+      "file": "wordle/2023-10-27-7e2da63767.jpg"
+    },
+    "65C63706-E627-40CA-98CC-842A9FB1EE8E": {
+      "date": "2023-10-28",
+      "file": "wordle/2023-10-28-65c63706e6.jpg"
+    },
+    "BDB45AF5-8F8D-4F01-8D29-F09784CC57D6": {
+      "date": "2023-10-29",
+      "file": "wordle/2023-10-29-bdb45af58f.jpg"
+    },
+    "B1CAC9FD-94D7-4E43-BEBD-D9C1A1C6BFC2": {
+      "date": "2023-10-31",
+      "file": "wordle/2023-10-31-b1cac9fd94.jpg"
+    },
+    "18E7A41D-268C-4A1F-A572-F3EB33BEE1B7": {
+      "date": "2023-11-01",
+      "file": "wordle/2023-11-01-18e7a41d26.jpg"
+    },
+    "67B5132B-88A4-410F-AC73-1EB860A4953A": {
+      "date": "2023-11-02",
+      "file": "wordle/2023-11-02-67b5132b88.jpg"
+    },
+    "2D1E3E18-C2ED-4CC1-97B1-4E0F92388B1C": {
+      "date": "2023-11-03",
+      "file": "wordle/2023-11-03-2d1e3e18c2.jpg"
+    },
+    "4FE65159-3BD8-4460-8652-6016820BD34E": {
+      "date": "2023-11-04",
+      "file": "wordle/2023-11-04-4fe651593b.jpg"
+    },
+    "95E7B49C-B124-4FF8-91B6-1713D7CF62C6": {
+      "date": "2023-11-05",
+      "file": "wordle/2023-11-05-95e7b49cb1.jpg"
+    },
+    "76121481-18B9-4E12-B1D0-C28007788CE1": {
+      "date": "2023-11-06",
+      "file": "wordle/2023-11-06-7612148118.jpg"
+    },
+    "7CF86160-2BC9-45EE-9F92-CC8374CC28AB": {
+      "date": "2023-11-07",
+      "file": "wordle/2023-11-07-7cf861602b.jpg"
+    },
+    "07FA9A3D-459A-43EB-959C-206B1BE4D5A5": {
+      "date": "2023-11-10",
+      "file": "wordle/2023-11-10-07fa9a3d45.jpg"
+    },
+    "0F180F23-79B6-415E-88C0-1E350FBEEC4B": {
+      "date": "2023-11-12",
+      "file": "wordle/2023-11-12-0f180f2379.jpg"
+    },
+    "12B8DC71-DD77-4A45-8816-8BF13B3BDAD6": {
+      "date": "2023-11-13",
+      "file": "wordle/2023-11-13-12b8dc71dd.jpg"
+    },
+    "755EC820-C4FB-4187-AD5E-3388EF12B55A": {
+      "date": "2023-11-15",
+      "file": "wordle/2023-11-15-755ec820c4.jpg"
+    },
+    "DFDFBE95-89DB-417F-8F2E-CF915F94A1CB": {
+      "date": "2023-11-16",
+      "file": "wordle/2023-11-16-dfdfbe9589.jpg"
+    },
+    "EA13CC8E-463C-4E0C-B082-572440D86691": {
+      "date": "2023-11-17",
+      "file": "wordle/2023-11-17-ea13cc8e46.jpg"
+    },
+    "34CAEECD-4CC8-4FD6-8B89-C6490CE18A11": {
+      "date": "2023-11-18",
+      "file": "wordle/2023-11-18-34caeecd4c.jpg"
+    },
+    "B22B1F99-2EA5-485E-B93A-AFE6E6AB648F": {
+      "date": "2023-11-19",
+      "file": "wordle/2023-11-19-b22b1f992e.jpg"
+    },
+    "128B1421-5171-403A-BFC1-5BB2E82AF030": {
+      "date": "2023-11-21",
+      "file": "wordle/2023-11-21-128b142151.jpg"
+    },
+    "7F80090A-7931-4825-B7EB-847EE6B156A7": {
+      "date": "2023-11-22",
+      "file": "wordle/2023-11-22-7f80090a79.jpg"
+    },
+    "3686EF8F-6F72-4ECD-9125-5736B9412317": {
+      "date": "2023-11-23",
+      "file": "wordle/2023-11-23-3686ef8f6f.jpg"
+    },
+    "64C11F4C-92B3-48A0-BE4F-D0B79C065AA5": {
+      "date": "2023-11-25",
+      "file": "wordle/2023-11-25-64c11f4c92.jpg"
+    },
+    "B41745B2-63CA-4587-BD11-32F571ADEE24": {
+      "date": "2023-11-26",
+      "file": "wordle/2023-11-26-b41745b263.jpg"
+    },
+    "60FDA830-91E6-4110-A92A-3EDA1835E9EC": {
+      "date": "2023-11-28",
+      "file": "wordle/2023-11-28-60fda83091.jpg"
+    },
+    "4F9B6D16-E638-4CC2-8347-8808E0B1D10A": {
+      "date": "2023-11-30",
+      "file": "wordle/2023-11-30-4f9b6d16e6.jpg"
+    },
+    "32DC08BC-EA90-4B92-8D3E-D34F58ED6543": {
+      "date": "2023-12-01",
+      "file": "wordle/2023-12-01-32dc08bcea.jpg"
+    },
+    "9022146E-D9EA-4C7D-8660-3A4AD2892AAA": {
+      "date": "2023-12-02",
+      "file": "wordle/2023-12-02-9022146ed9.jpg"
+    },
+    "B9A8D741-0116-49B8-B707-71B1CCBD3841": {
+      "date": "2023-12-03",
+      "file": "wordle/2023-12-03-b9a8d74101.jpg"
+    },
+    "1D1E72E8-6636-4B85-96B4-065BF77D84BA": {
+      "date": "2023-12-04",
+      "file": "wordle/2023-12-04-1d1e72e866.jpg"
+    },
+    "BAB67460-314C-4411-95CA-2EB1B7637368": {
+      "date": "2023-12-07",
+      "file": "wordle/2023-12-07-bab6746031.jpg"
+    },
+    "423D32EA-50D7-4EDC-9DB5-F1379D956EB6": {
+      "date": "2023-12-08",
+      "file": "wordle/2023-12-08-423d32ea50.jpg"
+    },
+    "1F57741E-86D3-4A5A-B538-27D66AC7EF7B": {
+      "date": "2023-12-09",
+      "file": "wordle/2023-12-09-1f57741e86.jpg"
+    },
+    "7F555E99-32F4-464C-B794-8EDC19435B41": {
+      "date": "2023-12-10",
+      "file": "wordle/2023-12-10-7f555e9932.jpg"
+    },
+    "08DF8E76-C707-45F4-93A2-166436AB9F1E": {
+      "date": "2023-12-11",
+      "file": "wordle/2023-12-11-08df8e76c7.jpg"
+    },
+    "FEF694F5-3AD6-483A-99B3-7FBE316DC3A6": {
+      "date": "2023-12-12",
+      "file": "wordle/2023-12-12-fef694f53a.jpg"
+    },
+    "5C0EAA67-9DEB-45FA-8BAF-2E1CA040360F": {
+      "date": "2023-12-13",
+      "file": "wordle/2023-12-13-5c0eaa679d.jpg"
+    },
+    "5DB41515-720B-49EB-95D4-0CA71F053BD1": {
+      "date": "2023-12-14",
+      "file": "wordle/2023-12-14-5db4151572.jpg"
+    },
+    "5CD4C80C-BE36-4658-8DFD-AE43EE55E642": {
+      "date": "2023-12-15",
+      "file": "wordle/2023-12-15-5cd4c80cbe.jpg"
+    },
+    "4961D4A8-37A7-49E1-8809-EC532E083072": {
+      "date": "2023-12-16",
+      "file": "wordle/2023-12-16-4961d4a837.jpg"
+    },
+    "1140D5BD-C111-4BB3-9973-A242EC0B3887": {
+      "date": "2023-12-17",
+      "file": "wordle/2023-12-17-1140d5bdc1.jpg"
+    },
+    "DF6365AF-415E-449C-83FB-F4131909D06D": {
+      "date": "2023-12-18",
+      "file": "wordle/2023-12-18-df6365af41.jpg"
+    },
+    "7A074DA8-84D3-47BE-9FE1-EAF4048AC73F": {
+      "date": "2023-12-19",
+      "file": "wordle/2023-12-19-7a074da884.jpg"
+    },
+    "B94834F8-E36B-4331-8265-12EC5878BFD2": {
+      "date": "2023-12-21",
+      "file": "wordle/2023-12-21-b94834f8e3.jpg"
+    },
+    "FFAA276E-BFEC-4975-AB3E-3DCB4143A605": {
+      "date": "2023-12-22",
+      "file": "wordle/2023-12-22-ffaa276ebf.jpg"
+    },
+    "D6F0EB4A-85FD-484A-8C3C-59B4CED92E3D": {
+      "date": "2023-12-23",
+      "file": "wordle/2023-12-23-d6f0eb4a85.jpg"
+    },
+    "2DB1E203-2E31-4413-A5EC-52F0E322C60B": {
+      "date": "2023-12-24",
+      "file": "wordle/2023-12-24-2db1e2032e.jpg"
+    },
+    "AC6151D7-2090-4D82-93E0-9A7BFA7A8FB0": {
+      "date": "2023-12-25",
+      "file": "wordle/2023-12-25-ac6151d720.jpg"
+    },
+    "8425B76F-9E69-4E8D-B6CF-71A04A8B23B0": {
+      "date": "2023-12-26",
+      "file": "wordle/2023-12-26-8425b76f9e.jpg"
+    },
+    "FE9F7C9C-EDF5-41E7-A06B-ECBC0590B743": {
+      "date": "2023-12-27",
+      "file": "wordle/2023-12-27-fe9f7c9ced.jpg"
+    },
+    "2368A32C-113C-40CE-A5D7-1B2B34B4DC50": {
+      "date": "2023-12-28",
+      "file": "wordle/2023-12-28-2368a32c11.jpg"
+    },
+    "022CD505-B0AF-4B0F-80C8-F32A2FF19F47": {
+      "date": "2023-12-29",
+      "file": "wordle/2023-12-29-022cd505b0.jpg"
+    },
+    "E1BFAA71-3CB5-4827-B501-EF230BCAB0C1": {
+      "date": "2023-12-30",
+      "file": "wordle/2023-12-30-e1bfaa713c.jpg"
+    },
+    "FD58E713-0F24-4479-BB23-3F02B2662AA3": {
+      "date": "2023-12-31",
+      "file": "wordle/2023-12-31-fd58e7130f.jpg"
+    },
+    "A18D3DB6-CD8C-4626-BEC9-0973B540730C": {
+      "date": "2024-01-01",
+      "file": "wordle/2024-01-01-a18d3db6cd.jpg"
+    },
+    "236EA7CA-3A74-47E0-98EB-0D35B0CD9039": {
+      "date": "2024-01-04",
+      "file": "wordle/2024-01-04-236ea7ca3a.jpg"
+    },
+    "229BF211-C975-4F83-B9A9-085D3F743451": {
+      "date": "2024-01-05",
+      "file": "wordle/2024-01-05-229bf211c9.jpg"
+    },
+    "18C458FD-82CB-4C1D-B957-CA711E19E6FA": {
+      "date": "2024-01-07",
+      "file": "wordle/2024-01-07-18c458fd82.jpg"
+    },
+    "3ED96807-B5EC-4D78-9CD5-79BE5C16848D": {
+      "date": "2024-01-10",
+      "file": "wordle/2024-01-10-3ed96807b5.jpg"
+    },
+    "85F4FD23-AF2D-4A39-9695-716981054561": {
+      "date": "2024-01-13",
+      "file": "wordle/2024-01-13-85f4fd23af.jpg"
+    },
+    "898C09D4-3C21-4BD2-9BA4-F0E68EA8204F": {
+      "date": "2024-01-14",
+      "file": "wordle/2024-01-14-898c09d43c.jpg"
+    },
+    "431869B1-815A-4620-A4C1-7E6FED6C4B52": {
+      "date": "2024-01-16",
+      "file": "wordle/2024-01-16-431869b181.jpg"
+    },
+    "E13D0C3C-D124-40ED-925F-863664394E6F": {
+      "date": "2024-01-17",
+      "file": "wordle/2024-01-17-e13d0c3cd1.jpg"
+    },
+    "C966217B-E314-4B5B-B16C-3FF2975E1944": {
+      "date": "2024-01-18",
+      "file": "wordle/2024-01-18-c966217be3.jpg"
+    },
+    "E6B34387-A6A8-44C2-8068-814BB7DD9F48": {
+      "date": "2024-01-19",
+      "file": "wordle/2024-01-19-e6b34387a6.jpg"
+    },
+    "A2EAE426-AE87-4A76-BAB1-C82B4F124F18": {
+      "date": "2024-01-20",
+      "file": "wordle/2024-01-20-a2eae426ae.jpg"
+    },
+    "B85725EF-54FD-4E3B-862C-A9187C51AB06": {
+      "date": "2024-01-21",
+      "file": "wordle/2024-01-21-b85725ef54.jpg"
+    },
+    "5364B34F-EC81-4CA0-A043-F05A908092A1": {
+      "date": "2024-01-22",
+      "file": "wordle/2024-01-22-5364b34fec.jpg"
+    },
+    "878D29A3-A190-4E2B-8D38-52188D9DD512": {
+      "date": "2024-01-23",
+      "file": "wordle/2024-01-23-878d29a3a1.jpg"
+    },
+    "FFC32FFA-90BB-4837-BF5E-2D642F5C9E45": {
+      "date": "2024-01-24",
+      "file": "wordle/2024-01-24-ffc32ffa90.jpg"
+    },
+    "9496D436-9524-4946-BFF7-9B5C97E21FC0": {
+      "date": "2024-01-25",
+      "file": "wordle/2024-01-25-9496d43695.jpg"
+    },
+    "83F8E141-610A-4302-8DAB-10BB71AF0597": {
+      "date": "2024-01-26",
+      "file": "wordle/2024-01-26-83f8e14161.jpg"
+    },
+    "2DF9B1A7-AB07-4BE6-967C-4755E7D0B486": {
+      "date": "2024-01-27",
+      "file": "wordle/2024-01-27-2df9b1a7ab.jpg"
+    },
+    "CF5D8D24-DF0D-4E95-98AD-E4C0D5808994": {
+      "date": "2024-01-28",
+      "file": "wordle/2024-01-28-cf5d8d24df.jpg"
+    },
+    "B018AFCF-5B6E-4EC3-A188-3C9C82EC29A5": {
+      "date": "2024-01-29",
+      "file": "wordle/2024-01-29-b018afcf5b.jpg"
+    },
+    "FAE00C37-DC02-45BE-AF49-170D25AF1A4D": {
+      "date": "2024-01-30",
+      "file": "wordle/2024-01-30-fae00c37dc.jpg"
+    },
+    "5D469658-465D-4949-9D37-DB20290DDC8D": {
+      "date": "2024-01-31",
+      "file": "wordle/2024-01-31-5d46965846.jpg"
+    },
+    "211E9030-8E33-45A8-A0EC-8691D82F0BE7": {
+      "date": "2024-02-01",
+      "file": "wordle/2024-02-01-211e90308e.jpg"
+    },
+    "7611F079-35C2-418D-B19A-E626621FAADA": {
+      "date": "2024-02-02",
+      "file": "wordle/2024-02-02-7611f07935.jpg"
+    },
+    "3B771DA2-99D4-46E6-B72A-CFC3CF4D68E3": {
+      "date": "2024-02-03",
+      "file": "wordle/2024-02-03-3b771da299.jpg"
+    },
+    "22DCA718-1218-4931-9DAA-7F3B325F8684": {
+      "date": "2024-02-04",
+      "file": "wordle/2024-02-04-22dca71812.jpg"
+    },
+    "EAFCFF46-36CC-422C-92A1-6044572DE00C": {
+      "date": "2024-02-05",
+      "file": "wordle/2024-02-05-eafcff4636.jpg"
+    },
+    "6F2A9E45-E2ED-4DAA-A3AC-37B413FC38D6": {
+      "date": "2024-02-06",
+      "file": "wordle/2024-02-06-6f2a9e45e2.jpg"
+    },
+    "10A8B48C-D98B-4725-94E6-A34DE62884F5": {
+      "date": "2024-02-09",
+      "file": "wordle/2024-02-09-10a8b48cd9.jpg"
+    },
+    "38B4A025-7F7B-4F1B-ACA0-8A4A956A0E56": {
+      "date": "2024-02-11",
+      "file": "wordle/2024-02-11-38b4a0257f.jpg"
+    },
+    "39C9A754-D57D-4E98-820B-22906946B3B5": {
+      "date": "2024-02-12",
+      "file": "wordle/2024-02-12-39c9a754d5.jpg"
+    },
+    "0D2D698E-D4ED-4B9E-8858-E2071500D5CB": {
+      "date": "2024-02-13",
+      "file": "wordle/2024-02-13-0d2d698ed4.jpg"
+    },
+    "5C9D1E3E-95B0-4586-88C9-1837E495C1CF": {
+      "date": "2024-02-14",
+      "file": "wordle/2024-02-14-5c9d1e3e95.jpg"
+    },
+    "EB4C3B6F-28E5-453C-ABC8-AA50D5D304FC": {
+      "date": "2024-02-15",
+      "file": "wordle/2024-02-15-eb4c3b6f28.jpg"
+    },
+    "56CBA554-8347-4C80-8FE7-49368D5A9B03": {
+      "date": "2024-02-16",
+      "file": "wordle/2024-02-16-56cba55483.jpg"
+    },
+    "B16A7003-A984-41BB-AC2B-63BD347574F3": {
+      "date": "2024-02-18",
+      "file": "wordle/2024-02-18-b16a7003a9.jpg"
+    },
+    "1822311B-717C-4E7D-AD10-7B2CDCC20573": {
+      "date": "2024-02-19",
+      "file": "wordle/2024-02-19-1822311b71.jpg"
+    },
+    "1C1FCED6-95DB-4BE9-B88D-DA3C0A5C2F7D": {
+      "date": "2024-02-20",
+      "file": "wordle/2024-02-20-1c1fced695.jpg"
+    },
+    "9465D8E5-365C-4838-99FE-706D0A4551F5": {
+      "date": "2024-02-22",
+      "file": "wordle/2024-02-22-9465d8e536.jpg"
+    },
+    "B9D3054E-2289-460A-AC37-1089502E2A1E": {
+      "date": "2024-02-23",
+      "file": "wordle/2024-02-23-b9d3054e22.jpg"
+    },
+    "0C2FC5D2-FD29-4B92-986F-2B1DAF9F286F": {
+      "date": "2024-02-25",
+      "file": "wordle/2024-02-25-0c2fc5d2fd.jpg"
+    },
+    "4EF34020-8BE4-45E9-BBB0-2708873AADBF": {
+      "date": "2024-02-27",
+      "file": "wordle/2024-02-27-4ef340208b.jpg"
+    },
+    "6C855B13-0EA0-4BC2-8817-84E8DDCDB590": {
+      "date": "2024-02-29",
+      "file": "wordle/2024-02-29-6c855b130e.jpg"
+    },
+    "B8FB4C85-A03C-4D5A-BCCC-1839F1BC39A9": {
+      "date": "2024-03-02",
+      "file": "wordle/2024-03-02-b8fb4c85a0.jpg"
+    },
+    "D9229CBE-3BE7-41B1-9656-D8F40B659A9C": {
+      "date": "2024-03-03",
+      "file": "wordle/2024-03-03-d9229cbe3b.jpg"
+    },
+    "203A952E-823F-48DA-8555-DC6A7D699E46": {
+      "date": "2024-03-04",
+      "file": "wordle/2024-03-04-203a952e82.jpg"
+    },
+    "F6F8E909-9C07-44D7-B4B7-CE23695CFAE8": {
+      "date": "2024-03-07",
+      "file": "wordle/2024-03-07-f6f8e9099c.jpg"
+    },
+    "5961B523-95CF-43DA-B3F5-8A857941DC16": {
+      "date": "2024-03-08",
+      "file": "wordle/2024-03-08-5961b52395.jpg"
+    },
+    "78BC3B1C-EF79-4CE8-A7A7-E35F0957F836": {
+      "date": "2024-03-13",
+      "file": "wordle/2024-03-13-78bc3b1cef.jpg"
+    },
+    "4E0B20F3-A392-4D28-AA7A-82CD5548E1B7": {
+      "date": "2024-03-16",
+      "file": "wordle/2024-03-16-4e0b20f3a3.jpg"
+    },
+    "2E748E4B-621B-4F11-8033-FB9B8FB781F8": {
+      "date": "2024-03-18",
+      "file": "wordle/2024-03-18-2e748e4b62.jpg"
+    },
+    "BB208841-75FA-4D99-A98A-AC7C0E8F8AAD": {
+      "date": "2024-03-19",
+      "file": "wordle/2024-03-19-bb20884175.jpg"
+    },
+    "C56A7A9F-35A3-4882-8E50-3C8FBCAB535C": {
+      "date": "2024-03-20",
+      "file": "wordle/2024-03-20-c56a7a9f35.jpg"
+    },
+    "ABF56573-484C-4AC5-BE21-8C8CE7173E32": {
+      "date": "2024-03-22",
+      "file": "wordle/2024-03-22-abf5657348.jpg"
+    },
+    "4A47FBAC-B385-4639-830F-0D593C157FF2": {
+      "date": "2024-03-23",
+      "file": "wordle/2024-03-23-4a47fbacb3.jpg"
+    },
+    "32EE5DAF-DCFC-4703-99C7-29E0F9F33A31": {
+      "date": "2024-03-24",
+      "file": "wordle/2024-03-24-32ee5dafdc.jpg"
+    },
+    "802C32F3-C1FE-4096-8F80-3CEB75FCF6D2": {
+      "date": "2024-03-25",
+      "file": "wordle/2024-03-25-802c32f3c1.jpg"
+    },
+    "9B45001F-4734-4448-8898-6BDCA3E0CA19": {
+      "date": "2024-03-26",
+      "file": "wordle/2024-03-26-9b45001f47.jpg"
+    },
+    "55A0FE5E-2A82-47E3-843F-AA2A3FA7E263": {
+      "date": "2024-03-27",
+      "file": "wordle/2024-03-27-55a0fe5e2a.jpg"
+    },
+    "78A7EA5A-6756-4F66-90AD-A02403119255": {
+      "date": "2024-03-28",
+      "file": "wordle/2024-03-28-78a7ea5a67.jpg"
+    },
+    "C2B8B6D8-F62C-4927-937C-262718F68F8D": {
+      "date": "2024-03-29",
+      "file": "wordle/2024-03-29-c2b8b6d8f6.jpg"
+    },
+    "49E776A2-B929-4326-8B48-E82ECFAD0100": {
+      "date": "2024-03-30",
+      "file": "wordle/2024-03-30-49e776a2b9.jpg"
+    },
+    "3D6F0E97-0AB2-461B-8882-BE070D40635B": {
+      "date": "2024-03-31",
+      "file": "wordle/2024-03-31-3d6f0e970a.jpg"
+    },
+    "2ECB4C45-FAF0-41DB-905B-679785C04B55": {
+      "date": "2024-04-01",
+      "file": "wordle/2024-04-01-2ecb4c45fa.jpg"
+    },
+    "D6F1FB63-24DD-47E7-A610-810D13680ED8": {
+      "date": "2024-04-02",
+      "file": "wordle/2024-04-02-d6f1fb6324.jpg"
+    },
+    "61F42557-07DF-454C-ABA7-D46D7E1C8131": {
+      "date": "2024-04-03",
+      "file": "wordle/2024-04-03-61f4255707.jpg"
+    },
+    "34EE27AF-2D9D-4F3D-B671-9863A4F440D8": {
+      "date": "2024-04-04",
+      "file": "wordle/2024-04-04-34ee27af2d.jpg"
+    },
+    "8BC68C58-BBD3-4282-9C81-74A7A07BE91A": {
+      "date": "2024-04-05",
+      "file": "wordle/2024-04-05-8bc68c58bb.jpg"
+    },
+    "E8BCE6CA-D383-4E74-85A0-0DB2416379D3": {
+      "date": "2024-04-06",
+      "file": "wordle/2024-04-06-e8bce6cad3.jpg"
+    },
+    "D7FD009C-7115-4497-AECD-395EEEB814BA": {
+      "date": "2024-04-08",
+      "file": "wordle/2024-04-08-d7fd009c71.jpg"
+    },
+    "72FEA621-AED4-4BCA-86E8-0D5C3E8FC264": {
+      "date": "2024-04-10",
+      "file": "wordle/2024-04-10-72fea621ae.jpg"
+    },
+    "AAC74242-CA2B-4107-BE53-7F6312A036EA": {
+      "date": "2024-04-11",
+      "file": "wordle/2024-04-11-aac74242ca.jpg"
+    },
+    "CF220D7B-F103-4AE8-801D-5D0E8D120485": {
+      "date": "2024-04-13",
+      "file": "wordle/2024-04-13-cf220d7bf1.jpg"
+    },
+    "CC914B03-EB22-41D7-BFD1-BDBCA058A2A0": {
+      "date": "2024-04-14",
+      "file": "wordle/2024-04-14-cc914b03eb.jpg"
+    },
+    "A4872EE4-DD3B-46F8-BE71-50848EEBC6C9": {
+      "date": "2024-04-15",
+      "file": "wordle/2024-04-15-a4872ee4dd.jpg"
+    },
+    "0A7191F0-8433-4A01-995A-AC5DDA664330": {
+      "date": "2024-04-17",
+      "file": "wordle/2024-04-17-0a7191f084.jpg"
+    },
+    "36DA15E2-2B40-4A88-9E62-7E36C3B76D72": {
+      "date": "2024-04-18",
+      "file": "wordle/2024-04-18-36da15e22b.jpg"
+    },
+    "B6B410B2-F98D-4BEC-A9D9-F34B72E2FE8F": {
+      "date": "2024-04-20",
+      "file": "wordle/2024-04-20-b6b410b2f9.jpg"
+    },
+    "B621F0A6-B75B-45B4-9353-75CAFF076904": {
+      "date": "2024-04-22",
+      "file": "wordle/2024-04-22-b621f0a6b7.jpg"
+    },
+    "A1E13B2D-4224-413D-9009-7FE4268600E0": {
+      "date": "2024-04-24",
+      "file": "wordle/2024-04-24-a1e13b2d42.jpg"
+    },
+    "14BCC86B-AB1E-4C85-9793-AB466F0AFD1B": {
+      "date": "2024-04-26",
+      "file": "wordle/2024-04-26-14bcc86bab.jpg"
+    },
+    "90ED42C5-1A6D-45AE-A73A-88606606B4A4": {
+      "date": "2024-04-27",
+      "file": "wordle/2024-04-27-90ed42c51a.jpg"
+    },
+    "40B0C9EA-CA3F-460A-9538-9710BE541B02": {
+      "date": "2024-04-28",
+      "file": "wordle/2024-04-28-40b0c9eaca.jpg"
+    },
+    "B8623AC0-4F0A-454A-804B-3B243A78F99F": {
+      "date": "2024-04-29",
+      "file": "wordle/2024-04-29-b8623ac04f.jpg"
+    },
+    "5570FD31-5FC1-4D56-B835-30A434412E98": {
+      "date": "2024-05-01",
+      "file": "wordle/2024-05-01-5570fd315f.jpg"
+    },
+    "D0E65825-A6E2-49F5-8101-7E270DF4A199": {
+      "date": "2024-05-02",
+      "file": "wordle/2024-05-02-d0e65825a6.jpg"
+    },
+    "07808749-3377-4C9C-BBEB-CFE9FB997DDC": {
+      "date": "2024-05-04",
+      "file": "wordle/2024-05-04-0780874933.jpg"
+    },
+    "767A285E-C071-4213-9E7B-2123399089C6": {
+      "date": "2024-05-05",
+      "file": "wordle/2024-05-05-767a285ec0.jpg"
+    },
+    "9230FC47-4164-46AC-93E5-6DA814A3EAB3": {
+      "date": "2024-05-06",
+      "file": "wordle/2024-05-06-9230fc4741.jpg"
+    },
+    "71753E32-2D1C-4F9E-B4E3-AE66E36C1C22": {
+      "date": "2024-05-07",
+      "file": "wordle/2024-05-07-71753e322d.jpg"
+    },
+    "FFBEA827-3184-4883-A19D-86CD88BC374E": {
+      "date": "2024-05-08",
+      "file": "wordle/2024-05-08-ffbea82731.jpg"
+    },
+    "B58EEC09-65E5-4312-94FA-10AF5658305A": {
+      "date": "2024-05-10",
+      "file": "wordle/2024-05-10-b58eec0965.jpg"
+    },
+    "A08163DA-CD14-49B6-BE71-6883AB278FD2": {
+      "date": "2024-05-11",
+      "file": "wordle/2024-05-11-a08163dacd.jpg"
+    },
+    "9572FDCC-A479-4FD0-B7EA-A22EC28D599F": {
+      "date": "2024-05-13",
+      "file": "wordle/2024-05-13-9572fdcca4.jpg"
+    },
+    "00533859-0A5D-4399-9EDE-2C42F714B2DD": {
+      "date": "2024-05-14",
+      "file": "wordle/2024-05-14-005338590a.jpg"
+    },
+    "B3154A9A-91EE-4E4F-B1DB-97E588B31EEF": {
+      "date": "2024-05-16",
+      "file": "wordle/2024-05-16-b3154a9a91.jpg"
+    },
+    "2C0183CD-2BF5-4429-8B20-DAE949096A42": {
+      "date": "2024-05-17",
+      "file": "wordle/2024-05-17-2c0183cd2b.jpg"
+    },
+    "10E178D0-1792-41E6-95DF-FE5CDB953312": {
+      "date": "2024-05-18",
+      "file": "wordle/2024-05-18-10e178d017.jpg"
+    },
+    "8156545F-884E-40EB-8050-F995C4897C2E": {
+      "date": "2024-05-19",
+      "file": "wordle/2024-05-19-8156545f88.jpg"
+    },
+    "6D981569-70AF-457C-9CA4-3DE2460D2A6E": {
+      "date": "2024-05-20",
+      "file": "wordle/2024-05-20-6d98156970.jpg"
+    },
+    "270346B5-288A-4ED9-AA53-E62D9D81550B": {
+      "date": "2024-05-21",
+      "file": "wordle/2024-05-21-270346b528.jpg"
+    },
+    "65C47628-4B03-49D8-9CD5-6FB32690572D": {
+      "date": "2024-05-23",
+      "file": "wordle/2024-05-23-65c476284b.jpg"
+    },
+    "94C327C3-498C-4089-BD71-F1A14401C897": {
+      "date": "2024-05-24",
+      "file": "wordle/2024-05-24-94c327c349.jpg"
+    },
+    "55A94BA4-BCC7-46ED-B01C-4BC3A18293A3": {
+      "date": "2024-05-25",
+      "file": "wordle/2024-05-25-55a94ba4bc.jpg"
+    },
+    "8F250EE9-109F-4AF0-809B-2EB2CED8AF61": {
+      "date": "2024-05-26",
+      "file": "wordle/2024-05-26-8f250ee910.jpg"
+    },
+    "83D1AC6F-D609-4F8C-A4F4-7EEA561B248C": {
+      "date": "2024-05-27",
+      "file": "wordle/2024-05-27-83d1ac6fd6.jpg"
+    },
+    "94B0E3AA-7895-4091-9121-3BF0FBFFE1DB": {
+      "date": "2024-05-28",
+      "file": "wordle/2024-05-28-94b0e3aa78.jpg"
+    },
+    "C641390A-048B-44F0-A42A-05F32530F370": {
+      "date": "2024-05-29",
+      "file": "wordle/2024-05-29-c641390a04.jpg"
+    },
+    "3074ADEB-21FD-4841-8BF3-068CB02B58A1": {
+      "date": "2024-05-30",
+      "file": "wordle/2024-05-30-3074adeb21.jpg"
+    },
+    "BD8202D8-5C10-4223-803C-F303D9B31BA9": {
+      "date": "2024-06-01",
+      "file": "wordle/2024-06-01-bd8202d85c.jpg"
+    },
+    "C9C6777D-3C55-4365-BC53-7B507425EE44": {
+      "date": "2024-06-02",
+      "file": "wordle/2024-06-02-c9c6777d3c.jpg"
+    },
+    "2D858783-52A3-459D-A76E-229BA7916763": {
+      "date": "2024-06-03",
+      "file": "wordle/2024-06-03-2d85878352.jpg"
+    },
+    "FD6CFE2D-980C-48E5-B3F2-23E4AFE93ADD": {
+      "date": "2024-06-04",
+      "file": "wordle/2024-06-04-fd6cfe2d98.jpg"
+    },
+    "C69B2B25-3C6C-4E3A-B77C-3756A95593FB": {
+      "date": "2024-06-05",
+      "file": "wordle/2024-06-05-c69b2b253c.jpg"
+    },
+    "A448BE2E-0FEB-444A-9A9A-4963A77A9EBA": {
+      "date": "2024-06-06",
+      "file": "wordle/2024-06-06-a448be2e0f.jpg"
+    },
+    "CDC7B42A-3BC5-4655-8C8C-3EFBD4943A9E": {
+      "date": "2024-06-07",
+      "file": "wordle/2024-06-07-cdc7b42a3b.jpg"
+    },
+    "5B2A4CE7-EB3F-44E2-8175-DB685478FCDD": {
+      "date": "2024-06-08",
+      "file": "wordle/2024-06-08-5b2a4ce7eb.jpg"
+    },
+    "57E783A6-0B93-4CD1-924D-874582B0EE0A": {
+      "date": "2024-06-09",
+      "file": "wordle/2024-06-09-57e783a60b.jpg"
+    },
+    "0D57189F-EE0D-44F2-A8A1-2289DC959BFE": {
+      "date": "2024-06-10",
+      "file": "wordle/2024-06-10-0d57189fee.jpg"
+    },
+    "F1D96CFD-47A1-4FFA-83D7-6BBE4A8A1560": {
+      "date": "2024-06-11",
+      "file": "wordle/2024-06-11-f1d96cfd47.jpg"
+    },
+    "A98FB802-4AF5-4D45-AEE6-2C431CE874D2": {
+      "date": "2024-06-12",
+      "file": "wordle/2024-06-12-a98fb8024a.jpg"
+    },
+    "562408E0-0679-48D1-A085-E21917B492F4": {
+      "date": "2024-06-13",
+      "file": "wordle/2024-06-13-562408e006.jpg"
+    },
+    "C2484848-AF6D-4819-B1B5-0DA7844335A0": {
+      "date": "2024-06-14",
+      "file": "wordle/2024-06-14-c2484848af.jpg"
+    },
+    "1B06A6F1-0088-4409-BC71-3D81B2FF2E96": {
+      "date": "2024-06-15",
+      "file": "wordle/2024-06-15-1b06a6f100.jpg"
+    },
+    "078F6BFB-4153-4550-9602-77B5DE68F0A5": {
+      "date": "2024-06-16",
+      "file": "wordle/2024-06-16-078f6bfb41.jpg"
+    },
+    "58916BC2-B99B-4AA1-8B1F-C5667933D569": {
+      "date": "2024-06-18",
+      "file": "wordle/2024-06-18-58916bc2b9.jpg"
+    },
+    "D5C87699-9DE0-48DC-B541-C565381DE89D": {
+      "date": "2024-06-19",
+      "file": "wordle/2024-06-19-d5c876999d.jpg"
+    },
+    "C3E72F41-028D-4070-AF38-59B06413CE05": {
+      "date": "2024-06-20",
+      "file": "wordle/2024-06-20-c3e72f4102.jpg"
+    },
+    "F0DF1DE2-8E81-4CC7-9BEE-88FC3E3F5BFD": {
+      "date": "2024-06-21",
+      "file": "wordle/2024-06-21-f0df1de28e.jpg"
+    },
+    "017A5F22-D66F-467B-96E4-64430DF7B34E": {
+      "date": "2024-06-22",
+      "file": "wordle/2024-06-22-017a5f22d6.jpg"
+    },
+    "3EB13A93-6537-410B-A72F-6A54F04C8F92": {
+      "date": "2024-06-23",
+      "file": "wordle/2024-06-23-3eb13a9365.jpg"
+    },
+    "AEA18674-4F22-4828-A09B-FE2A0EB7A6DB": {
+      "date": "2024-06-24",
+      "file": "wordle/2024-06-24-aea186744f.jpg"
+    },
+    "892A7212-982B-4DA9-A326-8BED0A754F5F": {
+      "date": "2024-06-25",
+      "file": "wordle/2024-06-25-892a721298.jpg"
+    },
+    "6787423B-5640-42B3-A170-AD61FB5DAE8F": {
+      "date": "2024-06-26",
+      "file": "wordle/2024-06-26-6787423b56.jpg"
+    },
+    "CD02ECC4-F2C0-428D-8684-86067E6E8F02": {
+      "date": "2024-06-27",
+      "file": "wordle/2024-06-27-cd02ecc4f2.jpg"
+    },
+    "8F454BE8-AB24-453C-B274-C0CF3CB348A2": {
+      "date": "2024-06-28",
+      "file": "wordle/2024-06-28-8f454be8ab.jpg"
+    },
+    "A1EC4263-BD97-4A25-8D34-8888988923A2": {
+      "date": "2024-06-29",
+      "file": "wordle/2024-06-29-a1ec4263bd.jpg"
+    },
+    "D7DABF0B-DEA5-4617-A5CC-ACC555F6104D": {
+      "date": "2024-07-01",
+      "file": "wordle/2024-07-01-d7dabf0bde.jpg"
+    },
+    "C00FEF66-216B-4BF7-A2EF-FE513E817177": {
+      "date": "2024-07-02",
+      "file": "wordle/2024-07-02-c00fef6621.jpg"
+    },
+    "AB7A6AB4-66B8-4063-9288-8B45A9252550": {
+      "date": "2024-07-03",
+      "file": "wordle/2024-07-03-ab7a6ab466.jpg"
+    },
+    "40250A66-806B-4783-83F5-A33A9D5B190E": {
+      "date": "2024-07-04",
+      "file": "wordle/2024-07-04-40250a6680.jpg"
+    },
+    "0550CD2D-46BE-4AE2-8CE4-F0484A4B966F": {
+      "date": "2024-07-05",
+      "file": "wordle/2024-07-05-0550cd2d46.jpg"
+    },
+    "54289478-64CF-419D-A621-663EEFFD1DEB": {
+      "date": "2024-07-06",
+      "file": "wordle/2024-07-06-5428947864.jpg"
+    },
+    "954B7A6A-1A1A-4884-971B-CE5F2DABED5F": {
+      "date": "2024-07-07",
+      "file": "wordle/2024-07-07-954b7a6a1a.jpg"
+    },
+    "A1BB2FD7-6306-408C-9BE0-5E526B8AECA8": {
+      "date": "2024-07-08",
+      "file": "wordle/2024-07-08-a1bb2fd763.jpg"
+    },
+    "BFAC66F6-859D-4F61-AB1C-2D72B0D3DD47": {
+      "date": "2024-07-09",
+      "file": "wordle/2024-07-09-bfac66f685.jpg"
+    },
+    "2E2B3503-580D-4EA9-A711-963E39159F31": {
+      "date": "2024-07-11",
+      "file": "wordle/2024-07-11-2e2b350358.jpg"
+    },
+    "E434DEF6-03FE-4832-A3FE-1FCCB0C33E5C": {
+      "date": "2024-07-14",
+      "file": "wordle/2024-07-14-e434def603.jpg"
+    },
+    "FADD7488-72D6-488C-AB20-14CC5DA5F842": {
+      "date": "2024-07-15",
+      "file": "wordle/2024-07-15-fadd748872.jpg"
+    },
+    "982C69BC-45E5-4EF6-91B9-01DB0560E3C7": {
+      "date": "2024-07-16",
+      "file": "wordle/2024-07-16-982c69bc45.jpg"
+    },
+    "8347AC29-0042-4AB2-A312-05FFFA0D5F78": {
+      "date": "2024-07-17",
+      "file": "wordle/2024-07-17-8347ac2900.jpg"
+    },
+    "B34A9FCD-2F5D-4105-ACFE-37CA6B0F1F4C": {
+      "date": "2024-07-18",
+      "file": "wordle/2024-07-18-b34a9fcd2f.jpg"
+    },
+    "26F8C9F6-81D9-4695-BA47-5824153D71C0": {
+      "date": "2024-07-19",
+      "file": "wordle/2024-07-19-26f8c9f681.jpg"
+    },
+    "E93D2913-ED74-44A3-8D74-3D28E8B8EDE7": {
+      "date": "2024-07-20",
+      "file": "wordle/2024-07-20-e93d2913ed.jpg"
+    },
+    "6DCBC528-7007-439B-910F-1B5CD77132B3": {
+      "date": "2024-07-21",
+      "file": "wordle/2024-07-21-6dcbc52870.jpg"
+    },
+    "EE9609DA-CE24-47B8-B84F-FC9F14F62F16": {
+      "date": "2024-07-22",
+      "file": "wordle/2024-07-22-ee9609dace.jpg"
+    },
+    "9B9C02EB-5286-49E6-8E85-CC1D4A940CA1": {
+      "date": "2024-07-23",
+      "file": "wordle/2024-07-23-9b9c02eb52.jpg"
+    },
+    "B8889760-09C9-441E-ABC3-DB2991726C1D": {
+      "date": "2024-07-24",
+      "file": "wordle/2024-07-24-b888976009.jpg"
+    },
+    "85C051FD-3B43-4346-A623-324A8EFEA3C6": {
+      "date": "2024-07-25",
+      "file": "wordle/2024-07-25-85c051fd3b.jpg"
+    },
+    "8A852678-9F7B-4F4F-B963-58CA8BB56351": {
+      "date": "2024-07-27",
+      "file": "wordle/2024-07-27-8a8526789f.jpg"
+    },
+    "83CC065C-5BED-49D6-A7A7-5E8DC11C78E4": {
+      "date": "2024-07-28",
+      "file": "wordle/2024-07-28-83cc065c5b.jpg"
+    },
+    "EAB64EE3-A808-4407-8825-B4A47C8CFA2A": {
+      "date": "2024-07-29",
+      "file": "wordle/2024-07-29-eab64ee3a8.jpg"
+    },
+    "14AF2C93-C5F2-42E2-93AE-ACACD625B963": {
+      "date": "2024-07-30",
+      "file": "wordle/2024-07-30-14af2c93c5.jpg"
+    },
+    "2E0D96D5-98DD-498C-8499-9568F007C3A0": {
+      "date": "2024-07-31",
+      "file": "wordle/2024-07-31-2e0d96d598.jpg"
+    },
+    "B71333D3-A9F7-4FCE-A555-37B561BE48C0": {
+      "date": "2024-08-01",
+      "file": "wordle/2024-08-01-b71333d3a9.jpg"
+    },
+    "91A96283-20EA-4861-B5D2-47F84F9F58A4": {
+      "date": "2024-08-02",
+      "file": "wordle/2024-08-02-91a9628320.jpg"
+    },
+    "09CBBAD2-7666-4D20-ABA5-73269852C19E": {
+      "date": "2024-08-03",
+      "file": "wordle/2024-08-03-09cbbad276.jpg"
+    },
+    "7ACCCA6E-F677-421D-BBA8-6CB5A859A888": {
+      "date": "2024-08-04",
+      "file": "wordle/2024-08-04-7accca6ef6.jpg"
+    },
+    "489EB189-ECFB-471F-BD1E-87B816BA9D96": {
+      "date": "2024-08-05",
+      "file": "wordle/2024-08-05-489eb189ec.jpg"
+    },
+    "3635FDBE-D48A-4EAE-82E6-426D68B48533": {
+      "date": "2024-08-06",
+      "file": "wordle/2024-08-06-3635fdbed4.jpg"
+    },
+    "E834D923-E507-4574-964F-7C7B7B7E5D0A": {
+      "date": "2024-08-07",
+      "file": "wordle/2024-08-07-e834d923e5.jpg"
+    },
+    "A134856A-F72D-45CB-97EA-526E61460264": {
+      "date": "2024-08-08",
+      "file": "wordle/2024-08-08-a134856af7.jpg"
+    },
+    "94AA87CB-F197-43A2-8191-188DC6DD780A": {
+      "date": "2024-08-09",
+      "file": "wordle/2024-08-09-94aa87cbf1.jpg"
+    },
+    "B0E7D531-848F-4DAA-98FC-B1FD03D6FAB1": {
+      "date": "2024-08-10",
+      "file": "wordle/2024-08-10-b0e7d53184.jpg"
+    },
+    "52D54D42-D2FA-40B4-B84C-625ADF218959": {
+      "date": "2024-08-11",
+      "file": "wordle/2024-08-11-52d54d42d2.jpg"
+    },
+    "2560C7C0-9D3B-4913-8508-24452FFB4AC8": {
+      "date": "2024-08-12",
+      "file": "wordle/2024-08-12-2560c7c09d.jpg"
+    },
+    "0C561752-CD84-4273-8A5A-975E23B17204": {
+      "date": "2024-08-13",
+      "file": "wordle/2024-08-13-0c561752cd.jpg"
+    },
+    "4A5DC67E-9BDC-4847-8BCD-2AF99147A5AB": {
+      "date": "2024-08-14",
+      "file": "wordle/2024-08-14-4a5dc67e9b.jpg"
+    },
+    "C0BB44A0-AA56-42BD-8BB2-ED0A0A604A3D": {
+      "date": "2024-08-16",
+      "file": "wordle/2024-08-16-c0bb44a0aa.jpg"
+    },
+    "A6337E84-70CF-41F0-9512-2D42DF26C30B": {
+      "date": "2024-08-17",
+      "file": "wordle/2024-08-17-a6337e8470.jpg"
+    },
+    "3101C1C3-BD92-430F-90FA-B13E37EA4471": {
+      "date": "2024-08-18",
+      "file": "wordle/2024-08-18-3101c1c3bd.jpg"
+    },
+    "4BF2EEB8-5EFF-4F49-98DF-8F292A9778B2": {
+      "date": "2024-08-19",
+      "file": "wordle/2024-08-19-4bf2eeb85e.jpg"
+    },
+    "A9AE5AEA-D0BB-487B-8CE8-7C4DF31B99D3": {
+      "date": "2024-08-20",
+      "file": "wordle/2024-08-20-a9ae5aead0.jpg"
+    },
+    "314D4814-A76D-47E7-BB95-D860C2E54673": {
+      "date": "2024-08-21",
+      "file": "wordle/2024-08-21-314d4814a7.jpg"
+    },
+    "D3743947-BFE9-46CD-B39A-2CDCDFBD60B6": {
+      "date": "2024-08-22",
+      "file": "wordle/2024-08-22-d3743947bf.jpg"
+    },
+    "75213FE9-E129-48AB-85C3-197EDDC71C0A": {
+      "date": "2024-08-24",
+      "file": "wordle/2024-08-24-75213fe9e1.jpg"
+    },
+    "4CA0C2D0-7C82-4D8D-8E5C-DA54B2729A42": {
+      "date": "2024-08-25",
+      "file": "wordle/2024-08-25-4ca0c2d07c.jpg"
+    },
+    "80BB1A64-D2CA-4C50-B399-1809C3D2E52F": {
+      "date": "2024-08-26",
+      "file": "wordle/2024-08-26-80bb1a64d2.jpg"
+    },
+    "6675B403-32B4-43C3-B7CB-66E6855D0A08": {
+      "date": "2024-08-27",
+      "file": "wordle/2024-08-27-6675b40332.jpg"
+    },
+    "D276E987-DE7B-46CC-A935-AA40CAB655EC": {
+      "date": "2024-08-28",
+      "file": "wordle/2024-08-28-d276e987de.jpg"
+    },
+    "B4C33FF5-921F-4E85-93BF-3358A195C525": {
+      "date": "2024-08-29",
+      "file": "wordle/2024-08-29-b4c33ff592.jpg"
+    },
+    "F1BB6EC2-59E6-4FB6-95D7-797A838E59A5": {
+      "date": "2024-08-30",
+      "file": "wordle/2024-08-30-f1bb6ec259.jpg"
+    },
+    "43DBD3B3-F118-47A1-B2F1-A9955B87B401": {
+      "date": "2024-08-31",
+      "file": "wordle/2024-08-31-43dbd3b3f1.jpg"
+    },
+    "5F77ADB6-F35F-4E44-A658-6F5C8F2365A0": {
+      "date": "2024-09-01",
+      "file": "wordle/2024-09-01-5f77adb6f3.jpg"
+    },
+    "56B1C085-48DD-4D86-8709-B4C7FF8F30BB": {
+      "date": "2024-09-04",
+      "file": "wordle/2024-09-04-56b1c08548.jpg"
+    },
+    "A419117B-12FF-42D4-A610-46FCE7975D00": {
+      "date": "2024-09-05",
+      "file": "wordle/2024-09-05-a419117b12.jpg"
+    },
+    "9026A37B-BAD3-462C-8CB9-40B425F1F7DC": {
+      "date": "2024-09-06",
+      "file": "wordle/2024-09-06-9026a37bba.jpg"
+    },
+    "2A266310-9F9F-4D4D-A53C-041E7143A3B7": {
+      "date": "2024-09-07",
+      "file": "wordle/2024-09-07-2a2663109f.jpg"
+    },
+    "ADB3386C-D7A9-4FFA-A113-AA753ECB4789": {
+      "date": "2024-09-08",
+      "file": "wordle/2024-09-08-adb3386cd7.jpg"
+    },
+    "57AE6FF3-BCA0-4518-9F29-EA2023FB90D4": {
+      "date": "2024-09-09",
+      "file": "wordle/2024-09-09-57ae6ff3bc.jpg"
+    },
+    "1DFA963A-4E86-4FBB-9EDA-309200735DF5": {
+      "date": "2024-09-10",
+      "file": "wordle/2024-09-10-1dfa963a4e.jpg"
+    },
+    "48DB98DB-1D27-45F6-B909-5E300BA37918": {
+      "date": "2024-09-11",
+      "file": "wordle/2024-09-11-48db98db1d.jpg"
+    },
+    "7F0744F8-5CB4-473E-A58C-BB9585B8096A": {
+      "date": "2024-09-12",
+      "file": "wordle/2024-09-12-7f0744f85c.jpg"
+    },
+    "E14AF33D-5EB6-4BDC-AA9A-6598ACB62AE5": {
+      "date": "2024-09-13",
+      "file": "wordle/2024-09-13-e14af33d5e.jpg"
+    },
+    "91ED4D4D-4344-4FD8-B293-A20429D17CC8": {
+      "date": "2024-09-15",
+      "file": "wordle/2024-09-15-91ed4d4d43.jpg"
+    },
+    "6B36BD79-3F62-434F-99BB-B844FC2A2947": {
+      "date": "2024-09-16",
+      "file": "wordle/2024-09-16-6b36bd793f.jpg"
+    },
+    "61303765-C59D-4F01-BFB6-A36E08160C34": {
+      "date": "2024-09-18",
+      "file": "wordle/2024-09-18-61303765c5.jpg"
+    },
+    "C96C67B3-9F05-4CAF-9DE6-4A1219800727": {
+      "date": "2024-09-19",
+      "file": "wordle/2024-09-19-c96c67b39f.jpg"
+    },
+    "7BAC9594-B7C8-4814-80D3-FB123BEDC2BA": {
+      "date": "2024-09-20",
+      "file": "wordle/2024-09-20-7bac9594b7.jpg"
+    },
+    "A718ED1F-B8E3-4DD4-A47C-2954F8832FB0": {
+      "date": "2024-09-21",
+      "file": "wordle/2024-09-21-a718ed1fb8.jpg"
+    },
+    "ECB8D599-F291-4730-9125-BEC58FC2DA55": {
+      "date": "2024-09-22",
+      "file": "wordle/2024-09-22-ecb8d599f2.jpg"
+    },
+    "38BAF281-CEFF-485B-BC41-C727DF5AC849": {
+      "date": "2024-09-23",
+      "file": "wordle/2024-09-23-38baf281ce.jpg"
+    },
+    "3A596891-C75A-46A6-8693-86065AAAD1F5": {
+      "date": "2024-09-25",
+      "file": "wordle/2024-09-25-3a596891c7.jpg"
+    },
+    "1D35C6FA-4CEC-4DF6-9E01-00E2EE0C598F": {
+      "date": "2024-09-27",
+      "file": "wordle/2024-09-27-1d35c6fa4c.jpg"
+    },
+    "AAB89580-390E-4485-B783-4B2D9AB78B56": {
+      "date": "2024-09-28",
+      "file": "wordle/2024-09-28-aab8958039.jpg"
+    },
+    "E71233F6-9ADF-40DF-AE4B-E5AA0FA3D3C6": {
+      "date": "2024-09-29",
+      "file": "wordle/2024-09-29-e71233f69a.jpg"
+    },
+    "833CDFD8-2513-47F9-9D5E-6994AF04A0DC": {
+      "date": "2024-09-30",
+      "file": "wordle/2024-09-30-833cdfd825.jpg"
+    },
+    "63B96352-8257-4DBD-8371-70C654D4A8AB": {
+      "date": "2024-10-01",
+      "file": "wordle/2024-10-01-63b9635282.jpg"
+    },
+    "7F8747B8-5382-4DC4-B0B4-C16B6557029A": {
+      "date": "2024-10-02",
+      "file": "wordle/2024-10-02-7f8747b853.jpg"
+    },
+    "0F6041C1-93DA-4583-9AAD-353F941FA683": {
+      "date": "2024-10-03",
+      "file": "wordle/2024-10-03-0f6041c193.jpg"
+    },
+    "4A86F23D-9105-4427-A297-93FCE78A4946": {
+      "date": "2024-10-05",
+      "file": "wordle/2024-10-05-4a86f23d91.jpg"
+    },
+    "79F3897C-A362-405A-A61E-B6AEE74B8A65": {
+      "date": "2024-10-06",
+      "file": "wordle/2024-10-06-79f3897ca3.jpg"
+    },
+    "09D1F657-1ED2-496F-B8A7-1FE6F004D73D": {
+      "date": "2024-10-07",
+      "file": "wordle/2024-10-07-09d1f6571e.jpg"
+    },
+    "0361CBAB-5D43-4635-947D-C5B291EFCE50": {
+      "date": "2024-10-08",
+      "file": "wordle/2024-10-08-0361cbab5d.jpg"
+    },
+    "68714D50-4B88-4DB9-8E57-8E9F1E32D1BB": {
+      "date": "2024-10-10",
+      "file": "wordle/2024-10-10-68714d504b.jpg"
+    },
+    "10406EA8-D46E-45AE-88E9-95E082225E7B": {
+      "date": "2024-10-11",
+      "file": "wordle/2024-10-11-10406ea8d4.jpg"
+    },
+    "00611762-A1FB-4FDF-A940-28AE1418C16B": {
+      "date": "2024-10-12",
+      "file": "wordle/2024-10-12-00611762a1.jpg"
+    },
+    "961EC7E1-AD00-40A9-83D6-1E5ACC073838": {
+      "date": "2024-10-13",
+      "file": "wordle/2024-10-13-961ec7e1ad.jpg"
+    },
+    "F403BFA1-7F06-4988-A843-C7F7BB4F6F23": {
+      "date": "2024-10-14",
+      "file": "wordle/2024-10-14-f403bfa17f.jpg"
+    },
+    "663732CA-8970-4909-AB6A-7F14535C84A2": {
+      "date": "2024-10-17",
+      "file": "wordle/2024-10-17-663732ca89.jpg"
+    },
+    "47AA4F17-9E2E-42EC-85C5-858505E58883": {
+      "date": "2024-10-18",
+      "file": "wordle/2024-10-18-47aa4f179e.jpg"
+    },
+    "EEC7782C-CC6D-47EE-AF83-8A8FFFA72B7E": {
+      "date": "2024-10-19",
+      "file": "wordle/2024-10-19-eec7782ccc.jpg"
+    },
+    "52364750-EF99-4FC5-B4BF-F53BC99DC058": {
+      "date": "2024-10-20",
+      "file": "wordle/2024-10-20-52364750ef.jpg"
+    },
+    "7BE522E2-A359-4402-9D2A-81121474A27B": {
+      "date": "2024-10-21",
+      "file": "wordle/2024-10-21-7be522e2a3.jpg"
+    },
+    "D93BEE6A-49A4-41DA-B0B6-98ECCA02768A": {
+      "date": "2024-10-22",
+      "file": "wordle/2024-10-22-d93bee6a49.jpg"
+    },
+    "2A7D2980-B8C9-475D-B6B2-EE0B1221D7E8": {
+      "date": "2024-10-23",
+      "file": "wordle/2024-10-23-2a7d2980b8.jpg"
+    },
+    "2D3FBB17-9001-4568-8720-5E58BB5FCECF": {
+      "date": "2024-10-24",
+      "file": "wordle/2024-10-24-2d3fbb1790.jpg"
+    },
+    "C21FE8B4-71D3-4C9D-912E-0988881C988F": {
+      "date": "2024-10-25",
+      "file": "wordle/2024-10-25-c21fe8b471.jpg"
+    },
+    "638FB91D-6B3F-4512-B97E-73CE8A6DA296": {
+      "date": "2024-10-26",
+      "file": "wordle/2024-10-26-638fb91d6b.jpg"
+    },
+    "3162EBCF-6044-498D-B377-3B42467D6AF2": {
+      "date": "2024-10-27",
+      "file": "wordle/2024-10-27-3162ebcf60.jpg"
+    },
+    "BDF41032-DA7F-4AFB-943E-26075EE04436": {
+      "date": "2024-10-28",
+      "file": "wordle/2024-10-28-bdf41032da.jpg"
+    },
+    "AB7925A3-8ADB-4D6A-BD55-C2655F3EBF3C": {
+      "date": "2024-10-29",
+      "file": "wordle/2024-10-29-ab7925a38a.jpg"
+    },
+    "0304646D-4FFD-4B23-8FD0-54242712849C": {
+      "date": "2024-11-01",
+      "file": "wordle/2024-11-01-0304646d4f.jpg"
+    },
+    "9476BC7C-D7A0-4046-8402-482A769D3744": {
+      "date": "2024-11-03",
+      "file": "wordle/2024-11-03-9476bc7cd7.jpg"
+    },
+    "2D5DCDAE-431F-4336-9BE9-3A3AD81665D1": {
+      "date": "2024-11-04",
+      "file": "wordle/2024-11-04-2d5dcdae43.jpg"
+    },
+    "07B80AA7-CC7A-4B80-8589-885A0440F0CE": {
+      "date": "2024-11-05",
+      "file": "wordle/2024-11-05-07b80aa7cc.jpg"
+    },
+    "61D56789-FC73-4F6E-B0E7-02ED57F0F9A5": {
+      "date": "2024-11-06",
+      "file": "wordle/2024-11-06-61d56789fc.jpg"
+    },
+    "5239E2C8-C8E9-4F4F-82D1-B84CCCF8939E": {
+      "date": "2024-11-07",
+      "file": "wordle/2024-11-07-5239e2c8c8.jpg"
+    },
+    "5977C79E-FC97-40FE-B7AE-AB2681D29DC4": {
+      "date": "2024-11-08",
+      "file": "wordle/2024-11-08-5977c79efc.jpg"
+    },
+    "635CCFB1-0E3E-477E-9466-32B299AA9481": {
+      "date": "2024-11-09",
+      "file": "wordle/2024-11-09-635ccfb10e.jpg"
+    },
+    "0427F74A-448A-4571-BAF5-E85AD5CB3D39": {
+      "date": "2024-11-10",
+      "file": "wordle/2024-11-10-0427f74a44.jpg"
+    },
+    "E0DFFE94-12AB-4C64-96A9-5CA4C6528B44": {
+      "date": "2024-11-11",
+      "file": "wordle/2024-11-11-e0dffe9412.jpg"
+    },
+    "A2DEEC53-2085-428C-A50A-72EA2869F2B6": {
+      "date": "2024-11-12",
+      "file": "wordle/2024-11-12-a2deec5320.jpg"
+    },
+    "FD3E062B-1EEE-49CD-B368-783CC8275DC6": {
+      "date": "2024-11-13",
+      "file": "wordle/2024-11-13-fd3e062b1e.jpg"
+    },
+    "4E7A0FBA-9950-4005-96E0-332BF81B4BCA": {
+      "date": "2024-11-14",
+      "file": "wordle/2024-11-14-4e7a0fba99.jpg"
+    },
+    "489E722E-2969-4722-8757-D5A5774A4C58": {
+      "date": "2024-11-15",
+      "file": "wordle/2024-11-15-489e722e29.jpg"
+    },
+    "5F9AE776-18E8-45C7-BF69-D9E9DC5209A0": {
+      "date": "2024-11-16",
+      "file": "wordle/2024-11-16-5f9ae77618.jpg"
+    },
+    "C07B604A-B3BA-492D-8DC4-1EA0BD6A88C0": {
+      "date": "2024-11-17",
+      "file": "wordle/2024-11-17-c07b604ab3.jpg"
+    },
+    "88C02195-0FDE-49CE-88F0-676D2773B11F": {
+      "date": "2024-11-18",
+      "file": "wordle/2024-11-18-88c021950f.jpg"
+    },
+    "4EB31C6F-8455-4D0F-A473-2F730EB37E70": {
+      "date": "2024-11-19",
+      "file": "wordle/2024-11-19-4eb31c6f84.jpg"
+    },
+    "D5C49565-1E45-4088-9EB1-96392559B6F9": {
+      "date": "2024-11-20",
+      "file": "wordle/2024-11-20-d5c495651e.jpg"
+    },
+    "87181513-2EE0-45E2-A4B9-74151252B497": {
+      "date": "2024-11-21",
+      "file": "wordle/2024-11-21-871815132e.jpg"
+    },
+    "352AFB4B-9467-4D5A-844B-1AACCE3057EA": {
+      "date": "2024-11-22",
+      "file": "wordle/2024-11-22-352afb4b94.jpg"
+    },
+    "F48C60EE-6A2D-4417-B91B-C92481BA88CF": {
+      "date": "2024-11-23",
+      "file": "wordle/2024-11-23-f48c60ee6a.jpg"
+    },
+    "FE7E3FD9-633D-4AD2-856C-CED12AA518FD": {
+      "date": "2024-11-24",
+      "file": "wordle/2024-11-24-fe7e3fd963.jpg"
+    },
+    "2EA5DA5D-80E3-4766-A530-D53122ED34DD": {
+      "date": "2024-11-25",
+      "file": "wordle/2024-11-25-2ea5da5d80.jpg"
+    },
+    "13A7AA88-321F-4742-B6D1-BEF8EF2C7E97": {
+      "date": "2024-11-27",
+      "file": "wordle/2024-11-27-13a7aa8832.jpg"
+    },
+    "499D9463-3084-487B-8418-612787D6C32A": {
+      "date": "2024-11-28",
+      "file": "wordle/2024-11-28-499d946330.jpg"
+    },
+    "1588F1E1-1225-49B3-B34B-1CCA3F82980D": {
+      "date": "2024-11-29",
+      "file": "wordle/2024-11-29-1588f1e112.jpg"
+    },
+    "91C6235B-95EF-4A96-BBA5-4BFB0CE32370": {
+      "date": "2024-11-30",
+      "file": "wordle/2024-11-30-91c6235b95.jpg"
+    },
+    "C0662AB8-B79E-4D16-84B6-B9FE9B255721": {
+      "date": "2024-12-01",
+      "file": "wordle/2024-12-01-c0662ab8b7.jpg"
+    },
+    "535BF995-FADD-4568-B011-757EC5FF6CB8": {
+      "date": "2024-12-03",
+      "file": "wordle/2024-12-03-535bf995fa.jpg"
+    },
+    "53CD701E-64A9-4E51-9F4E-ACABD2048A65": {
+      "date": "2024-12-04",
+      "file": "wordle/2024-12-04-53cd701e64.jpg"
+    },
+    "D97CB1FD-0F54-4EBF-9F7F-3AE1934E3F07": {
+      "date": "2024-12-05",
+      "file": "wordle/2024-12-05-d97cb1fd0f.jpg"
+    },
+    "BCEEA97E-9335-45DA-B78C-6E246C7F2EED": {
+      "date": "2024-12-06",
+      "file": "wordle/2024-12-06-bceea97e93.jpg"
+    },
+    "754DA19B-83E2-442A-BF19-6E4D168F29F5": {
+      "date": "2024-12-07",
+      "file": "wordle/2024-12-07-754da19b83.jpg"
+    },
+    "81EFBA64-C6CE-470F-8618-5E80F72D8049": {
+      "date": "2024-12-08",
+      "file": "wordle/2024-12-08-81efba64c6.jpg"
+    },
+    "27BF1409-A1DA-463A-BF86-35342CD2FBCB": {
+      "date": "2024-12-09",
+      "file": "wordle/2024-12-09-27bf1409a1.jpg"
+    },
+    "7A5644F6-4B21-4181-99D5-04848FB60B3D": {
+      "date": "2024-12-10",
+      "file": "wordle/2024-12-10-7a5644f64b.jpg"
+    },
+    "B8061642-EB15-4420-804F-11E2BCFB05DB": {
+      "date": "2024-12-11",
+      "file": "wordle/2024-12-11-b8061642eb.jpg"
+    },
+    "DACA1806-6EF0-483F-948B-4F27B236D21B": {
+      "date": "2024-12-13",
+      "file": "wordle/2024-12-13-daca18066e.jpg"
+    },
+    "7646A006-7C70-448A-9F47-68DD3F61A9A5": {
+      "date": "2024-12-14",
+      "file": "wordle/2024-12-14-7646a0067c.jpg"
+    },
+    "A5764C3C-6561-4271-A856-96DD94548E76": {
+      "date": "2024-12-15",
+      "file": "wordle/2024-12-15-a5764c3c65.jpg"
+    },
+    "0081BB8C-1465-4D48-9115-5D3A89F9FA9C": {
+      "date": "2024-12-17",
+      "file": "wordle/2024-12-17-0081bb8c14.jpg"
+    },
+    "AD086385-072E-4AFC-8379-EC3AAD08375B": {
+      "date": "2024-12-18",
+      "file": "wordle/2024-12-18-ad08638507.jpg"
+    },
+    "4BD1A34B-E1FF-47F5-8BD3-DB6098C89164": {
+      "date": "2024-12-19",
+      "file": "wordle/2024-12-19-4bd1a34be1.jpg"
+    },
+    "500A92A9-56C3-435F-8F75-E0D1F1306452": {
+      "date": "2024-12-20",
+      "file": "wordle/2024-12-20-500a92a956.jpg"
+    },
+    "09BAFD00-F2C9-44D7-874B-28C365F69B63": {
+      "date": "2024-12-21",
+      "file": "wordle/2024-12-21-09bafd00f2.jpg"
+    },
+    "DAD6EF95-94EC-4708-ADEC-68662F9009C8": {
+      "date": "2024-12-22",
+      "file": "wordle/2024-12-22-dad6ef9594.jpg"
+    },
+    "323326DB-7EBA-4435-91DB-4BE9B7651982": {
+      "date": "2024-12-23",
+      "file": "wordle/2024-12-23-323326db7e.jpg"
+    },
+    "30C4F2F4-DCA2-450F-9A79-4A9FB6C0E9B9": {
+      "date": "2024-12-25",
+      "file": "wordle/2024-12-25-30c4f2f4dc.jpg"
+    },
+    "3298A232-9639-48B4-8001-573C9F5AF48D": {
+      "date": "2024-12-26",
+      "file": "wordle/2024-12-26-3298a23296.jpg"
+    },
+    "EF505934-85D2-4BF0-BB0D-23295A8DCF69": {
+      "date": "2024-12-27",
+      "file": "wordle/2024-12-27-ef50593485.jpg"
+    },
+    "5EF3AA8B-F65C-40F4-9EA2-2B1D31038F28": {
+      "date": "2024-12-28",
+      "file": "wordle/2024-12-28-5ef3aa8bf6.jpg"
+    },
+    "2536589D-0251-4626-83C5-78676E874241": {
+      "date": "2024-12-29",
+      "file": "wordle/2024-12-29-2536589d02.jpg"
+    },
+    "0505452F-1442-427E-BC6E-94BA3579DB9B": {
+      "date": "2024-12-30",
+      "file": "wordle/2024-12-30-0505452f14.jpg"
+    },
+    "5222B404-3821-4307-9174-8FB61CF237AE": {
+      "date": "2024-12-31",
+      "file": "wordle/2024-12-31-5222b40438.jpg"
+    },
+    "F8942633-7916-4071-B2FB-5D3A75705899": {
+      "date": "2025-01-01",
+      "file": "wordle/2025-01-01-f894263379.jpg"
+    },
+    "310FEDCD-0C5D-49E1-995D-B5693CD15E6D": {
+      "date": "2025-01-02",
+      "file": "wordle/2025-01-02-310fedcd0c.jpg"
+    },
+    "878104C0-B598-4E30-8A55-6AED58BD881E": {
+      "date": "2025-01-03",
+      "file": "wordle/2025-01-03-878104c0b5.jpg"
+    },
+    "916D2EFF-2A39-4D90-8D70-32E5308EA081": {
+      "date": "2025-01-04",
+      "file": "wordle/2025-01-04-916d2eff2a.jpg"
+    },
+    "4720593A-30B3-4DB8-BE87-9E94D4A951D0": {
+      "date": "2025-01-05",
+      "file": "wordle/2025-01-05-4720593a30.jpg"
+    },
+    "C70C8CD8-7D82-4D8F-A6AD-9D6075763575": {
+      "date": "2025-01-06",
+      "file": "wordle/2025-01-06-c70c8cd87d.jpg"
+    },
+    "404149DA-554E-4CF3-8ED6-571C942D5123": {
+      "date": "2025-01-07",
+      "file": "wordle/2025-01-07-404149da55.jpg"
+    },
+    "D997E49D-BA65-4C2C-B3C7-C054505FAC40": {
+      "date": "2025-01-08",
+      "file": "wordle/2025-01-08-d997e49dba.jpg"
+    },
+    "468C558D-93AE-4F5B-A930-5C5BB760EAA6": {
+      "date": "2025-01-09",
+      "file": "wordle/2025-01-09-468c558d93.jpg"
+    },
+    "08EEF439-D19F-4021-8FF0-BF595DB18D00": {
+      "date": "2025-01-10",
+      "file": "wordle/2025-01-10-08eef439d1.jpg"
+    },
+    "DAC48C21-0ACE-428C-A3A2-B72C137B8162": {
+      "date": "2025-01-11",
+      "file": "wordle/2025-01-11-dac48c210a.jpg"
+    },
+    "C132F230-EBBD-4628-9CA8-C62CED8A0206": {
+      "date": "2025-01-12",
+      "file": "wordle/2025-01-12-c132f230eb.jpg"
+    },
+    "10508795-BF2F-4C4F-B31C-7B94781DD70B": {
+      "date": "2025-01-13",
+      "file": "wordle/2025-01-13-10508795bf.jpg"
+    },
+    "2718A79E-7C4D-42C2-9D4F-911AAFFAB43D": {
+      "date": "2025-01-14",
+      "file": "wordle/2025-01-14-2718a79e7c.jpg"
+    },
+    "1958C8B6-02B4-43B7-9108-422BF03B7BF3": {
+      "date": "2025-01-15",
+      "file": "wordle/2025-01-15-1958c8b602.jpg"
+    },
+    "1F0C5E60-F126-49CD-AE9A-51A2D1B7EF95": {
+      "date": "2025-01-16",
+      "file": "wordle/2025-01-16-1f0c5e60f1.jpg"
+    },
+    "5CC999FE-C616-452B-A543-C7F981B67818": {
+      "date": "2025-01-17",
+      "file": "wordle/2025-01-17-5cc999fec6.jpg"
+    },
+    "050B6AA6-6D13-41F1-A0F8-1D63094D5FE7": {
+      "date": "2025-01-18",
+      "file": "wordle/2025-01-18-050b6aa66d.jpg"
+    },
+    "D5DE4CA0-7228-4B4C-A8C1-98C6B3C3A592": {
+      "date": "2025-01-20",
+      "file": "wordle/2025-01-20-d5de4ca072.jpg"
+    },
+    "FBB65B97-A2EE-4406-A2A0-0E82A9BF12C7": {
+      "date": "2025-01-21",
+      "file": "wordle/2025-01-21-fbb65b97a2.jpg"
+    },
+    "22448C20-AD6C-4580-99FE-D7DD100FD9CF": {
+      "date": "2025-01-22",
+      "file": "wordle/2025-01-22-22448c20ad.jpg"
+    },
+    "BE212ED7-E6C1-495E-9FBF-AB9BB180733A": {
+      "date": "2025-01-23",
+      "file": "wordle/2025-01-23-be212ed7e6.jpg"
+    },
+    "64006981-B004-46ED-BA79-D473A416E22E": {
+      "date": "2025-01-25",
+      "file": "wordle/2025-01-25-64006981b0.jpg"
+    },
+    "66F0E706-17C2-43A9-B924-383848C92B30": {
+      "date": "2025-01-26",
+      "file": "wordle/2025-01-26-66f0e70617.jpg"
+    },
+    "18826C2B-D3E8-4D1B-8CC4-BD6ADE259CEF": {
+      "date": "2025-01-27",
+      "file": "wordle/2025-01-27-18826c2bd3.jpg"
+    },
+    "ADBBDC6D-0429-4D85-AA5A-761E67BACF95": {
+      "date": "2025-01-28",
+      "file": "wordle/2025-01-28-adbbdc6d04.jpg"
+    },
+    "14D70100-C6DF-4218-A5E4-F277493DA9D7": {
+      "date": "2025-01-29",
+      "file": "wordle/2025-01-29-14d70100c6.jpg"
+    },
+    "18A6540A-EA02-4734-AF40-A8497A47F9E4": {
+      "date": "2025-01-30",
+      "file": "wordle/2025-01-30-18a6540aea.jpg"
+    },
+    "2B1F87B1-D7D0-4694-A69B-176554DB524C": {
+      "date": "2025-01-31",
+      "file": "wordle/2025-01-31-2b1f87b1d7.jpg"
+    },
+    "E71A1B5C-25EE-420C-9BC0-97EEDBD85DB6": {
+      "date": "2025-02-01",
+      "file": "wordle/2025-02-01-e71a1b5c25.jpg"
+    },
+    "A01A819D-F5C8-4C5C-972F-F3E257407DC9": {
+      "date": "2025-02-02",
+      "file": "wordle/2025-02-02-a01a819df5.jpg"
+    },
+    "30112E01-A465-43F4-8AE6-5D57F628EAAF": {
+      "date": "2025-02-03",
+      "file": "wordle/2025-02-03-30112e01a4.jpg"
+    },
+    "3C522B80-3476-485B-82BB-944BC7CA790E": {
+      "date": "2025-02-04",
+      "file": "wordle/2025-02-04-3c522b8034.jpg"
+    },
+    "A9BF3A7C-4BC5-4B16-B34F-934C52B2CFA7": {
+      "date": "2025-02-05",
+      "file": "wordle/2025-02-05-a9bf3a7c4b.jpg"
+    },
+    "EC509B09-2817-4E53-85E0-57A8574CD02E": {
+      "date": "2025-02-06",
+      "file": "wordle/2025-02-06-ec509b0928.jpg"
+    },
+    "E031ED29-CC61-4031-874E-76398E66E142": {
+      "date": "2025-02-07",
+      "file": "wordle/2025-02-07-e031ed29cc.jpg"
+    },
+    "231F15D1-7838-4C73-ABDE-C90EA5674C2F": {
+      "date": "2025-02-08",
+      "file": "wordle/2025-02-08-231f15d178.jpg"
+    },
+    "810A7EAA-4DBA-423B-BE0D-8CD2EE546124": {
+      "date": "2025-02-09",
+      "file": "wordle/2025-02-09-810a7eaa4d.jpg"
+    },
+    "7E4324D4-7550-4D0C-B5BA-8949E1E2F0CA": {
+      "date": "2025-02-11",
+      "file": "wordle/2025-02-11-7e4324d475.jpg"
+    },
+    "A5D4BE67-3BB6-4EB6-95F2-5596A2034E85": {
+      "date": "2025-02-12",
+      "file": "wordle/2025-02-12-a5d4be673b.jpg"
+    },
+    "1DAA71B8-F408-4CCF-B4CD-4061A421A7B5": {
+      "date": "2025-02-13",
+      "file": "wordle/2025-02-13-1daa71b8f4.jpg"
+    },
+    "F29E234B-BE49-4786-8A02-C447C5FD02B3": {
+      "date": "2025-02-15",
+      "file": "wordle/2025-02-15-f29e234bbe.jpg"
+    },
+    "D06933CD-27F3-41A3-BE73-E50B338FB043": {
+      "date": "2025-02-17",
+      "file": "wordle/2025-02-17-d06933cd27.jpg"
+    },
+    "C1687EB4-8C8B-47C0-8A5E-800EF79C06FA": {
+      "date": "2025-02-18",
+      "file": "wordle/2025-02-18-c1687eb48c.jpg"
+    },
+    "C1CA36DA-6C59-4C4D-A3CF-0471CF6A2245": {
+      "date": "2025-02-19",
+      "file": "wordle/2025-02-19-c1ca36da6c.jpg"
+    },
+    "7101E896-950E-4408-A6CB-BB4BABD25C09": {
+      "date": "2025-02-20",
+      "file": "wordle/2025-02-20-7101e89695.jpg"
+    },
+    "E60E8015-CCC9-4871-89EA-C318B50CF613": {
+      "date": "2025-02-21",
+      "file": "wordle/2025-02-21-e60e8015cc.jpg"
+    },
+    "A25745E8-2320-4D76-9ADE-392C17EB4DA4": {
+      "date": "2025-02-22",
+      "file": "wordle/2025-02-22-a25745e823.jpg"
+    },
+    "C6AB294C-7D8A-4136-8FD7-455EB873BE24": {
+      "date": "2025-02-24",
+      "file": "wordle/2025-02-24-c6ab294c7d.jpg"
+    },
+    "DBFEE6E0-9B29-4E85-B37C-6FE443E9731C": {
+      "date": "2025-02-25",
+      "file": "wordle/2025-02-25-dbfee6e09b.jpg"
+    },
+    "690A78D5-D45B-41BA-BE2E-0CEA778DC56C": {
+      "date": "2025-02-26",
+      "file": "wordle/2025-02-26-690a78d5d4.jpg"
+    },
+    "EB951C67-C2D7-4533-8D28-9C786C639B9F": {
+      "date": "2025-03-01",
+      "file": "wordle/2025-03-01-eb951c67c2.jpg"
+    },
+    "B9229FBC-2022-4922-ADD8-B1FAE99F7BFF": {
+      "date": "2025-03-02",
+      "file": "wordle/2025-03-02-b9229fbc20.jpg"
+    },
+    "40880622-862D-4F3A-B0EA-7F8923DD03BC": {
+      "date": "2025-03-04",
+      "file": "wordle/2025-03-04-4088062286.jpg"
+    },
+    "0A776B78-7A88-43A8-B853-C9E8B9599612": {
+      "date": "2025-03-05",
+      "file": "wordle/2025-03-05-0a776b787a.jpg"
+    },
+    "88676698-7936-45E6-AB9F-616F23A350B5": {
+      "date": "2025-03-06",
+      "file": "wordle/2025-03-06-8867669879.jpg"
+    },
+    "D0393237-AD83-4D80-86FB-486E757D5AA5": {
+      "date": "2025-03-08",
+      "file": "wordle/2025-03-08-d0393237ad.jpg"
+    },
+    "FB466DDF-30FD-4F8E-9597-C028A1D31446": {
+      "date": "2025-03-09",
+      "file": "wordle/2025-03-09-fb466ddf30.jpg"
+    },
+    "1B08329E-F424-49F0-A47A-1F13248939CB": {
+      "date": "2025-03-10",
+      "file": "wordle/2025-03-10-1b08329ef4.jpg"
+    },
+    "B02593AF-92B7-46B8-8D6A-0E5E28515E0E": {
+      "date": "2025-03-11",
+      "file": "wordle/2025-03-11-b02593af92.jpg"
+    },
+    "45B76F6A-527E-408F-8CB4-74DD4737C11A": {
+      "date": "2025-03-12",
+      "file": "wordle/2025-03-12-45b76f6a52.jpg"
+    },
+    "DCEDFF8B-580E-4704-ADC2-8DDE1DBF7ADB": {
+      "date": "2025-03-13",
+      "file": "wordle/2025-03-13-dcedff8b58.jpg"
+    },
+    "BDBD3C88-BFB8-46AE-93AB-E2FA15F53AEC": {
+      "date": "2025-03-14",
+      "file": "wordle/2025-03-14-bdbd3c88bf.jpg"
+    },
+    "50CDBB97-DD1B-4D46-85A5-15ED57F65ED9": {
+      "date": "2025-03-15",
+      "file": "wordle/2025-03-15-50cdbb97dd.jpg"
+    },
+    "15D84871-91DA-4FC1-B2AD-2846235BB4F4": {
+      "date": "2025-03-16",
+      "file": "wordle/2025-03-16-15d8487191.jpg"
+    },
+    "5BAA32BA-8CE1-47AD-89BA-D4F4E9156520": {
+      "date": "2025-03-17",
+      "file": "wordle/2025-03-17-5baa32ba8c.jpg"
+    },
+    "9B449188-5662-466D-A3B6-08DCBE2FF731": {
+      "date": "2025-03-18",
+      "file": "wordle/2025-03-18-9b44918856.jpg"
+    },
+    "212EC0D5-B760-44FA-8F5F-43A6987EC42C": {
+      "date": "2025-03-19",
+      "file": "wordle/2025-03-19-212ec0d5b7.jpg"
+    },
+    "83D1E11E-0DC5-4E08-9F41-5DA545DE9CF8": {
+      "date": "2025-03-20",
+      "file": "wordle/2025-03-20-83d1e11e0d.jpg"
+    },
+    "ACA53B1B-FAB1-4E8B-8423-06205BB1CECA": {
+      "date": "2025-03-21",
+      "file": "wordle/2025-03-21-aca53b1bfa.jpg"
+    },
+    "F713DECE-B23F-4787-826E-04F4CC1ACA36": {
+      "date": "2025-03-22",
+      "file": "wordle/2025-03-22-f713deceb2.jpg"
+    },
+    "4FCBB29D-26D3-448C-BD20-7B19668CF7CC": {
+      "date": "2025-03-23",
+      "file": "wordle/2025-03-23-4fcbb29d26.jpg"
+    },
+    "3DDACE5A-2539-471A-AE77-10F879EEB906": {
+      "date": "2025-03-24",
+      "file": "wordle/2025-03-24-3ddace5a25.jpg"
+    },
+    "BD8E36EE-24F3-4683-9E17-BB8602E6C8A6": {
+      "date": "2025-03-25",
+      "file": "wordle/2025-03-25-bd8e36ee24.jpg"
+    },
+    "F25F6EE6-67D2-47E8-B24D-FCF400AC3357": {
+      "date": "2025-03-26",
+      "file": "wordle/2025-03-26-f25f6ee667.jpg"
+    },
+    "3DEACF96-598A-4A3D-8D53-9ADBA4208A9A": {
+      "date": "2025-03-27",
+      "file": "wordle/2025-03-27-3deacf9659.jpg"
+    },
+    "6150D3D0-1E32-4EE9-9011-82AB36106D90": {
+      "date": "2025-03-28",
+      "file": "wordle/2025-03-28-6150d3d01e.jpg"
+    },
+    "1FCAFC7D-E3B5-4B5D-A630-C3028948418F": {
+      "date": "2025-03-29",
+      "file": "wordle/2025-03-29-1fcafc7de3.jpg"
+    },
+    "805FD8D6-D7EA-48EC-B027-42CE132E992A": {
+      "date": "2025-03-30",
+      "file": "wordle/2025-03-30-805fd8d6d7.jpg"
+    },
+    "91212D9E-9EB6-4F92-A456-46F7438ACA9E": {
+      "date": "2025-03-31",
+      "file": "wordle/2025-03-31-91212d9e9e.jpg"
+    },
+    "F47FD785-277A-428E-916A-985072D60AB8": {
+      "date": "2025-04-01",
+      "file": "wordle/2025-04-01-f47fd78527.jpg"
+    },
+    "86A135F4-2A5A-43CA-AD57-7B3602C20B32": {
+      "date": "2025-04-03",
+      "file": "wordle/2025-04-03-86a135f42a.jpg"
+    },
+    "8FD95518-7E70-47CF-B37D-9DDD3B815BE0": {
+      "date": "2025-04-06",
+      "file": "wordle/2025-04-06-8fd955187e.jpg"
+    },
+    "1EBD16AB-E84D-427E-8126-DBFE85FB7200": {
+      "date": "2025-04-07",
+      "file": "wordle/2025-04-07-1ebd16abe8.jpg"
+    },
+    "4772645E-9DA9-447E-B62A-4B3A36C65B17": {
+      "date": "2025-04-08",
+      "file": "wordle/2025-04-08-4772645e9d.jpg"
+    },
+    "405AB908-F603-41F8-9686-CBA4745036A0": {
+      "date": "2025-04-09",
+      "file": "wordle/2025-04-09-405ab908f6.jpg"
+    },
+    "EF0B11AC-BECD-47AC-90E1-44C9E76E2F7D": {
+      "date": "2025-04-10",
+      "file": "wordle/2025-04-10-ef0b11acbe.jpg"
+    },
+    "1FA7F2F0-05F2-4269-B469-463635611113": {
+      "date": "2025-04-11",
+      "file": "wordle/2025-04-11-1fa7f2f005.jpg"
+    },
+    "5C4C92E3-FD33-4AC9-B897-62E607660BB4": {
+      "date": "2025-04-13",
+      "file": "wordle/2025-04-13-5c4c92e3fd.jpg"
+    },
+    "C75003D5-70EC-4102-B7AC-D5A9E1D0FB1C": {
+      "date": "2025-04-14",
+      "file": "wordle/2025-04-14-c75003d570.jpg"
+    },
+    "E428FE91-1698-46EF-AED3-E875FEA0F11A": {
+      "date": "2025-04-15",
+      "file": "wordle/2025-04-15-e428fe9116.jpg"
+    },
+    "7D1ADD37-6B2D-4184-B99A-FC6C60578FF5": {
+      "date": "2025-04-16",
+      "file": "wordle/2025-04-16-7d1add376b.jpg"
+    },
+    "7910738A-3A25-4180-9C97-185207607BC4": {
+      "date": "2025-04-17",
+      "file": "wordle/2025-04-17-7910738a3a.jpg"
+    },
+    "14556F23-BC03-4C48-B7FA-4068B22E03AB": {
+      "date": "2025-04-18",
+      "file": "wordle/2025-04-18-14556f23bc.jpg"
+    },
+    "5F88D86B-9799-49C3-960D-A76841B79C55": {
+      "date": "2025-04-19",
+      "file": "wordle/2025-04-19-5f88d86b97.jpg"
+    },
+    "8F9804BC-86C0-4752-8D92-3AC62D35DFA7": {
+      "date": "2025-04-20",
+      "file": "wordle/2025-04-20-8f9804bc86.jpg"
+    },
+    "9EC366D4-F7F6-47E7-9E95-8CA52770384E": {
+      "date": "2025-04-21",
+      "file": "wordle/2025-04-21-9ec366d4f7.jpg"
+    },
+    "3EE90E3C-0D0B-4726-8355-18851290239D": {
+      "date": "2025-04-22",
+      "file": "wordle/2025-04-22-3ee90e3c0d.jpg"
+    },
+    "8F533F03-D027-4114-B066-B0306A54B660": {
+      "date": "2025-04-23",
+      "file": "wordle/2025-04-23-8f533f03d0.jpg"
+    },
+    "91AD1078-E117-470D-BEA8-D53E09F2CDA8": {
+      "date": "2025-04-24",
+      "file": "wordle/2025-04-24-91ad1078e1.jpg"
+    },
+    "BC0ECED4-9C99-4EF5-848D-5740F9B34EFC": {
+      "date": "2025-04-25",
+      "file": "wordle/2025-04-25-bc0eced49c.jpg"
+    },
+    "6884BC0D-EE9D-4DDE-BCAC-DD74A571D892": {
+      "date": "2025-04-27",
+      "file": "wordle/2025-04-27-6884bc0dee.jpg"
+    },
+    "E10E1080-BCEA-402B-BD7F-69ADE78183F9": {
+      "date": "2025-04-28",
+      "file": "wordle/2025-04-28-e10e1080bc.jpg"
+    },
+    "8314168C-86CA-49B4-A31B-394ADF45609E": {
+      "date": "2025-04-29",
+      "file": "wordle/2025-04-29-8314168c86.jpg"
+    },
+    "86E616A3-E94D-4714-8D67-CB91B7E22EEF": {
+      "date": "2025-04-30",
+      "file": "wordle/2025-04-30-86e616a3e9.jpg"
+    },
+    "97F73FB8-2B06-4706-A2D1-9332D9EA4608": {
+      "date": "2025-05-01",
+      "file": "wordle/2025-05-01-97f73fb82b.jpg"
+    },
+    "4815DEC3-543C-4173-9FA1-B1ABEE567788": {
+      "date": "2025-05-02",
+      "file": "wordle/2025-05-02-4815dec354.jpg"
+    },
+    "BF525D62-DFF7-4EFA-9BF4-5E60950EBC23": {
+      "date": "2025-05-04",
+      "file": "wordle/2025-05-04-bf525d62df.jpg"
+    },
+    "7BF0FA76-2463-4E27-B324-F60FE50EBCE7": {
+      "date": "2025-05-06",
+      "file": "wordle/2025-05-06-7bf0fa7624.jpg"
+    },
+    "EE334BD7-03AE-47F3-A1D3-157EE9731496": {
+      "date": "2025-05-08",
+      "file": "wordle/2025-05-08-ee334bd703.jpg"
+    },
+    "CD8D2516-2FC5-4B22-BC6D-52C3C38E09B2": {
+      "date": "2025-05-09",
+      "file": "wordle/2025-05-09-cd8d25162f.jpg"
+    },
+    "8E20DAD8-B51F-43EF-8F4D-4268FED24D99": {
+      "date": "2025-05-11",
+      "file": "wordle/2025-05-11-8e20dad8b5.jpg"
+    },
+    "7B6A2E42-AE1B-40BF-8485-9085F0AA4F93": {
+      "date": "2025-05-12",
+      "file": "wordle/2025-05-12-7b6a2e42ae.jpg"
+    },
+    "DCFC6721-3DDD-4F12-9934-9729F4992B14": {
+      "date": "2025-05-13",
+      "file": "wordle/2025-05-13-dcfc67213d.jpg"
+    },
+    "E36B85FE-0154-4042-919E-314E445FC0C7": {
+      "date": "2025-05-15",
+      "file": "wordle/2025-05-15-e36b85fe01.jpg"
+    },
+    "BDC4F72D-6FC7-425D-8FD5-025C2A0AE3E9": {
+      "date": "2025-05-17",
+      "file": "wordle/2025-05-17-bdc4f72d6f.jpg"
+    },
+    "9E497254-8A2A-45A5-B6E9-95C9DF3C73C5": {
+      "date": "2025-05-18",
+      "file": "wordle/2025-05-18-9e4972548a.jpg"
+    },
+    "708B723F-726E-4648-88BD-DA35F8F179BB": {
+      "date": "2025-05-19",
+      "file": "wordle/2025-05-19-708b723f72.jpg"
+    },
+    "88387F81-1432-4E06-8F55-483A13BD5277": {
+      "date": "2025-05-20",
+      "file": "wordle/2025-05-20-88387f8114.jpg"
+    },
+    "2D13DCBD-7843-4DE9-86D9-54B2F9D35FBB": {
+      "date": "2025-05-21",
+      "file": "wordle/2025-05-21-2d13dcbd78.jpg"
+    },
+    "37483BA7-14B0-4225-8E8E-5A2BE68DD9DB": {
+      "date": "2025-05-22",
+      "file": "wordle/2025-05-22-37483ba714.jpg"
+    },
+    "3A4F4689-BE37-496C-A541-E54D24DCB18C": {
+      "date": "2025-05-23",
+      "file": "wordle/2025-05-23-3a4f4689be.jpg"
+    },
+    "D31C1FC4-ACED-4444-9F7F-10A0E3E85B3C": {
+      "date": "2025-05-24",
+      "file": "wordle/2025-05-24-d31c1fc4ac.jpg"
+    },
+    "1C02BDA6-CA93-41B5-B32F-54BB9F8633D8": {
+      "date": "2025-05-25",
+      "file": "wordle/2025-05-25-1c02bda6ca.jpg"
+    },
+    "E2C47AE2-C4BB-47DE-BB2E-64E49CE40380": {
+      "date": "2025-05-26",
+      "file": "wordle/2025-05-26-e2c47ae2c4.jpg"
+    },
+    "B70C23F3-8B9D-4BA4-A50C-D258FBA4DA30": {
+      "date": "2025-05-27",
+      "file": "wordle/2025-05-27-b70c23f38b.jpg"
+    },
+    "A1983AFE-213A-4C3D-A7FB-523CC4CF9573": {
+      "date": "2025-05-28",
+      "file": "wordle/2025-05-28-a1983afe21.jpg"
+    },
+    "7B6537F0-8931-41AA-96C0-E24DB460B398": {
+      "date": "2025-05-29",
+      "file": "wordle/2025-05-29-7b6537f089.jpg"
+    },
+    "BA4B64B8-65CA-424E-A09F-F6B3CED5C873": {
+      "date": "2025-05-30",
+      "file": "wordle/2025-05-30-ba4b64b865.jpg"
+    },
+    "73A57E0B-AB5A-479A-8AAA-36C90B17F5D2": {
+      "date": "2025-05-31",
+      "file": "wordle/2025-05-31-73a57e0bab.jpg"
+    },
+    "E565EC69-EE52-4607-A4FF-B0328F6529A0": {
+      "date": "2025-06-01",
+      "file": "wordle/2025-06-01-e565ec69ee.jpg"
+    },
+    "9CE374D2-BC78-4959-8184-98D53F8F2F49": {
+      "date": "2025-06-02",
+      "file": "wordle/2025-06-02-9ce374d2bc.jpg"
+    },
+    "25650B82-5E1E-477A-9526-9026FE9881C3": {
+      "date": "2025-06-04",
+      "file": "wordle/2025-06-04-25650b825e.jpg"
+    },
+    "F369C311-2527-47CB-99D7-7DE4EC387823": {
+      "date": "2025-06-05",
+      "file": "wordle/2025-06-05-f369c31125.jpg"
+    },
+    "DE159AB9-B0A9-4287-BDE8-D78EDC26FBD6": {
+      "date": "2025-06-07",
+      "file": "wordle/2025-06-07-de159ab9b0.jpg"
+    },
+    "6D81C94E-7E40-4A5F-8587-338328B3E83B": {
+      "date": "2025-06-08",
+      "file": "wordle/2025-06-08-6d81c94e7e.jpg"
+    },
+    "B621ED2E-523F-4CD1-AFFF-CCD8943A8D4B": {
+      "date": "2025-06-09",
+      "file": "wordle/2025-06-09-b621ed2e52.jpg"
+    },
+    "2AC7557C-F3F9-4BBD-8300-85044F0C668C": {
+      "date": "2025-06-10",
+      "file": "wordle/2025-06-10-2ac7557cf3.jpg"
+    },
+    "763598CF-1493-489E-B065-CCA9857E4258": {
+      "date": "2025-06-11",
+      "file": "wordle/2025-06-11-763598cf14.jpg"
+    },
+    "F1E3A3A0-F553-4A3C-9DA8-819DFE84A30F": {
+      "date": "2025-06-12",
+      "file": "wordle/2025-06-12-f1e3a3a0f5.jpg"
+    },
+    "1564CB9B-2ACB-48C3-8362-D6DE5FD1E908": {
+      "date": "2025-06-13",
+      "file": "wordle/2025-06-13-1564cb9b2a.jpg"
+    },
+    "7A33A888-8FC1-4E15-A4B7-EABA9F5DC4D2": {
+      "date": "2025-06-14",
+      "file": "wordle/2025-06-14-7a33a8888f.jpg"
+    },
+    "B25CD96C-C120-432F-A100-26715ECB4869": {
+      "date": "2025-06-16",
+      "file": "wordle/2025-06-16-b25cd96cc1.jpg"
+    },
+    "187D399A-4D53-494A-B332-3A053D175E2C": {
+      "date": "2025-06-17",
+      "file": "wordle/2025-06-17-187d399a4d.jpg"
+    },
+    "F32A6B32-AAFA-418A-AEEB-713F5120E100": {
+      "date": "2025-06-18",
+      "file": "wordle/2025-06-18-f32a6b32aa.jpg"
+    },
+    "54931411-04EF-49F4-8F1C-48FF42662D81": {
+      "date": "2025-06-19",
+      "file": "wordle/2025-06-19-5493141104.jpg"
+    },
+    "25F6E00F-AB02-47C1-8D29-96C632D10D0F": {
+      "date": "2025-06-20",
+      "file": "wordle/2025-06-20-25f6e00fab.jpg"
+    },
+    "9DF15695-880B-43AD-83C3-A6620E909752": {
+      "date": "2025-06-22",
+      "file": "wordle/2025-06-22-9df1569588.jpg"
+    },
+    "E30ADAF1-1113-4452-889A-1A28E6BA5C82": {
+      "date": "2025-06-23",
+      "file": "wordle/2025-06-23-e30adaf111.jpg"
+    },
+    "EA0FF4DE-11A6-42B7-9A71-53C78ACEB46B": {
+      "date": "2025-06-24",
+      "file": "wordle/2025-06-24-ea0ff4de11.jpg"
+    },
+    "E0312B2D-4485-4A2A-B9F9-4ADF2DBC1406": {
+      "date": "2025-06-26",
+      "file": "wordle/2025-06-26-e0312b2d44.jpg"
+    },
+    "6DD6C582-BD3A-46F6-81E1-26AA6C24BC4D": {
+      "date": "2025-06-27",
+      "file": "wordle/2025-06-27-6dd6c582bd.jpg"
+    },
+    "8B341B32-3345-475F-BD41-1BD5B83DC044": {
+      "date": "2025-06-28",
+      "file": "wordle/2025-06-28-8b341b3233.jpg"
+    },
+    "F94F589A-8DD0-43F5-8A06-5945CA5A8B98": {
+      "date": "2025-06-29",
+      "file": "wordle/2025-06-29-f94f589a8d.jpg"
+    },
+    "32DF78FB-0708-49BE-9CE8-0F4FD75A4963": {
+      "date": "2025-06-30",
+      "file": "wordle/2025-06-30-32df78fb07.jpg"
+    },
+    "6B91213A-6B2D-482D-84D7-F54857FDCCD8": {
+      "date": "2025-07-01",
+      "file": "wordle/2025-07-01-6b91213a6b.jpg"
+    },
+    "824036A7-AA09-40C8-B809-E9930966DC13": {
+      "date": "2025-07-02",
+      "file": "wordle/2025-07-02-824036a7aa.jpg"
+    },
+    "08C426FA-52B0-44BF-A64F-6AC9A11B356E": {
+      "date": "2025-07-03",
+      "file": "wordle/2025-07-03-08c426fa52.jpg"
+    },
+    "2074C352-1F38-4747-BAAD-69DCB6956853": {
+      "date": "2025-07-04",
+      "file": "wordle/2025-07-04-2074c3521f.jpg"
+    },
+    "B8B4C1AF-A820-47E0-B543-AC72F6AA0B51": {
+      "date": "2025-07-05",
+      "file": "wordle/2025-07-05-b8b4c1afa8.jpg"
+    },
+    "5E885837-9314-4AA7-99CC-A40EDB8204AB": {
+      "date": "2025-07-07",
+      "file": "wordle/2025-07-07-5e88583793.jpg"
+    },
+    "E44ABD60-4953-48C4-BA63-4B5DCE24CB75": {
+      "date": "2025-07-08",
+      "file": "wordle/2025-07-08-e44abd6049.jpg"
+    },
+    "6E9D7930-DF98-42AB-AB79-D166E2581322": {
+      "date": "2025-07-09",
+      "file": "wordle/2025-07-09-6e9d7930df.jpg"
+    },
+    "2A52F093-F7E2-421C-AEF3-F8BD28F41613": {
+      "date": "2025-07-10",
+      "file": "wordle/2025-07-10-2a52f093f7.jpg"
+    },
+    "B13A870C-E417-4AC7-92E4-F529F6850327": {
+      "date": "2025-07-11",
+      "file": "wordle/2025-07-11-b13a870ce4.jpg"
+    },
+    "6071C845-9BB0-4718-B56B-F588F4BDE071": {
+      "date": "2025-07-12",
+      "file": "wordle/2025-07-12-6071c8459b.jpg"
+    },
+    "3B88D6A8-8535-45EE-9B3D-6740B53D49F2": {
+      "date": "2025-07-13",
+      "file": "wordle/2025-07-13-3b88d6a885.jpg"
+    },
+    "DFC645DB-B78C-41FD-A1D0-1C79D89B8F73": {
+      "date": "2025-07-14",
+      "file": "wordle/2025-07-14-dfc645dbb7.jpg"
+    },
+    "CDD0D5D4-D0FD-44E1-B308-39C3C19272BC": {
+      "date": "2025-07-15",
+      "file": "wordle/2025-07-15-cdd0d5d4d0.jpg"
+    },
+    "1B16123E-91BD-4EB7-9C0B-52DD2F40F761": {
+      "date": "2025-07-16",
+      "file": "wordle/2025-07-16-1b16123e91.jpg"
+    },
+    "2BC09263-9717-4306-9D56-795D338B01B3": {
+      "date": "2025-07-17",
+      "file": "wordle/2025-07-17-2bc0926397.jpg"
+    },
+    "B5385C8D-A7BC-45B4-B879-A8C3ADA25195": {
+      "date": "2025-07-21",
+      "file": "wordle/2025-07-21-b5385c8da7.jpg"
+    },
+    "87749732-FFB2-4597-B583-8EF3DE84B9D8": {
+      "date": "2025-07-22",
+      "file": "wordle/2025-07-22-87749732ff.jpg"
+    },
+    "8AEE0645-37B2-47D3-BCA5-302270E40BEC": {
+      "date": "2025-07-23",
+      "file": "wordle/2025-07-23-8aee064537.jpg"
+    },
+    "4001C925-4DAA-4ED6-BC27-5DE911DB67C9": {
+      "date": "2025-07-24",
+      "file": "wordle/2025-07-24-4001c9254d.jpg"
+    },
+    "34476F61-FE72-49A4-9267-4476B440122A": {
+      "date": "2025-07-25",
+      "file": "wordle/2025-07-25-34476f61fe.jpg"
+    },
+    "3B018474-068D-4214-846A-3F226C9A5FF3": {
+      "date": "2025-07-26",
+      "file": "wordle/2025-07-26-3b01847406.jpg"
+    },
+    "E04C2121-6284-487E-89D3-5C5D4BD6C293": {
+      "date": "2025-07-29",
+      "file": "wordle/2025-07-29-e04c212162.jpg"
+    },
+    "EAD7E590-B72C-4688-A416-E4299CF2A75A": {
+      "date": "2025-07-30",
+      "file": "wordle/2025-07-30-ead7e590b7.jpg"
+    },
+    "66CB1E13-19C7-4AF7-A53E-DE2F45A80E2A": {
+      "date": "2025-07-31",
+      "file": "wordle/2025-07-31-66cb1e1319.jpg"
+    },
+    "72042CC0-7E4C-4081-873E-653DBC9C5D6C": {
+      "date": "2025-08-01",
+      "file": "wordle/2025-08-01-72042cc07e.jpg"
+    },
+    "83098F7C-1056-464F-8CE6-A6C505D23AFD": {
+      "date": "2025-08-02",
+      "file": "wordle/2025-08-02-83098f7c10.jpg"
+    },
+    "B8A960D7-FC7A-4635-832B-FCF03FC2966F": {
+      "date": "2025-08-03",
+      "file": "wordle/2025-08-03-b8a960d7fc.jpg"
+    },
+    "F89EC6AD-A75B-4124-B744-688513874ACA": {
+      "date": "2025-08-05",
+      "file": "wordle/2025-08-05-f89ec6ada7.jpg"
+    },
+    "3B65B752-DAC9-4C13-85B1-3206778D4A7C": {
+      "date": "2025-08-06",
+      "file": "wordle/2025-08-06-3b65b752da.jpg"
+    },
+    "B56D8D0A-28C8-4F4E-82B1-9F34CB12057C": {
+      "date": "2025-08-09",
+      "file": "wordle/2025-08-09-b56d8d0a28.jpg"
+    },
+    "BF82D24D-8CCE-4243-B601-7489655D6272": {
+      "date": "2025-08-10",
+      "file": "wordle/2025-08-10-bf82d24d8c.jpg"
+    },
+    "1D4173B3-79F3-4FDD-B070-C4123A2E4E0D": {
+      "date": "2025-08-12",
+      "file": "wordle/2025-08-12-1d4173b379.jpg"
+    },
+    "A2C95624-76F3-4599-80D2-6CD137DC19E7": {
+      "date": "2025-08-13",
+      "file": "wordle/2025-08-13-a2c9562476.jpg"
+    },
+    "64498A0D-278C-4D3C-B098-012ABF35636D": {
+      "date": "2025-08-14",
+      "file": "wordle/2025-08-14-64498a0d27.jpg"
+    },
+    "424E6842-2E16-40AD-B733-C19D52921E3B": {
+      "date": "2025-08-15",
+      "file": "wordle/2025-08-15-424e68422e.jpg"
+    },
+    "79212835-337E-418E-B568-FD384231C6BE": {
+      "date": "2025-08-16",
+      "file": "wordle/2025-08-16-7921283533.jpg"
+    },
+    "DD515C36-20BA-4D88-B3B1-CCA560B40011": {
+      "date": "2025-08-18",
+      "file": "wordle/2025-08-18-dd515c3620.jpg"
+    },
+    "6126A424-5DD4-4C34-A654-56DD6BE66668": {
+      "date": "2025-08-19",
+      "file": "wordle/2025-08-19-6126a4245d.jpg"
+    },
+    "C2ECB990-7940-4C35-8090-5F96F4F315FB": {
+      "date": "2025-08-20",
+      "file": "wordle/2025-08-20-c2ecb99079.jpg"
+    },
+    "0F1464B6-1AC4-490E-A98F-D8389EAA3B91": {
+      "date": "2025-08-21",
+      "file": "wordle/2025-08-21-0f1464b61a.jpg"
+    },
+    "25A048C9-BCA8-4AE4-9294-C7F60D59EA07": {
+      "date": "2025-08-22",
+      "file": "wordle/2025-08-22-25a048c9bc.jpg"
+    },
+    "B4DA8CF2-534D-4403-BBF5-2BDC39A5FF4E": {
+      "date": "2025-08-23",
+      "file": "wordle/2025-08-23-b4da8cf253.jpg"
+    },
+    "444BC6CE-329A-449F-8FBA-3DE74F34CEF1": {
+      "date": "2025-08-24",
+      "file": "wordle/2025-08-24-444bc6ce32.jpg"
+    },
+    "049E05AF-BCD5-4E38-A09F-7FB142114BB1": {
+      "date": "2025-08-26",
+      "file": "wordle/2025-08-26-049e05afbc.jpg"
+    },
+    "FD75C7B6-B2A1-4D5A-B7B4-CBA4889B158F": {
+      "date": "2025-08-27",
+      "file": "wordle/2025-08-27-fd75c7b6b2.jpg"
+    },
+    "3F226FA7-9DC2-4896-8429-86901BB8FF82": {
+      "date": "2025-08-28",
+      "file": "wordle/2025-08-28-3f226fa79d.jpg"
+    },
+    "FBD38F90-00A5-415F-B3D9-3C05D77599D5": {
+      "date": "2025-08-29",
+      "file": "wordle/2025-08-29-fbd38f9000.jpg"
+    },
+    "B48818D6-F22F-4D7E-90D4-263F6154B61E": {
+      "date": "2025-08-30",
+      "file": "wordle/2025-08-30-b48818d6f2.jpg"
+    },
+    "A11CF0C8-29D6-4363-B5E6-54944EB206CC": {
+      "date": "2025-08-31",
+      "file": "wordle/2025-08-31-a11cf0c829.jpg"
+    },
+    "3227A1D9-CD37-4B72-B005-E2C60D4EA3CD": {
+      "date": "2025-09-01",
+      "file": "wordle/2025-09-01-3227a1d9cd.jpg"
+    },
+    "DEF88EDE-1EC6-41F7-8958-732A7364F2AE": {
+      "date": "2025-09-02",
+      "file": "wordle/2025-09-02-def88ede1e.jpg"
+    },
+    "F6C011BD-11EB-4E17-A14F-6CF03B978F5F": {
+      "date": "2025-09-03",
+      "file": "wordle/2025-09-03-f6c011bd11.jpg"
+    },
+    "54332E0B-78D7-41BB-8BEA-79777A41A177": {
+      "date": "2025-09-04",
+      "file": "wordle/2025-09-04-54332e0b78.jpg"
+    },
+    "650C1E74-098F-49E8-AF1A-3718093BBFEE": {
+      "date": "2025-09-05",
+      "file": "wordle/2025-09-05-650c1e7409.jpg"
+    },
+    "8B9694B3-E844-4B01-909B-8359A20BFCE4": {
+      "date": "2025-09-06",
+      "file": "wordle/2025-09-06-8b9694b3e8.jpg"
+    },
+    "10FDDBD3-AE36-49B2-9B4A-7ACE5E6348E1": {
+      "date": "2025-09-07",
+      "file": "wordle/2025-09-07-10fddbd3ae.jpg"
+    },
+    "385C386D-791A-4AB6-A714-6C55ABF84B42": {
+      "date": "2025-09-08",
+      "file": "wordle/2025-09-08-385c386d79.jpg"
+    },
+    "A703C472-B32A-4055-BB14-14043A034ABC": {
+      "date": "2025-09-09",
+      "file": "wordle/2025-09-09-a703c472b3.jpg"
+    },
+    "03DD557A-47EB-4F1F-8553-D4DC3E44D93A": {
+      "date": "2025-09-11",
+      "file": "wordle/2025-09-11-03dd557a47.jpg"
+    },
+    "023A014E-6E69-4F50-B58F-7A52139D02B3": {
+      "date": "2025-09-13",
+      "file": "wordle/2025-09-13-023a014e6e.jpg"
+    },
+    "1DA4A9FC-86C1-4A4C-95EA-5619B7DE6149": {
+      "date": "2025-09-14",
+      "file": "wordle/2025-09-14-1da4a9fc86.jpg"
+    },
+    "C451D3C0-8DD0-4244-BF99-EEAEF117B23D": {
+      "date": "2025-09-15",
+      "file": "wordle/2025-09-15-c451d3c08d.jpg"
+    },
+    "4161B980-3973-4925-A664-891228C8B9DF": {
+      "date": "2025-09-16",
+      "file": "wordle/2025-09-16-4161b98039.jpg"
+    },
+    "7BABBDDD-629B-4968-BBA7-B5324F9652B4": {
+      "date": "2025-09-17",
+      "file": "wordle/2025-09-17-7babbddd62.jpg"
+    },
+    "F1271502-3E85-424A-A77D-D96A01E37DA6": {
+      "date": "2025-09-18",
+      "file": "wordle/2025-09-18-f12715023e.jpg"
+    },
+    "58A809D8-A2F0-4B06-AEB1-7308681067D8": {
+      "date": "2025-09-19",
+      "file": "wordle/2025-09-19-58a809d8a2.jpg"
+    },
+    "81212F8F-CB04-4A7C-9A63-88E827C0E7B9": {
+      "date": "2025-09-20",
+      "file": "wordle/2025-09-20-81212f8fcb.jpg"
+    },
+    "44871A29-AF79-49F7-A113-A8EC9C1CFA14": {
+      "date": "2025-09-21",
+      "file": "wordle/2025-09-21-44871a29af.jpg"
+    },
+    "046BBCD7-75D4-4129-9ED9-04FE15DD8568": {
+      "date": "2025-09-22",
+      "file": "wordle/2025-09-22-046bbcd775.jpg"
+    },
+    "6246B277-67D2-4D3E-A82D-EB69C39D1CBE": {
+      "date": "2025-09-23",
+      "file": "wordle/2025-09-23-6246b27767.jpg"
+    },
+    "6261C867-9462-46C2-9268-8F01C57E1314": {
+      "date": "2025-09-24",
+      "file": "wordle/2025-09-24-6261c86794.jpg"
+    },
+    "841453CD-C014-41E8-95E3-73C6F2CEB41E": {
+      "date": "2025-09-25",
+      "file": "wordle/2025-09-25-841453cdc0.jpg"
+    },
+    "43CA93D4-F1E9-45F6-B1CE-C50F1A14FD2E": {
+      "date": "2025-09-26",
+      "file": "wordle/2025-09-26-43ca93d4f1.jpg"
+    },
+    "AACE5B36-E607-4E08-8447-2917543C67C8": {
+      "date": "2025-09-27",
+      "file": "wordle/2025-09-27-aace5b36e6.jpg"
+    },
+    "7E0FD1C1-9293-4D24-A9AC-34404C14783B": {
+      "date": "2025-09-28",
+      "file": "wordle/2025-09-28-7e0fd1c192.jpg"
+    },
+    "26C95BE8-E271-4D7D-9A67-7B48BAFAC31B": {
+      "date": "2025-09-29",
+      "file": "wordle/2025-09-29-26c95be8e2.jpg"
+    },
+    "E1687E14-F6F3-474A-9CB4-59A83EE19572": {
+      "date": "2025-09-30",
+      "file": "wordle/2025-09-30-e1687e14f6.jpg"
+    },
+    "99E6461D-A1C7-481B-B347-28E60F2672CB": {
+      "date": "2025-10-01",
+      "file": "wordle/2025-10-01-99e6461da1.jpg"
+    },
+    "B1B50622-F4E0-4AFC-AD43-29FF67F2DA31": {
+      "date": "2025-10-02",
+      "file": "wordle/2025-10-02-b1b50622f4.jpg"
+    },
+    "F7E4EBBF-556E-4C7F-A80B-D4A0CE130779": {
+      "date": "2025-10-03",
+      "file": "wordle/2025-10-03-f7e4ebbf55.jpg"
+    },
+    "1078DFE6-2779-4781-B7E7-C7A676B1AAFE": {
+      "date": "2025-10-05",
+      "file": "wordle/2025-10-05-1078dfe627.jpg"
+    },
+    "4D5F4135-E263-4A89-A6CB-D4C7A1CD6147": {
+      "date": "2025-10-07",
+      "file": "wordle/2025-10-07-4d5f4135e2.jpg"
+    },
+    "97FB6F72-7A2C-4B2F-A1CA-26C672809F8F": {
+      "date": "2025-10-08",
+      "file": "wordle/2025-10-08-97fb6f727a.jpg"
+    },
+    "495864A1-EED5-4627-A301-5ECACBE9B532": {
+      "date": "2025-10-09",
+      "file": "wordle/2025-10-09-495864a1ee.jpg"
+    },
+    "B61FF100-F47D-4D59-A56F-6DD7E8C41C56": {
+      "date": "2025-10-10",
+      "file": "wordle/2025-10-10-b61ff100f4.jpg"
+    },
+    "912B2C8D-CB04-45E7-AE3F-E8FDD1D09ACE": {
+      "date": "2025-10-11",
+      "file": "wordle/2025-10-11-912b2c8dcb.jpg"
+    },
+    "43F6AA61-52AF-4820-A246-EB6B63C4B433": {
+      "date": "2025-10-12",
+      "file": "wordle/2025-10-12-43f6aa6152.jpg"
+    },
+    "C22EAEDF-6204-4335-A6BE-792A4DDCD62E": {
+      "date": "2025-10-13",
+      "file": "wordle/2025-10-13-c22eaedf62.jpg"
+    },
+    "F388798C-6F13-4EC2-8B21-3FBEFAE4546C": {
+      "date": "2025-10-14",
+      "file": "wordle/2025-10-14-f388798c6f.jpg"
+    },
+    "D5B88A26-494E-4566-A079-8CBB18E2D4F3": {
+      "date": "2025-10-15",
+      "file": "wordle/2025-10-15-d5b88a2649.jpg"
+    },
+    "86CFE20F-1843-4312-BD61-A21AE596B6B2": {
+      "date": "2025-10-16",
+      "file": "wordle/2025-10-16-86cfe20f18.jpg"
+    },
+    "42227A19-7152-4D80-AA06-47E78D257528": {
+      "date": "2025-10-17",
+      "file": "wordle/2025-10-17-42227a1971.jpg"
+    },
+    "7F929C66-718B-4CC9-97CC-77D0BF60387C": {
+      "date": "2025-10-18",
+      "file": "wordle/2025-10-18-7f929c6671.jpg"
+    },
+    "8A08C982-AA5B-4075-802A-2C3F34DEA862": {
+      "date": "2025-10-19",
+      "file": "wordle/2025-10-19-8a08c982aa.jpg"
+    },
+    "C160BE10-8AE5-4C51-99E9-92E32A35604E": {
+      "date": "2025-10-20",
+      "file": "wordle/2025-10-20-c160be108a.jpg"
+    },
+    "55B8BBBF-42B4-44D0-B723-C64A4F30B345": {
+      "date": "2025-10-21",
+      "file": "wordle/2025-10-21-55b8bbbf42.jpg"
+    },
+    "A0E409F7-0D05-424A-A84D-840C501A57BD": {
+      "date": "2025-10-22",
+      "file": "wordle/2025-10-22-a0e409f70d.jpg"
+    },
+    "4BD5DEC7-16A3-4310-9E39-05BA9D4B7B21": {
+      "date": "2025-10-23",
+      "file": "wordle/2025-10-23-4bd5dec716.jpg"
+    },
+    "2CF29C30-460E-4FFB-8A58-113E66848A70": {
+      "date": "2025-10-25",
+      "file": "wordle/2025-10-25-2cf29c3046.jpg"
+    },
+    "C3F4C303-AB2F-4EFC-9830-FA45A2A12308": {
+      "date": "2025-10-27",
+      "file": "wordle/2025-10-27-c3f4c303ab.jpg"
+    },
+    "D93451C5-EC46-4636-BBBD-F32CA776B724": {
+      "date": "2025-10-28",
+      "file": "wordle/2025-10-28-d93451c5ec.jpg"
+    },
+    "559B973E-9843-43C3-AF8A-0AA57EB43363": {
+      "date": "2025-10-29",
+      "file": "wordle/2025-10-29-559b973e98.jpg"
+    },
+    "8230D442-EF4E-4993-9825-66CEAFF8DCEF": {
+      "date": "2025-10-30",
+      "file": "wordle/2025-10-30-8230d442ef.jpg"
+    },
+    "229DC898-A460-46BE-8CB5-FAE9CD009984": {
+      "date": "2025-10-31",
+      "file": "wordle/2025-10-31-229dc898a4.jpg"
+    },
+    "9AC8DCC3-ABE1-4594-8A3F-60A5A17B883F": {
+      "date": "2025-11-01",
+      "file": "wordle/2025-11-01-9ac8dcc3ab.jpg"
+    },
+    "807EF805-1B85-42AA-9E4E-74BF9065312E": {
+      "date": "2025-11-02",
+      "file": "wordle/2025-11-02-807ef8051b.jpg"
+    },
+    "7858EB37-897C-4BBB-82FF-2E168853B4FE": {
+      "date": "2025-11-03",
+      "file": "wordle/2025-11-03-7858eb3789.jpg"
+    },
+    "8B6EBB59-A792-4F28-8FB3-E5DAE71F3A68": {
+      "date": "2025-11-04",
+      "file": "wordle/2025-11-04-8b6ebb59a7.jpg"
+    },
+    "BA804AD6-6605-4457-9578-C3055E4F723C": {
+      "date": "2025-11-05",
+      "file": "wordle/2025-11-05-ba804ad666.jpg"
+    },
+    "91B7D54F-8083-4805-8934-E8168A2C2952": {
+      "date": "2025-11-06",
+      "file": "wordle/2025-11-06-91b7d54f80.jpg"
+    },
+    "1490A1F9-F84E-4A8A-8F5E-634B5D3FFC81": {
+      "date": "2025-11-08",
+      "file": "wordle/2025-11-08-1490a1f9f8.jpg"
+    },
+    "037ACD07-ECBF-40CC-A96F-719ED2BCB558": {
+      "date": "2025-11-09",
+      "file": "wordle/2025-11-09-037acd07ec.jpg"
+    },
+    "D30D17E2-3683-4909-9934-AB58649E4954": {
+      "date": "2025-11-10",
+      "file": "wordle/2025-11-10-d30d17e236.jpg"
+    },
+    "6BC877B8-49C4-46A0-AA2A-2D5417295241": {
+      "date": "2025-11-11",
+      "file": "wordle/2025-11-11-6bc877b849.jpg"
+    },
+    "678938CB-AFA7-4D59-BC43-308DA35E9738": {
+      "date": "2025-11-12",
+      "file": "wordle/2025-11-12-678938cbaf.jpg"
+    },
+    "FE3EAB78-FC33-4714-8A88-F9E3E12CA05C": {
+      "date": "2025-11-13",
+      "file": "wordle/2025-11-13-fe3eab78fc.jpg"
+    },
+    "0D9FD5A3-3B27-440D-8AFE-A416200169A8": {
+      "date": "2025-11-14",
+      "file": "wordle/2025-11-14-0d9fd5a33b.jpg"
+    },
+    "7FFC59A9-EA6F-4DB4-99B3-E9573BD6D7C3": {
+      "date": "2025-11-15",
+      "file": "wordle/2025-11-15-7ffc59a9ea.jpg"
+    },
+    "94BB2644-DD94-424D-9FE8-EE432CC85DF6": {
+      "date": "2025-11-16",
+      "file": "wordle/2025-11-16-94bb2644dd.jpg"
+    },
+    "FF58D83B-8156-4771-98E3-E2BA4D48DDA5": {
+      "date": "2025-11-18",
+      "file": "wordle/2025-11-18-ff58d83b81.jpg"
+    },
+    "F737EF8F-090A-4AD5-BE7F-DD1F14CB2133": {
+      "date": "2025-11-19",
+      "file": "wordle/2025-11-19-f737ef8f09.jpg"
+    },
+    "4CF759C8-93D8-4DA8-869D-433968B2AF5E": {
+      "date": "2025-11-20",
+      "file": "wordle/2025-11-20-4cf759c893.jpg"
+    },
+    "D58A7043-6324-459F-A323-311B134B6FAF": {
+      "date": "2025-11-21",
+      "file": "wordle/2025-11-21-d58a704363.jpg"
+    },
+    "DAE266BA-1844-47DD-9FB4-86AF2721B79B": {
+      "date": "2025-11-22",
+      "file": "wordle/2025-11-22-dae266ba18.jpg"
+    },
+    "656AC101-8B86-446D-94DB-161F143CE5BC": {
+      "date": "2025-11-23",
+      "file": "wordle/2025-11-23-656ac1018b.jpg"
+    },
+    "36101C11-660C-4253-9E9D-6FA2E96F360D": {
+      "date": "2025-11-24",
+      "file": "wordle/2025-11-24-36101c1166.jpg"
+    },
+    "DE1C235A-DD3F-4184-9955-FAF4E5727D3F": {
+      "date": "2025-11-25",
+      "file": "wordle/2025-11-25-de1c235add.jpg"
+    },
+    "1B519D22-982C-45F4-BF71-65EBF0195852": {
+      "date": "2025-11-26",
+      "file": "wordle/2025-11-26-1b519d2298.jpg"
+    },
+    "CB7FEE11-5F8E-4468-AB0F-6621A540DD4C": {
+      "date": "2025-11-27",
+      "file": "wordle/2025-11-27-cb7fee115f.jpg"
+    },
+    "84EF392E-41D2-483A-812A-AF7776D6695C": {
+      "date": "2025-11-28",
+      "file": "wordle/2025-11-28-84ef392e41.jpg"
+    },
+    "2A242081-DF2B-43A7-9319-92502BEB058E": {
+      "date": "2025-11-29",
+      "file": "wordle/2025-11-29-2a242081df.jpg"
+    },
+    "BE764963-838D-4C5D-B43F-FFA8F0BEBA53": {
+      "date": "2025-11-30",
+      "file": "wordle/2025-11-30-be76496383.jpg"
+    },
+    "07416010-FF5C-49E0-94D1-BB5874CA394A": {
+      "date": "2025-12-01",
+      "file": "wordle/2025-12-01-07416010ff.jpg"
+    },
+    "CC797519-768A-466D-A9E7-F96C25A1D0E5": {
+      "date": "2025-12-02",
+      "file": "wordle/2025-12-02-cc79751976.jpg"
+    },
+    "DE038CDE-6BD8-43B5-9C0A-A2C7C4694E31": {
+      "date": "2025-12-03",
+      "file": "wordle/2025-12-03-de038cde6b.jpg"
+    },
+    "E6AEF2DD-4014-432B-A194-AF99A3E36C90": {
+      "date": "2025-12-04",
+      "file": "wordle/2025-12-04-e6aef2dd40.jpg"
+    },
+    "2C396B08-F954-4267-A400-719800475F7A": {
+      "date": "2025-12-05",
+      "file": "wordle/2025-12-05-2c396b08f9.jpg"
+    },
+    "87343CB5-AF07-4C43-B293-98B6D5D9F8C1": {
+      "date": "2025-12-06",
+      "file": "wordle/2025-12-06-87343cb5af.jpg"
+    },
+    "8FD55AFA-901B-48FE-9CF7-5A5B28E25F31": {
+      "date": "2025-12-07",
+      "file": "wordle/2025-12-07-8fd55afa90.jpg"
+    },
+    "18A3A60A-2C5C-4AC9-A37D-50527B972A2C": {
+      "date": "2025-12-08",
+      "file": "wordle/2025-12-08-18a3a60a2c.jpg"
+    },
+    "99C2DE34-7596-4DF5-A9DA-D6EDCB143BD2": {
+      "date": "2025-12-09",
+      "file": "wordle/2025-12-09-99c2de3475.jpg"
+    },
+    "454B8C31-117E-45A3-8D0D-AEE8C664075C": {
+      "date": "2025-12-10",
+      "file": "wordle/2025-12-10-454b8c3111.jpg"
+    },
+    "8EB2D196-08C2-4ACE-83BE-E064C8AC9775": {
+      "date": "2025-12-11",
+      "file": "wordle/2025-12-11-8eb2d19608.jpg"
+    },
+    "97E7D227-7590-4044-8A00-C9A9DDD5757F": {
+      "date": "2025-12-12",
+      "file": "wordle/2025-12-12-97e7d22775.jpg"
+    },
+    "8929D1DA-5BD2-4F41-8780-C1EA098C28CB": {
+      "date": "2025-12-14",
+      "file": "wordle/2025-12-14-8929d1da5b.jpg"
+    },
+    "E5EEFBBE-75AC-4EB6-B1EC-6583C3D122FB": {
+      "date": "2025-12-15",
+      "file": "wordle/2025-12-15-e5eefbbe75.jpg"
+    },
+    "474C61BB-CB9C-404A-89C2-0CE20F912760": {
+      "date": "2025-12-16",
+      "file": "wordle/2025-12-16-474c61bbcb.jpg"
+    },
+    "B93488D3-D1E0-401B-9BDB-4694B49D355C": {
+      "date": "2025-12-17",
+      "file": "wordle/2025-12-17-b93488d3d1.jpg"
+    },
+    "0ED1B36C-81D1-4F95-A3B3-A3989F023114": {
+      "date": "2025-12-18",
+      "file": "wordle/2025-12-18-0ed1b36c81.jpg"
+    },
+    "5ABEB565-93B1-4A2E-83F9-B3CA6D0610EF": {
+      "date": "2025-12-19",
+      "file": "wordle/2025-12-19-5abeb56593.jpg"
+    },
+    "4EEC5212-B4D8-45A3-BD58-4831859EBABE": {
+      "date": "2025-12-21",
+      "file": "wordle/2025-12-21-4eec5212b4.jpg"
+    },
+    "860A1D90-8E0F-4C77-B27D-11DDE51224DA": {
+      "date": "2025-12-22",
+      "file": "wordle/2025-12-22-860a1d908e.jpg"
+    },
+    "2C9B5CFD-2F1A-4A60-A38A-1D43E2B79824": {
+      "date": "2025-12-23",
+      "file": "wordle/2025-12-23-2c9b5cfd2f.jpg"
+    },
+    "5520E426-3285-4390-A9A4-42BAC58A0930": {
+      "date": "2025-12-24",
+      "file": "wordle/2025-12-24-5520e42632.jpg"
+    },
+    "052EEF28-BF1B-4F92-9C34-93D9548C5A59": {
+      "date": "2025-12-25",
+      "file": "wordle/2025-12-25-052eef28bf.jpg"
+    },
+    "38EC4AE0-B7F6-42A7-A2BD-86EAC1552C48": {
+      "date": "2025-12-26",
+      "file": "wordle/2025-12-26-38ec4ae0b7.jpg"
+    },
+    "E6C3C5FC-FB47-4A1A-B322-4654DABDF141": {
+      "date": "2025-12-29",
+      "file": "wordle/2025-12-29-e6c3c5fcfb.jpg"
+    },
+    "168C59AA-696F-4EC1-8864-7E1E5AC84012": {
+      "date": "2025-12-30",
+      "file": "wordle/2025-12-30-168c59aa69.jpg"
+    },
+    "D605667E-DEC7-4404-8FEB-CB9433AFA130": {
+      "date": "2025-12-31",
+      "file": "wordle/2025-12-31-d605667ede.jpg"
+    },
+    "F91058E7-08B5-4F13-AB66-45DDB8DA81ED": {
+      "date": "2026-01-01",
+      "file": "wordle/2026-01-01-f91058e708.jpg"
+    },
+    "745293F8-DEE2-4E7B-81BF-CA83AD84760B": {
+      "date": "2026-01-02",
+      "file": "wordle/2026-01-02-745293f8de.jpg"
+    },
+    "4CD0C29A-6827-480B-95D8-BFABF04174E2": {
+      "date": "2026-01-03",
+      "file": "wordle/2026-01-03-4cd0c29a68.jpg"
+    },
+    "3E1B1913-FBB9-413C-84A8-B34093696966": {
+      "date": "2026-01-04",
+      "file": "wordle/2026-01-04-3e1b1913fb.jpg"
+    },
+    "17E6BFAC-4C6F-4CF7-99B4-1DD904AB3CFD": {
+      "date": "2026-01-05",
+      "file": "wordle/2026-01-05-17e6bfac4c.jpg"
+    },
+    "5A661B61-FA14-4117-9B12-41CC8B41D289": {
+      "date": "2026-01-08",
+      "file": "wordle/2026-01-08-5a661b61fa.jpg"
+    },
+    "CA50DB83-FEBA-4F2E-9EF9-1A2473BA617D": {
+      "date": "2026-01-10",
+      "file": "wordle/2026-01-10-ca50db83fe.jpg"
+    },
+    "4E74ADBD-E4CB-4B74-9609-AF0716458FFF": {
+      "date": "2026-01-11",
+      "file": "wordle/2026-01-11-4e74adbde4.jpg"
+    },
+    "D94AC484-59DE-4570-90CD-FE7450DA48F5": {
+      "date": "2026-01-12",
+      "file": "wordle/2026-01-12-d94ac48459.jpg"
+    },
+    "CFFDE309-9F09-492D-8193-803A92F45386": {
+      "date": "2026-01-15",
+      "file": "wordle/2026-01-15-cffde3099f.jpg"
+    },
+    "6AF3E849-9E0E-4685-BE46-4F720BE833D7": {
+      "date": "2026-01-16",
+      "file": "wordle/2026-01-16-6af3e8499e.jpg"
+    },
+    "119A9681-CCBD-4983-9CDB-56DB8E1D8D56": {
+      "date": "2026-01-17",
+      "file": "wordle/2026-01-17-119a9681cc.jpg"
+    },
+    "64684541-33C6-4B45-88BB-5981FF1FC01B": {
+      "date": "2026-01-20",
+      "file": "wordle/2026-01-20-6468454133.jpg"
+    },
+    "A3F77CC4-4DB2-482E-9C4D-6BE3CF0D3928": {
+      "date": "2026-01-21",
+      "file": "wordle/2026-01-21-a3f77cc44d.jpg"
+    },
+    "AACFADA8-8174-4931-BB94-0B2F9B6B88C9": {
+      "date": "2026-01-22",
+      "file": "wordle/2026-01-22-aacfada881.jpg"
+    },
+    "E0F55B4D-479B-445D-BC20-E8D16D60CCEB": {
+      "date": "2026-01-23",
+      "file": "wordle/2026-01-23-e0f55b4d47.jpg"
+    },
+    "55B031C0-D53F-49F4-8E6D-F0244270FD30": {
+      "date": "2026-01-25",
+      "file": "wordle/2026-01-25-55b031c0d5.jpg"
+    },
+    "F4031A60-C1B2-44C4-B79D-F82E308C850F": {
+      "date": "2026-01-26",
+      "file": "wordle/2026-01-26-f4031a60c1.jpg"
+    },
+    "482CC4C9-5F2E-4960-B4EF-91AE3374D885": {
+      "date": "2026-01-27",
+      "file": "wordle/2026-01-27-482cc4c95f.jpg"
+    },
+    "6BD284D3-1FD2-47DF-AFCE-D70A07F6084C": {
+      "date": "2026-01-29",
+      "file": "wordle/2026-01-29-6bd284d31f.jpg"
+    },
+    "AD8E300B-3012-4149-BD45-18C529A9B5E5": {
+      "date": "2026-01-31",
+      "file": "wordle/2026-01-31-ad8e300b30.jpg"
+    },
+    "CF9B8A6D-473E-429B-BC2F-7DE443DD624D": {
+      "date": "2026-02-01",
+      "file": "wordle/2026-02-01-cf9b8a6d47.jpg"
+    },
+    "A4502704-EE4C-422E-B42D-B1E32AE1C37F": {
+      "date": "2026-02-02",
+      "file": "wordle/2026-02-02-a4502704ee.jpg"
+    },
+    "9645D564-CBBE-4B8A-926E-354AF098FD08": {
+      "date": "2026-02-03",
+      "file": "wordle/2026-02-03-9645d564cb.jpg"
+    },
+    "8489EDC1-D313-405A-BD06-C4928B130DE0": {
+      "date": "2026-02-04",
+      "file": "wordle/2026-02-04-8489edc1d3.jpg"
+    },
+    "8763074B-1E31-4B6C-8F40-E833624C072C": {
+      "date": "2026-02-05",
+      "file": "wordle/2026-02-05-8763074b1e.jpg"
+    },
+    "69C1CCF9-3FAA-4DC0-B5BE-4B6F22573048": {
+      "date": "2026-02-08",
+      "file": "wordle/2026-02-08-69c1ccf93f.jpg"
+    },
+    "2269E064-DA89-4534-8570-192FE7B08688": {
+      "date": "2026-02-09",
+      "file": "wordle/2026-02-09-2269e064da.jpg"
+    },
+    "87B98EB4-B241-4989-8C90-980E798E2755": {
+      "date": "2026-02-10",
+      "file": "wordle/2026-02-10-87b98eb4b2.jpg"
+    },
+    "9A3B579F-CD58-468E-ABB6-0EB649427EFB": {
+      "date": "2026-02-11",
+      "file": "wordle/2026-02-11-9a3b579fcd.jpg"
+    },
+    "02F27F8D-3552-400C-BDAA-8EB1F26BCB3B": {
+      "date": "2026-02-12",
+      "file": "wordle/2026-02-12-02f27f8d35.jpg"
+    },
+    "EC8E7B80-ACBA-48BF-BD22-1F7D7874C711": {
+      "date": "2026-02-13",
+      "file": "wordle/2026-02-13-ec8e7b80ac.jpg"
+    },
+    "7187A43E-2903-4952-8044-1CD40DBB8FBE": {
+      "date": "2026-02-14",
+      "file": "wordle/2026-02-14-7187a43e29.jpg"
+    },
+    "92D011C2-8AFA-420E-9309-5B0A46721175": {
+      "date": "2026-02-15",
+      "file": "wordle/2026-02-15-92d011c28a.jpg"
+    },
+    "0491C9BE-9FC7-4ADA-B839-B271FE2A9AFA": {
+      "date": "2026-02-16",
+      "file": "wordle/2026-02-16-0491c9be9f.jpg"
+    },
+    "0B7394C8-3764-4884-A4B1-1726C925F377": {
+      "date": "2026-02-17",
+      "file": "wordle/2026-02-17-0b7394c837.jpg"
+    },
+    "D95A15EA-0401-4830-9ACA-50D4402865D7": {
+      "date": "2026-02-18",
+      "file": "wordle/2026-02-18-d95a15ea04.jpg"
+    },
+    "89888019-92F8-4A30-8570-FACD1B5B8127": {
+      "date": "2026-02-19",
+      "file": "wordle/2026-02-19-8988801992.jpg"
+    },
+    "01C0599F-39F0-4981-8858-DE9439A4068D": {
+      "date": "2026-02-20",
+      "file": "wordle/2026-02-20-01c0599f39.jpg"
+    },
+    "5B9B68C4-F530-405F-8F93-F092D53C2D5C": {
+      "date": "2026-02-21",
+      "file": "wordle/2026-02-21-5b9b68c4f5.jpg"
+    },
+    "EDF04A31-EA21-46DB-BF74-030F80B2AE8C": {
+      "date": "2026-02-23",
+      "file": "wordle/2026-02-23-edf04a31ea.jpg"
+    },
+    "5E204418-70EF-472A-B3AC-F3E8AF0EBDB4": {
+      "date": "2026-02-24",
+      "file": "wordle/2026-02-24-5e20441870.jpg"
+    },
+    "8D7998F2-A214-486C-A385-E3B11FD2B966": {
+      "date": "2026-02-25",
+      "file": "wordle/2026-02-25-8d7998f2a2.jpg"
+    },
+    "0A4A3785-CDFF-4FE8-B9C9-263F044E0B08": {
+      "date": "2026-02-26",
+      "file": "wordle/2026-02-26-0a4a3785cd.jpg"
+    },
+    "471AE076-F05C-412B-8F44-26BB3CFA68D5": {
+      "date": "2026-02-27",
+      "file": "wordle/2026-02-27-471ae076f0.jpg"
+    },
+    "486A1354-121E-40FC-82D7-A5D10337F70F": {
+      "date": "2026-02-28",
+      "file": "wordle/2026-02-28-486a135412.jpg"
+    },
+    "7087B0D6-EB33-4B32-85B2-BB5085C44D2E": {
+      "date": "2026-03-01",
+      "file": "wordle/2026-03-01-7087b0d6eb.jpg"
+    },
+    "7EBA378B-6CF5-434C-A7B0-041EB8449920": {
+      "date": "2026-03-02",
+      "file": "wordle/2026-03-02-7eba378b6c.jpg"
+    },
+    "A2807B15-22E0-47D1-A0C3-B2391A16AC4F": {
+      "date": "2026-03-03",
+      "file": "wordle/2026-03-03-a2807b1522.jpg"
+    },
+    "94337D87-3BF2-4EF6-A61B-1CB50F7408BA": {
+      "date": "2026-03-04",
+      "file": "wordle/2026-03-04-94337d873b.jpg"
+    },
+    "5DA7CF36-0B42-4275-8390-FB844ADC8ADF": {
+      "date": "2026-03-05",
+      "file": "wordle/2026-03-05-5da7cf360b.jpg"
+    },
+    "89DF556F-08ED-49D6-9182-B4B6738F4A60": {
+      "date": "2026-03-06",
+      "file": "wordle/2026-03-06-89df556f08.jpg"
+    },
+    "C03782A1-46AD-49E8-8137-136D50F0C379": {
+      "date": "2026-03-07",
+      "file": "wordle/2026-03-07-c03782a146.jpg"
+    },
+    "BD4A1421-8120-4E90-96E5-B7A31F5DE3DB": {
+      "date": "2026-03-08",
+      "file": "wordle/2026-03-08-bd4a142181.jpg"
+    },
+    "1499A4A8-30A4-42C4-8F76-04757D0A9D57": {
+      "date": "2026-03-09",
+      "file": "wordle/2026-03-09-1499a4a830.jpg"
+    },
+    "D606D63A-8BCB-42BC-817B-6E30688FA5A1": {
+      "date": "2026-03-10",
+      "file": "wordle/2026-03-10-d606d63a8b.jpg"
+    },
+    "4D9BF52A-A3F1-4AD1-AB84-796C7FA8E4DA": {
+      "date": "2026-03-11",
+      "file": "wordle/2026-03-11-4d9bf52aa3.jpg"
+    },
+    "180EE354-E2F1-4AD4-A60A-47E61BACF65D": {
+      "date": "2026-03-12",
+      "file": "wordle/2026-03-12-180ee354e2.jpg"
+    },
+    "36BF80D1-7A61-430D-B367-650BB4F9384F": {
+      "date": "2026-03-13",
+      "file": "wordle/2026-03-13-36bf80d17a.jpg"
+    },
+    "BDDE675A-7A31-4A7C-9CB5-4DA032947D3A": {
+      "date": "2026-03-14",
+      "file": "wordle/2026-03-14-bdde675a7a.jpg"
+    },
+    "382DA001-FFAD-47D1-9A19-4D9E87C4FC44": {
+      "date": "2026-03-15",
+      "file": "wordle/2026-03-15-382da001ff.jpg"
+    },
+    "9E800374-C159-4CCE-8AEE-8129DD4727E0": {
+      "date": "2026-03-16",
+      "file": "wordle/2026-03-16-9e800374c1.jpg"
+    },
+    "18847A17-79A2-4E33-A0BE-62BEA806E5C5": {
+      "date": "2026-03-17",
+      "file": "wordle/2026-03-17-18847a1779.jpg"
+    },
+    "055FE60E-D2CD-4A62-9AFF-D5D251992165": {
+      "date": "2026-03-18",
+      "file": "wordle/2026-03-18-055fe60ed2.jpg"
+    },
+    "0E5045C1-AF37-4215-BDC4-E7D17E82DA81": {
+      "date": "2026-03-19",
+      "file": "wordle/2026-03-19-0e5045c1af.jpg"
+    },
+    "B05F51D9-5ECB-447C-994E-BCA6FDB3AB4D": {
+      "date": "2026-03-20",
+      "file": "wordle/2026-03-20-b05f51d95e.jpg"
+    },
+    "66552D51-838A-4524-A5D5-9C384C89728F": {
+      "date": "2026-03-21",
+      "file": "wordle/2026-03-21-66552d5183.jpg"
+    },
+    "6161B10C-1839-4DA9-8C9F-3658EBD98DA4": {
+      "date": "2026-03-22",
+      "file": "wordle/2026-03-22-6161b10c18.jpg"
+    },
+    "FED16573-6FCE-46C5-8748-D47C22770A7D": {
+      "date": "2026-03-23",
+      "file": "wordle/2026-03-23-fed165736f.jpg"
+    },
+    "74213E67-51CB-4A9B-90BD-053D8F41C9EC": {
+      "date": "2026-03-24",
+      "file": "wordle/2026-03-24-74213e6751.jpg"
+    },
+    "F5476541-E470-410D-BE11-6FD5C3AA6120": {
+      "date": "2026-03-26",
+      "file": "wordle/2026-03-26-f5476541e4.jpg"
+    },
+    "D35D6811-8035-4D0D-9393-5DEEE71C4888": {
+      "date": "2026-03-27",
+      "file": "wordle/2026-03-27-d35d681180.jpg"
+    },
+    "95822272-F113-4731-AC64-B948C05B1911": {
+      "date": "2026-03-28",
+      "file": "wordle/2026-03-28-95822272f1.jpg"
+    },
+    "C136822C-00FF-40E6-95DE-1C5ED4A9E7B5": {
+      "date": "2026-03-29",
+      "file": "wordle/2026-03-29-c136822c00.jpg"
+    },
+    "2E379306-A8DE-4590-91FA-2DAACB8A91E7": {
+      "date": "2026-03-30",
+      "file": "wordle/2026-03-30-2e379306a8.jpg"
+    },
+    "1F1D69E1-EE6D-4ADE-9750-7B4F7AF08912": {
+      "date": "2026-03-31",
+      "file": "wordle/2026-03-31-1f1d69e1ee.jpg"
+    },
+    "BF60EE85-8F32-4BC9-A3E3-C94920D0420E": {
+      "date": "2026-04-01",
+      "file": "wordle/2026-04-01-bf60ee858f.jpg"
+    },
+    "28B660B5-FF16-45FC-9775-B2B6D525673F": {
+      "date": "2026-04-02",
+      "file": "wordle/2026-04-02-28b660b5ff.jpg"
+    },
+    "CC3EF8F5-C350-46B4-9060-9698D59C881D": {
+      "date": "2026-04-03",
+      "file": "wordle/2026-04-03-cc3ef8f5c3.jpg"
+    },
+    "552B1B61-67BB-4B26-A163-668F2655FD1C": {
+      "date": "2026-04-04",
+      "file": "wordle/2026-04-04-552b1b6167.jpg"
+    },
+    "B9AF67AE-8BF8-490B-B55B-B5D6EED18B14": {
+      "date": "2026-04-06",
+      "file": "wordle/2026-04-06-b9af67ae8b.jpg"
+    },
+    "94AB865B-77F4-48CD-A7BD-F89FBAA08E48": {
+      "date": "2026-04-07",
+      "file": "wordle/2026-04-07-94ab865b77.jpg"
+    },
+    "91E0D876-6B89-4801-BBA5-11AD82140618": {
+      "date": "2026-04-08",
+      "file": "wordle/2026-04-08-91e0d8766b.jpg"
+    },
+    "4CF516B6-593E-49D3-9463-40D59295439B": {
+      "date": "2026-04-09",
+      "file": "wordle/2026-04-09-4cf516b659.jpg"
+    },
+    "DCB90933-F258-4E7B-AE70-A8967AE96632": {
+      "date": "2026-04-10",
+      "file": "wordle/2026-04-10-dcb90933f2.jpg"
+    },
+    "2B17A5F4-FFE5-4889-B551-16C685200D43": {
+      "date": "2026-04-13",
+      "file": "wordle/2026-04-13-2b17a5f4ff.jpg"
+    },
+    "917ED48C-41A9-4C5D-818E-B1589BA43B55": {
+      "date": "2026-04-14",
+      "file": "wordle/2026-04-14-917ed48c41.jpg"
+    },
+    "E6E8F2F1-B564-4004-819D-D7395CC23CF5": {
+      "date": "2026-04-15",
+      "file": "wordle/2026-04-15-e6e8f2f1b5.jpg"
+    },
+    "1522B766-3FE0-4390-8068-8405AB13D80D": {
+      "date": "2026-04-16",
+      "file": "wordle/2026-04-16-1522b7663f.jpg"
+    },
+    "0470221B-3289-45C3-9D08-26EBD70F8688": {
+      "date": "2026-04-17",
+      "file": "wordle/2026-04-17-0470221b32.jpg"
+    },
+    "691F9568-EFA7-4B9F-A2A3-2021895CCD28": {
+      "date": "2026-04-18",
+      "file": "wordle/2026-04-18-691f9568ef.jpg"
+    },
+    "60011D8B-AA86-4BF7-A311-AE45A3F90B99": {
+      "date": "2026-04-20",
+      "file": "wordle/2026-04-20-60011d8baa.jpg"
+    },
+    "140DB11F-DC01-49AF-A81F-DB06ADB9931A": {
+      "date": "2026-04-21",
+      "file": "wordle/2026-04-21-140db11fdc.jpg"
+    },
+    "7B4DCA23-1D29-4A40-9E48-3E486F799F06": {
+      "date": "2026-04-22",
+      "file": "wordle/2026-04-22-7b4dca231d.jpg"
+    },
+    "44710C2D-34C0-4D2C-BD83-3160FBB5BFF2": {
+      "date": "2026-04-23",
+      "file": "wordle/2026-04-23-44710c2d34.jpg"
+    },
+    "71326F88-0431-4ECB-9EBF-2082C8C9780E": {
+      "date": "2026-04-24",
+      "file": "wordle/2026-04-24-71326f8804.jpg"
+    },
+    "CD8E54FA-B1B8-4A01-80E5-360CECE795E2": {
+      "date": "2026-04-27",
+      "file": "wordle/2026-04-27-cd8e54fab1.jpg"
+    },
+    "1ECCA08A-87E5-473B-A345-40ACD464E646": {
+      "date": "2026-04-28",
+      "file": "wordle/2026-04-28-1ecca08a87.jpg"
+    },
+    "4E2EA64C-042C-4BE9-B83E-FEF88E5A3302": {
+      "date": "2026-04-29",
+      "file": "wordle/2026-04-29-4e2ea64c04.jpg"
+    },
+    "947029FD-E19A-46AF-BAD0-78C5B4347679": {
+      "date": "2026-05-02",
+      "file": "wordle/2026-05-02-947029fde1.jpg"
+    },
+    "91FC099C-2331-4319-A030-4F8C0025B747": {
+      "date": "2026-05-03",
+      "file": "wordle/2026-05-03-91fc099c23.jpg"
+    },
+    "59C85EBA-894E-49D3-909C-187AB5BD89FF": {
+      "date": "2026-05-04",
+      "file": "wordle/2026-05-04-59c85eba89.jpg"
+    },
+    "2C862706-5717-4A72-95AC-5CFE12220D56": {
+      "date": "2026-05-05",
+      "file": "wordle/2026-05-05-2c86270657.jpg"
+    },
+    "AF4515C8-A6C5-400A-8734-245189634E47": {
+      "date": "2026-05-06",
+      "file": "wordle/2026-05-06-af4515c8a6.jpg"
+    },
+    "EF6F95ED-A069-468A-8D17-799B596301C3": {
+      "date": "2026-05-07",
+      "file": "wordle/2026-05-07-ef6f95eda0.jpg"
+    },
+    "037F8A39-A4B1-40B6-A0DF-02F4CB8A1C16": {
+      "date": "2026-05-09",
+      "file": "wordle/2026-05-09-037f8a39a4.jpg"
+    },
+    "99D394B4-915D-4954-9F08-CD2E9BCB5C28": {
+      "date": "2026-05-10",
+      "file": "wordle/2026-05-10-99d394b491.jpg"
+    },
+    "7DEFC5DB-DF45-46DC-B83F-F9F1FED80140": {
+      "date": "2026-05-11",
+      "file": "wordle/2026-05-11-7defc5dbdf.jpg"
+    },
+    "87F0843F-9D5F-42FC-95E9-E1D9E24368F6": {
+      "date": "2026-05-12",
+      "file": "wordle/2026-05-12-87f0843f9d.jpg"
+    },
+    "87F02A6A-7FAC-4182-B28E-955E708E7249": {
+      "date": "2026-05-14",
+      "file": "wordle/2026-05-14-87f02a6a7f.jpg"
+    },
+    "CB1221E9-E57E-4AAD-9724-EAD35E2C2EC1": {
+      "date": "2026-05-15",
+      "file": "wordle/2026-05-15-cb1221e9e5.jpg"
+    },
+    "D619C1FC-2764-4648-A6AB-D73944C32BFC": {
+      "date": "2026-05-16",
+      "file": "wordle/2026-05-16-d619c1fc27.jpg"
+    },
+    "EE574C77-5063-4C9E-BD1E-2D3D70B080FE": {
+      "date": "2026-05-17",
+      "file": "wordle/2026-05-17-ee574c7750.jpg"
+    },
+    "30D605B8-E959-4721-A6D7-850A79197FD1": {
+      "date": "2026-05-18",
+      "file": "wordle/2026-05-18-30d605b8e9.jpg"
+    },
+    "EBB90045-DFCE-467A-8F54-1DC2A0E79C72": {
+      "date": "2026-05-19",
+      "file": "wordle/2026-05-19-ebb90045df.jpg"
+    },
+    "9C5CE85E-F131-4CEC-A168-7949CB8CD046": {
+      "date": "2026-05-20",
+      "file": "wordle/2026-05-20-9c5ce85ef1.jpg"
+    },
+    "702840CB-97C7-4539-B4BA-6CDC7D35CBDB": {
+      "date": "2026-05-21",
+      "file": "wordle/2026-05-21-702840cb97.jpg"
+    },
+    "06311327-DE9E-4AAF-8B5F-C4D782562828": {
+      "date": "2026-05-22",
+      "file": "wordle/2026-05-22-06311327de.jpg"
+    },
+    "85DC0060-035F-41D0-A324-35C8FFFF0A52": {
+      "date": "2026-05-24",
+      "file": "wordle/2026-05-24-85dc006003.jpg"
+    },
+    "C2F09596-6BB5-47E0-B86D-C8AFDDAB46C9": {
+      "date": "2026-05-25",
+      "file": "wordle/2026-05-25-c2f095966b.jpg"
+    },
+    "DEEA7C2F-5439-4CCC-BAB1-0292D89AE1C6": {
+      "date": "2026-05-26",
+      "file": "wordle/2026-05-26-deea7c2f54.jpg"
+    },
+    "63B9EA4B-6BB3-4287-9ADF-4DA0FA9997B6": {
+      "date": "2026-05-27",
+      "file": "wordle/2026-05-27-63b9ea4b6b.jpg"
+    },
+    "ADCDB5BB-D301-43E6-A916-25C740CE3652": {
+      "date": "2026-05-30",
+      "file": "wordle/2026-05-30-adcdb5bbd3.jpg"
+    },
+    "6BFFF766-61FF-4EFF-BF23-E72F798423BA": {
+      "date": "2026-05-30",
+      "file": "wordle/2026-05-30-6bfff76661.jpg"
+    },
+    "491BEF2B-1849-45C3-B653-B91991EC9FE8": {
+      "date": "2026-06-03",
+      "file": "wordle/2026-06-03-491bef2b18.jpg"
+    },
+    "D0D3ADA0-9B4F-4807-8B91-634EFE42DE1D": {
+      "date": "2026-06-04",
+      "file": "wordle/2026-06-04-d0d3ada09b.jpg"
+    },
+    "B1757354-2090-4406-BEB6-BDD6B0F61D2A": {
+      "date": "2026-06-08",
+      "file": "wordle/2026-06-08-b175735420.jpg"
+    },
+    "6B974B42-B51E-4CAE-88BB-2FC51C7FCD3F": {
+      "date": "2026-06-09",
+      "file": "wordle/2026-06-09-6b974b42b5.jpg"
+    },
+    "846BF31C-6CCE-46D4-9D6F-4B30BD5C5971": {
+      "date": "2026-06-12",
+      "file": "wordle/2026-06-12-846bf31c6c.jpg"
+    },
+    "E0CA7CC7-8A55-4A9A-9B4C-58CBE8747682": {
+      "date": "2026-06-14",
+      "file": "wordle/2026-06-14-e0ca7cc78a.jpg"
+    },
+    "8534DFEA-5CF3-47B7-BDDC-CC340BAE2AC9": {
+      "date": "2026-06-15",
+      "file": "wordle/2026-06-15-8534dfea5c.jpg"
+    },
+    "76788C38-C386-453B-B526-F6A76CB5491E": {
+      "date": "2026-06-19",
+      "file": "wordle/2026-06-19-76788c38c3.jpg"
+    },
+    "D69CA78E-03D3-4D1A-8263-47E055A60F94": {
+      "date": "2026-06-20",
+      "file": "wordle/2026-06-20-d69ca78e03.jpg"
+    },
+    "E240B3E6-2212-40F3-B49A-84A32B7DB0D6": {
+      "date": "2026-06-21",
+      "file": "wordle/2026-06-21-e240b3e622.jpg"
+    },
+    "E16D4EFA-2192-46FC-B218-98A0853D593E": {
+      "date": "2026-06-23",
+      "file": "wordle/2026-06-23-e16d4efa21.jpg"
+    },
+    "D37903D4-68D6-4DC8-9CB1-93FA916381CA": {
+      "date": "2026-06-25",
+      "file": "wordle/2026-06-25-d37903d468.jpg"
+    },
+    "A9FEAB0C-67F1-44C6-ABE5-271A07CDDC78": {
+      "date": "2026-06-26",
+      "file": "wordle/2026-06-26-a9feab0c67.jpg"
+    },
+    "A8FE772D-FDD2-45F0-AB33-9B14FEEE51D1": {
+      "date": "2026-06-27",
+      "file": "wordle/2026-06-27-a8fe772dfd.jpg"
+    },
+    "F3A109A6-0991-4FF4-B175-A65D6F788A7D": {
+      "date": "2026-06-29",
+      "file": "wordle/2026-06-29-f3a109a609.jpg"
+    },
+    "301A9964-314A-434B-9D1D-A0ADAA07CA8E": {
+      "date": "2026-06-30",
+      "file": "wordle/2026-06-30-301a996431.jpg"
+    },
+    "EB6F1FA1-7C66-4301-8523-60668C9719EC": {
+      "date": "2026-07-01",
+      "file": "wordle/2026-07-01-eb6f1fa17c.jpg"
+    },
+    "D31F9489-6596-4E2E-985F-9FE6B97DE866": {
+      "date": "2026-07-02",
+      "file": "wordle/2026-07-02-d31f948965.jpg"
+    },
+    "CEC16A23-6EE1-46CE-874F-DF32E4C32A7A": {
+      "date": "2026-07-07",
+      "file": "wordle/2026-07-07-cec16a236e.jpg"
+    },
+    "9F8AFD21-2436-49F9-B9AA-EBBC865E445A": {
+      "date": "2026-07-08",
+      "file": "wordle/2026-07-08-9f8afd2124.jpg"
+    },
+    "7E4EA27D-3ED8-41D7-B296-129D9022ABE1": {
+      "date": "2026-07-10",
+      "file": "wordle/2026-07-10-7e4ea27d3e.jpg"
+    },
+    "309E1F85-4FD8-41C5-8D04-B4B581097744": {
+      "date": "2026-07-11",
+      "file": "wordle/2026-07-11-309e1f854f.jpg"
+    },
+    "11CC6EF1-275D-47FF-A4E7-47FC0F317230": {
+      "date": "2026-07-13",
+      "file": "wordle/2026-07-13-11cc6ef127.jpg"
+    },
+    "1A8DB3EF-D672-458F-8B32-88DC4EF93C16": {
+      "date": "2026-07-14",
+      "file": "wordle/2026-07-14-1a8db3efd6.jpg"
+    },
+    "7CEF72E3-CD46-4C14-8A10-8B41BFA8DB2A": {
+      "date": "2026-07-15",
+      "file": "wordle/2026-07-15-7cef72e3cd.jpg"
+    },
+    "E8061D73-62EB-422E-B386-D355FD0B471A": {
+      "date": "2026-07-16",
+      "file": "wordle/2026-07-16-e8061d7362.jpg"
+    },
+    "0EA1FB7C-5660-40B9-A0AC-12E13068261C": {
+      "date": "2026-07-17",
+      "file": "wordle/2026-07-17-0ea1fb7c56.jpg"
+    },
+    "6377A988-5E8D-468F-9F7A-D08426BFCA65": {
+      "date": "2026-07-18",
+      "file": "wordle/2026-07-18-6377a9885e.jpg"
+    },
+    "F77DC9A0-6635-46EA-898D-EDAE41353E96": {
+      "date": "2026-07-20",
+      "file": "wordle/2026-07-20-f77dc9a066.jpg"
+    },
+    "7E46049B-2646-461F-B860-3C20D81C9544": {
+      "date": "2026-07-21",
+      "file": "wordle/2026-07-21-7e46049b26.jpg"
+    },
+    "356464BA-4A4A-4966-8660-CEAA418FDFF7": {
+      "date": "2026-07-22",
+      "file": "wordle/2026-07-22-356464ba4a.jpg"
+    },
+    "022A9FA0-9051-4A9A-BA91-FF8CBB321D6E": {
+      "date": "2026-07-23",
+      "file": "wordle/2026-07-23-022a9fa090.jpg"
+    },
+    "5ADA5B2C-2EAF-4AB8-8D26-FB63D3D9968E": {
+      "date": "2026-07-24",
+      "file": "wordle/2026-07-24-5ada5b2c2e.jpg"
+    },
+    "C7ABD337-5592-4564-99BD-0466ADCC05A0": {
+      "date": "2026-07-26",
+      "file": "wordle/2026-07-26-c7abd33755.jpg"
+    },
+    "85B9B8F1-BA41-480C-8355-E5BA2C92EB86": {
+      "date": "2026-07-27",
+      "file": "wordle/2026-07-27-85b9b8f1ba.jpg"
+    },
+    "6201F398-C59D-4A5E-96CB-863A7C2916BE": {
+      "date": "2026-07-28",
+      "file": "wordle/2026-07-28-6201f398c5.jpg"
+    },
+    "03C83A2C-A510-4497-A009-A57970C25081": {
+      "date": "2026-07-30",
+      "file": "wordle/2026-07-30-03c83a2ca5.jpg"
+    },
+    "5D897550-61C0-4511-B21E-B168DE25DF9A": {
+      "date": "2026-07-31",
+      "file": "wordle/2026-07-31-5d89755061.jpg"
+    },
+    "5EE60190-972C-4711-A891-6659F0A9BAC3": {
+      "date": "2026-08-01",
+      "file": "wordle/2026-08-01-5ee6019097.jpg"
+    },
+    "7A659777-C95C-4606-B05B-FE5E882ADABB": {
+      "date": "2026-08-02",
+      "file": "wordle/2026-08-02-7a659777c9.jpg"
+    },
+    "A4CD0791-9D98-4876-9DCF-E6413CB6D9CE": {
+      "date": "2026-08-03",
+      "file": "wordle/2026-08-03-a4cd07919d.jpg"
+    },
+    "ED843824-E2BA-415D-8B9D-291F484E41F3": {
+      "date": "2026-08-04",
+      "file": "wordle/2026-08-04-ed843824e2.jpg"
+    },
+    "1E41AB3F-68A0-4811-B9E4-B1FF83B93E13": {
+      "date": "2026-08-05",
+      "file": "wordle/2026-08-05-1e41ab3f68.jpg"
+    },
+    "7EA46269-7632-4D5D-A0C2-FB6399188258": {
+      "date": "2026-08-06",
+      "file": "wordle/2026-08-06-7ea4626976.jpg"
+    },
+    "A6036F9B-BA51-43B3-A95F-C394493D6290": {
+      "date": "2026-08-07",
+      "file": "wordle/2026-08-07-a6036f9bba.jpg"
+    },
+    "4E40B15B-7903-42B7-8527-5E1B59A2C8F8": {
+      "date": "2026-08-08",
+      "file": "wordle/2026-08-08-4e40b15b79.jpg"
+    },
+    "0B26B760-669A-4F1B-85E6-3776F7B32C9D": {
+      "date": "2026-08-09",
+      "file": "wordle/2026-08-09-0b26b76066.jpg"
+    },
+    "4D5A34EC-6363-4E09-93DC-87E38FA0B35E": {
+      "date": "2026-08-11",
+      "file": "wordle/2026-08-11-4d5a34ec63.jpg"
+    },
+    "C740FA7C-2E94-4F15-B190-18A040F032EB": {
+      "date": "2026-08-12",
+      "file": "wordle/2026-08-12-c740fa7c2e.jpg"
+    },
+    "F127FD75-9ABA-4973-A680-14BBB18E654B": {
+      "date": "2026-08-13",
+      "file": "wordle/2026-08-13-f127fd759a.jpg"
+    },
+    "8CA3F6EF-B868-4696-9269-DCA6B3BC4598": {
+      "date": "2026-08-15",
+      "file": "wordle/2026-08-15-8ca3f6efb8.jpg"
+    },
+    "9E7205FB-2A06-4650-84D5-9CE221724C02": {
+      "date": "2026-08-16",
+      "file": "wordle/2026-08-16-9e7205fb2a.jpg"
+    },
+    "9BBE70D1-AFFA-4A09-ADDE-4A93F04F107D": {
+      "date": "2026-08-17",
+      "file": "wordle/2026-08-17-9bbe70d1af.jpg"
+    },
+    "D1AE777F-6010-47C1-894B-71F7D3763B11": {
+      "date": "2026-08-18",
+      "file": "wordle/2026-08-18-d1ae777f60.jpg"
+    },
+    "EA9BFC1B-AE85-471A-A596-764C2117E00B": {
+      "date": "2026-08-20",
+      "file": "wordle/2026-08-20-ea9bfc1bae.jpg"
+    },
+    "4638F3E3-3C57-4374-A512-3E65F13094DA": {
+      "date": "2026-08-21",
+      "file": "wordle/2026-08-21-4638f3e33c.jpg"
+    },
+    "CB64DF32-6F20-4265-8BC8-C28926BA1C6F": {
+      "date": "2026-08-22",
+      "file": "wordle/2026-08-22-cb64df326f.jpg"
+    },
+    "384E0BFA-E967-41AD-B646-DA7062ACFF3D": {
+      "date": "2026-08-24",
+      "file": "wordle/2026-08-24-384e0bfae9.jpg"
+    },
+    "8E1B1F93-2115-4AD1-9BCC-B98B538B6F03": {
+      "date": "2026-08-26",
+      "file": "wordle/2026-08-26-8e1b1f9321.jpg"
+    },
+    "CF04312C-E876-42A7-A8F1-09EAB7DBC8B0": {
+      "date": "2026-08-27",
+      "file": "wordle/2026-08-27-cf04312ce8.jpg"
+    },
+    "563C8C7F-2A2E-45B3-BD6C-D3E37FD56913": {
+      "date": "2026-08-28",
+      "file": "wordle/2026-08-28-563c8c7f2a.jpg"
+    },
+    "8B5FC89C-1370-490B-97D7-E0A49DBB8982": {
+      "date": "2026-08-29",
+      "file": "wordle/2026-08-29-8b5fc89c13.jpg"
+    },
+    "2D80A598-68CD-4114-9D89-689101574FAE": {
+      "date": "2026-08-30",
+      "file": "wordle/2026-08-30-2d80a59868.jpg"
+    },
+    "585472C0-5313-4497-A33A-78B4765494A4": {
+      "date": "2026-08-31",
+      "file": "wordle/2026-08-31-585472c053.jpg"
+    },
+    "E0380108-4F5B-43F7-A979-E5E03138DED0": {
+      "date": "2026-09-01",
+      "file": "wordle/2026-09-01-e03801084f.jpg"
+    },
+    "659A40AD-8E35-4ABD-9349-1CD8E4EF510A": {
+      "date": "2026-09-02",
+      "file": "wordle/2026-09-02-659a40ad8e.jpg"
+    },
+    "2C75C69E-F540-494B-A643-8AB1288E1945": {
+      "date": "2026-09-03",
+      "file": "wordle/2026-09-03-2c75c69ef5.jpg"
+    },
+    "57F7C850-047A-4506-8FAF-4150D08F6436": {
+      "date": "2026-09-04",
+      "file": "wordle/2026-09-04-57f7c85004.jpg"
+    },
+    "6CEE485C-6DDE-485C-85B6-C9C4F79276FF": {
+      "date": "2026-09-05",
+      "file": "wordle/2026-09-05-6cee485c6d.jpg"
+    },
+    "831A16D4-D00F-4B35-A7D8-1DC620AED4F0": {
+      "date": "2026-09-07",
+      "file": "wordle/2026-09-07-831a16d4d0.jpg"
+    },
+    "A66A14FE-9C43-40ED-ABBA-68DD65B5D535": {
+      "date": "2026-09-08",
+      "file": "wordle/2026-09-08-a66a14fe9c.jpg"
+    },
+    "C00CD55C-0D8A-445A-940F-914F7B7FE0EC": {
+      "date": "2026-09-09",
+      "file": "wordle/2026-09-09-c00cd55c0d.jpg"
+    },
+    "B754E2F3-73E5-457B-AB2F-D473F59118D5": {
+      "date": "2026-09-10",
+      "file": "wordle/2026-09-10-b754e2f373.jpg"
+    },
+    "51F8FC7C-91FB-4CF3-A58C-07AB7D0A6426": {
+      "date": "2026-09-11",
+      "file": "wordle/2026-09-11-51f8fc7c91.jpg"
+    },
+    "C5D5890A-3AA9-4717-938C-4867C42B4288": {
+      "date": "2026-09-12",
+      "file": "wordle/2026-09-12-c5d5890a3a.jpg"
+    },
+    "813F30E7-97B9-41A2-89B7-1437EF3F33F2": {
+      "date": "2026-09-13",
+      "file": "wordle/2026-09-13-813f30e797.jpg"
+    },
+    "314D2F10-39EA-4DAD-8C07-6849A1A3723B": {
+      "date": "2026-09-14",
+      "file": "wordle/2026-09-14-314d2f1039.jpg"
+    },
+    "BFE6C8B1-2C6F-49B7-8309-FF039D988C0C": {
+      "date": "2026-09-15",
+      "file": "wordle/2026-09-15-bfe6c8b12c.jpg"
+    },
+    "D3201EB6-D2B0-4694-B5B8-B47A0B278747": {
+      "date": "2026-09-16",
+      "file": "wordle/2026-09-16-d3201eb6d2.jpg"
+    },
+    "5B0EEEF3-58F2-4D91-960D-BD802BE66630": {
+      "date": "2026-09-17",
+      "file": "wordle/2026-09-17-5b0eeef358.jpg"
+    },
+    "A34EAD58-C23B-4CF1-92C1-26EC297F212D": {
+      "date": "2026-09-18",
+      "file": "wordle/2026-09-18-a34ead58c2.jpg"
+    },
+    "561CE5F7-9234-478C-8164-7C1B764C3CB0": {
+      "date": "2026-09-19",
+      "file": "wordle/2026-09-19-561ce5f792.jpg"
+    },
+    "0C2DA3C4-2B6F-467D-B4E5-C8F22A486A3C": {
+      "date": "2026-09-20",
+      "file": "wordle/2026-09-20-0c2da3c42b.jpg"
+    },
+    "E8438CC8-F2F5-4685-B720-F938542C9116": {
+      "date": "2026-09-22",
+      "file": "wordle/2026-09-22-e8438cc8f2.jpg"
+    },
+    "AAEF73AD-4C44-4E00-94C2-4C231BA01FFB": {
+      "date": "2026-09-23",
+      "file": "wordle/2026-09-23-aaef73ad4c.jpg"
+    },
+    "D602CC84-2CAB-41B9-9F4E-F1623CAEFBC5": {
+      "date": "2026-09-25",
+      "file": "wordle/2026-09-25-d602cc842c.jpg"
+    },
+    "73E91410-A7D8-4FF3-8308-8465008B6CBE": {
+      "date": "2026-09-26",
+      "file": "wordle/2026-09-26-73e91410a7.jpg"
+    },
+    "153715B5-1851-419A-9435-8565AB8DE66A": {
+      "date": "2026-09-27",
+      "file": "wordle/2026-09-27-153715b518.jpg"
+    },
+    "227C62E5-C187-4FF1-ABF0-1C32613E2365": {
+      "date": "2026-09-28",
+      "file": "wordle/2026-09-28-227c62e5c1.jpg"
+    },
+    "3D0FC2FC-4537-4C3E-A27E-E407254BBB7F": {
+      "date": "2026-09-29",
+      "file": "wordle/2026-09-29-3d0fc2fc45.jpg"
+    },
+    "503D1FDD-F9D5-4B41-9403-A7BE15409A5E": {
+      "date": "2026-09-30",
+      "file": "wordle/2026-09-30-503d1fddf9.jpg"
+    },
+    "01F442E6-218B-4857-9E2F-6713670BD428": {
+      "date": "2026-10-01",
+      "file": "wordle/2026-10-01-01f442e621.jpg"
+    },
+    "F529710C-3F37-4F86-AA95-90C6A676C478": {
+      "date": "2026-10-03",
+      "file": "wordle/2026-10-03-f529710c3f.jpg"
+    },
+    "B96D7CE5-768A-45FC-82EE-1C84B65081B4": {
+      "date": "2026-10-04",
+      "file": "wordle/2026-10-04-b96d7ce576.jpg"
+    },
+    "2524FE21-C887-4955-945F-3D51DF541468": {
+      "date": "2026-10-05",
+      "file": "wordle/2026-10-05-2524fe21c8.jpg"
+    },
+    "8C6928A9-E7BA-43D4-931B-751C026E9560": {
+      "date": "2026-10-06",
+      "file": "wordle/2026-10-06-8c6928a9e7.jpg"
+    },
+    "A3A9B4E1-C591-4454-B3C2-E759E7264053": {
+      "date": "2026-10-07",
+      "file": "wordle/2026-10-07-a3a9b4e1c5.jpg"
+    },
+    "99CBF605-DD19-4C8D-9836-7A75FFA4AEB1": {
+      "date": "2026-10-08",
+      "file": "wordle/2026-10-08-99cbf605dd.jpg"
+    },
+    "77CDCA60-72E6-4B11-A3F7-9C50C19F09FC": {
+      "date": "2026-10-10",
+      "file": "wordle/2026-10-10-77cdca6072.jpg"
+    },
+    "21851A91-F32A-4FD4-B4D5-131B3E51F94B": {
+      "date": "2026-10-12",
+      "file": "wordle/2026-10-12-21851a91f3.jpg"
+    },
+    "DC98E5B4-FB4F-4F0A-9F03-D99ABB94D82B": {
+      "date": "2026-10-13",
+      "file": "wordle/2026-10-13-dc98e5b4fb.jpg"
+    },
+    "A1B4E131-0706-4A86-AB98-4012F69DB920": {
+      "date": "2026-10-15",
+      "file": "wordle/2026-10-15-a1b4e13107.jpg"
+    },
+    "7DDCA519-323D-4352-8094-1981D0526E16": {
+      "date": "2026-10-17",
+      "file": "wordle/2026-10-17-7ddca51932.jpg"
+    },
+    "33248F80-4D5C-49D4-A9D5-F49CA17A325D": {
+      "date": "2026-10-18",
+      "file": "wordle/2026-10-18-33248f804d.jpg"
+    },
+    "35F943FE-42BF-4B8E-959E-19BFB5C071E4": {
+      "date": "2026-10-19",
+      "file": "wordle/2026-10-19-35f943fe42.jpg"
+    },
+    "308BD941-F7DF-49DA-8452-DECDAF6C08F2": {
+      "date": "2026-10-20",
+      "file": "wordle/2026-10-20-308bd941f7.jpg"
+    },
+    "E158E773-C331-4C85-8DEB-D0591947A23B": {
+      "date": "2026-10-21",
+      "file": "wordle/2026-10-21-e158e773c3.jpg"
+    },
+    "C4F01CF3-F27A-48DE-B30F-FD6B35637700": {
+      "date": "2026-10-22",
+      "file": "wordle/2026-10-22-c4f01cf3f2.jpg"
+    },
+    "EC0223B4-6DED-416D-B93C-F1A76CB2ACC1": {
+      "date": "2026-10-23",
+      "file": "wordle/2026-10-23-ec0223b46d.jpg"
+    },
+    "A72C00B6-AC56-4F5D-AB89-BFF4B0B8A7DB": {
+      "date": "2026-10-24",
+      "file": "wordle/2026-10-24-a72c00b6ac.jpg"
+    },
+    "CB39D145-4073-4039-82B8-AA38E625C0CF": {
+      "date": "2026-10-25",
+      "file": "wordle/2026-10-25-cb39d14540.jpg"
+    },
+    "F5AD696E-DE30-4ACF-B1D5-709200123D63": {
+      "date": "2026-10-27",
+      "file": "wordle/2026-10-27-f5ad696ede.jpg"
+    },
+    "FC24BB22-5464-40B9-A671-27ED1A20DD2B": {
+      "date": "2026-10-28",
+      "file": "wordle/2026-10-28-fc24bb2254.jpg"
+    },
+    "7C6E5B26-5516-474A-BFFA-504B298C20FB": {
+      "date": "2026-10-29",
+      "file": "wordle/2026-10-29-7c6e5b2655.jpg"
+    },
+    "2B480F5A-C119-4F4C-8927-4F9E77934411": {
+      "date": "2026-10-30",
+      "file": "wordle/2026-10-30-2b480f5ac1.jpg"
+    },
+    "3B9AF022-A6E5-4FBE-A3D3-6B4573264FC0": {
+      "date": "2026-10-31",
+      "file": "wordle/2026-10-31-3b9af022a6.jpg"
+    },
+    "599A2D49-3B2A-47C3-810D-06FBFF4E1432": {
+      "date": "2026-11-02",
+      "file": "wordle/2026-11-02-599a2d493b.jpg"
+    },
+    "3DFAEFFE-0140-4AE2-B81B-B0666A866D49": {
+      "date": "2026-11-03",
+      "file": "wordle/2026-11-03-3dfaeffe01.jpg"
+    },
+    "E6BB5766-46EE-42DF-AD5C-64A5A9856E0D": {
+      "date": "2026-11-04",
+      "file": "wordle/2026-11-04-e6bb576646.jpg"
+    },
+    "1FBCA45D-5E1F-4B57-BED3-3A3D0CDE5D87": {
+      "date": "2026-11-06",
+      "file": "wordle/2026-11-06-1fbca45d5e.jpg"
+    },
+    "D6E7D332-1707-414A-8C5A-F61CDBA75E2C": {
+      "date": "2026-11-08",
+      "file": "wordle/2026-11-08-d6e7d33217.jpg"
+    },
+    "1D1A449D-ED18-4194-B74B-1275B10DD445": {
+      "date": "2026-11-09",
+      "file": "wordle/2026-11-09-1d1a449ded.jpg"
+    },
+    "C3B1A0B6-2DCB-461E-9AA3-D62A2625B345": {
+      "date": "2026-11-10",
+      "file": "wordle/2026-11-10-c3b1a0b62d.jpg"
+    },
+    "C5643318-A7A2-437B-903E-6A45B80750C6": {
+      "date": "2026-11-11",
+      "file": "wordle/2026-11-11-c5643318a7.jpg"
+    },
+    "9465E2B6-1662-4A04-B560-356F387629CC": {
+      "date": "2026-11-13",
+      "file": "wordle/2026-11-13-9465e2b616.jpg"
+    },
+    "C1241A58-EC4C-4FCE-976B-38AEFC28152B": {
+      "date": "2026-11-14",
+      "file": "wordle/2026-11-14-c1241a58ec.jpg"
+    },
+    "1B3E339C-C0C6-4953-9190-C7FB14787931": {
+      "date": "2026-11-16",
+      "file": "wordle/2026-11-16-1b3e339cc0.jpg"
+    },
+    "0908FE37-DF94-4204-9F35-4A3AE5696EAC": {
+      "date": "2026-11-17",
+      "file": "wordle/2026-11-17-0908fe37df.jpg"
+    },
+    "D116986A-E7E9-4CB0-9E30-12F1434E971E": {
+      "date": "2026-11-18",
+      "file": "wordle/2026-11-18-d116986ae7.jpg"
+    },
+    "1DF39AFC-4BA6-4F3F-8244-C84C8A979266": {
+      "date": "2026-11-19",
+      "file": "wordle/2026-11-19-1df39afc4b.jpg"
+    },
+    "7E9F5006-C62A-4CF9-AE88-BD71962DFCD1": {
+      "date": "2026-11-20",
+      "file": "wordle/2026-11-20-7e9f5006c6.jpg"
+    },
+    "26BF31B5-C6B4-4557-82F1-24437969C091": {
+      "date": "2026-11-21",
+      "file": "wordle/2026-11-21-26bf31b5c6.jpg"
+    },
+    "A2C97D32-6E1A-4C54-8240-D4F157B2497F": {
+      "date": "2026-11-22",
+      "file": "wordle/2026-11-22-a2c97d326e.jpg"
+    },
+    "5C7808CD-93A3-4BF2-BC5E-A6431377F0D6": {
+      "date": "2026-11-23",
+      "file": "wordle/2026-11-23-5c7808cd93.jpg"
+    },
+    "5DAB727E-4AC9-46AB-B2E3-70786961CDFB": {
+      "date": "2026-11-24",
+      "file": "wordle/2026-11-24-5dab727e4a.jpg"
+    }
+  },
   "hidden": []
 }
