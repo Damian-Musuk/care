@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "care",
+  "compatibility_date": "2026-09-04",
+  "assets": {
+    "directory": "./dist",
+    // One page app: every address loads index.html.
+    "not_found_handling": "single-page-application"
+  }
+}

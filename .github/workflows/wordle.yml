@@ -1,0 +1,44 @@
+name: Import Wordle screenshots
+
+# Checks the shared iCloud album every three hours and adds new screenshots to the journal.
+# Run it now from the Actions tab: Import Wordle screenshots > Run workflow.
+on:
+  schedule:
+    - cron: '23 */3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wordle
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch new screenshots
+        run: node scripts/import-wordle.mjs
+
+      - name: Save them
+        run: |
+          git add public/wordle public/data/wordle.json
+          if git diff --cached --quiet; then
+            echo "Nothing new."
+            exit 0
+          fi
+          git config user.name "Wordle importer"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Add new Wordle screenshots"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1
