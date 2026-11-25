@@ -1,9 +1,10 @@
-import { EyeOff, ExternalLink, Pencil, Plus, Trash2 } from 'lucide-react'
-import { useState } from 'react'
+import { ChevronLeft, ChevronRight, EyeOff, ExternalLink, Pencil, Plus, Trash2 } from 'lucide-react'
+import { useEffect, useRef, useState } from 'react'
 import { activity } from './activities'
 import { longDate } from './dates'
 import { Modal } from './Modal'
 import type { Entry, Photo } from './types'
+import { WordleCard } from './WordleCard'
 
 function linkLabel(url: string): string {
   try {
@@ -17,7 +18,7 @@ function linkLabel(url: string): string {
   }
 }
 
-export function DayView({ date, note, entries, editing, busy, photoUrl, onClose, onAdd, onEdit, onDelete, onHideWordle, onSaveNote, onOpenPhoto }: {
+export function DayView({ date, note, entries, editing, busy, photoUrl, onClose, onAdd, onEdit, onDelete, onHideWordle, onSaveNote, onSaveWordle, onOpenPhoto, onStep }: {
   date: string
   note?: string
   entries: Entry[]
@@ -30,12 +31,51 @@ export function DayView({ date, note, entries, editing, busy, photoUrl, onClose,
   onDelete: (entry: Entry) => void
   onHideWordle: (entry: Entry) => void
   onSaveNote: (note: string) => void
+  onSaveWordle: (guesses: string[] | null) => Promise<boolean>
   onOpenPhoto: (photos: Photo[], index: number) => void
+  /** Move to the day before (-1) or after (+1). */
+  onStep: (delta: number) => void
 }) {
   const [noteDraft, setNoteDraft] = useState<string | null>(null)
+  const [addingWordle, setAddingWordle] = useState(false)
+  const touch = useRef<{ x: number; y: number } | null>(null)
+  const hasWordle = entries.some((e) => e.wordle)
+
+  // Left and right arrow keys move between days, unless you're typing.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      const t = e.target as HTMLElement
+      if (t.closest('input, textarea') || e.altKey || e.metaKey || e.ctrlKey) return
+      if (e.key === 'ArrowLeft') onStep(-1)
+      if (e.key === 'ArrowRight') onStep(1)
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [onStep])
+
+  const title = (
+    <span className="day-title">
+      <button className="icon-btn" onClick={() => onStep(-1)} aria-label="Previous day" title="Previous day"><ChevronLeft size={22} /></button>
+      <span>{longDate(date)}</span>
+      <button className="icon-btn" onClick={() => onStep(1)} aria-label="Next day" title="Next day"><ChevronRight size={22} /></button>
+    </span>
+  )
 
   return (
-    <Modal title={longDate(date)} onClose={onClose} className="day-modal">
+    <Modal title={title} onClose={onClose} className="day-modal">
+      <div
+        className="day-swipe"
+        onTouchStart={(e) => { touch.current = { x: e.touches[0].clientX, y: e.touches[0].clientY } }}
+        onTouchEnd={(e) => {
+          const start = touch.current
+          touch.current = null
+          if (!start || noteDraft !== null) return
+          const dx = e.changedTouches[0].clientX - start.x
+          const dy = e.changedTouches[0].clientY - start.y
+          // A clear sideways swipe, not a scroll or a tap.
+          if (Math.abs(dx) > 70 && Math.abs(dx) > Math.abs(dy) * 1.8) onStep(dx < 0 ? 1 : -1)
+        }}
+      >
       {noteDraft === null ? (
         (note || editing) && (
           <div className="day-note">
@@ -57,10 +97,36 @@ export function DayView({ date, note, entries, editing, busy, photoUrl, onClose,
         </div>
       )}
 
-      {entries.length === 0 && !note && <p className="muted empty">Nothing recorded for this day.</p>}
+      {entries.length === 0 && !note && !addingWordle && <p className="muted empty">Nothing recorded for this day.</p>}
 
       <ul className="entries">
+        {addingWordle && !hasWordle && (
+          <WordleCard
+            info={{ date, guesses: [], typed: true }}
+            editing
+            busy={busy}
+            startEditing
+            photoUrl={photoUrl}
+            onSave={async (g) => { const ok = g ? await onSaveWordle(g) : true; if (ok) setAddingWordle(false); return ok }}
+            onHideScreenshot={() => {}}
+            onOpenPhoto={onOpenPhoto}
+          />
+        )}
         {entries.map((entry) => {
+          if (entry.wordle) {
+            return (
+              <WordleCard
+                key={entry.id}
+                info={entry.wordle}
+                editing={editing}
+                busy={busy}
+                photoUrl={photoUrl}
+                onSave={onSaveWordle}
+                onHideScreenshot={() => onHideWordle(entry)}
+                onOpenPhoto={onOpenPhoto}
+              />
+            )
+          }
           const a = activity(entry.activity)
           return (
             <li key={entry.id} className="entry">
@@ -106,10 +172,16 @@ export function DayView({ date, note, entries, editing, busy, photoUrl, onClose,
       </ul>
 
       {editing && (
-        <button className="btn btn-primary btn-block" onClick={onAdd} disabled={busy}>
-          <Plus size={18} /> Add to this day
-        </button>
+        <div className="day-add">
+          <button className="btn btn-primary" onClick={onAdd} disabled={busy}>
+            <Plus size={18} /> Add to this day
+          </button>
+          {!hasWordle && !addingWordle && (
+            <button className="btn" onClick={() => setAddingWordle(true)} disabled={busy}>🧩 Add Wordle</button>
+          )}
+        </div>
       )}
+      </div>
     </Modal>
   )
 }

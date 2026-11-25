@@ -13,10 +13,26 @@ export interface Entry {
   photos?: Photo[]
   /** Added by the Wordle importer, not typed in by hand. */
   auto?: boolean
+  /** Set on the day's Wordle entry, which is built from the screenshot and/or typed guesses. */
+  wordle?: WordleDay
+}
+
+export interface WordleDay {
+  date: string
+  guesses: string[]
+  /** Unknown until WordFinder publishes it. */
+  answer?: string
+  /** The guesses were typed in, rather than read off the screenshot. */
+  typed: boolean
+  screenshot?: Photo
+  /** Album photo id, so the screenshot can be hidden. */
+  guid?: string
 }
 
 export interface Day {
   note?: string
+  /** Wordle guesses typed in by hand, one five-letter word per guess. Overrides the screenshot. */
+  wordle?: string[]
   entries: Entry[]
 }
 
@@ -28,7 +44,7 @@ export interface Journal {
 
 /** public/data/wordle.json: written by scripts/import-wordle.mjs from the shared iCloud album. */
 export interface WordleData {
-  photos: Record<string, { date: string; file: string; caption?: string }>
+  photos: Record<string, { date: string; file: string; caption?: string; guesses?: string[]; answer?: string }>
   /** Album photos the editor chose to hide. */
   hidden?: string[]
 }

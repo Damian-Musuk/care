@@ -14,9 +14,12 @@ There's no server or database. Everything is files in this repo:
 | --- | --- |
 | `public/data/journal.json` | Every entry typed in on the site, by date |
 | `public/photos/YYYY/MM/` | Uploaded photos (resized to 1800px) and their thumbnails |
-| `public/data/wordle.json`, `public/wordle/` | Wordle screenshots copied from the shared iCloud album |
+| `public/data/wordle.json`, `public/wordle/` | Wordle screenshots copied from the shared iCloud album, with the guesses read off each one |
+| `public/data/wordle-answers.json` | Every Wordle answer, from WordFinder |
 | `src/activities.ts` | The list of activities and their emojis. Add a line to add a new kind. |
 | `scripts/import-wordle.mjs` | Copies new screenshots from the iCloud album |
+| `scripts/wordle-answers.mjs` | Updates the answers from https://wordfinder.yourdictionary.com/wordle/answers/ |
+| `scripts/read-wordle.py`, `scripts/wordle-letters.npz` | Reads letters and colours off screenshots (matching learned letter shapes) and keeps only reads whose colours check out |
 | `.github/workflows/wordle.yml` | Runs the Wordle import every 3 hours |
 
 **Editing:** tap the 🔒 button and paste a fine-grained GitHub token for this repo only, with
@@ -25,7 +28,11 @@ Cloudflare rebuilds the site, so everyone sees the change about a minute later.
 
 **Wordle:** the workflow reads the public shared album, saves new screenshots, and files each one
 on the day it was taken (Perth time). Run it now from Actions › Import Wordle screenshots › Run
-workflow. To hide one, open the day while editing and tap the eye button.
+workflow. Each Wordle shows as a coloured grid with the answer. While editing, tap the pencil on a
+Wordle to type the guesses yourself (one word per line), or 🧩 Add Wordle on a day without one.
+Typed guesses win over the screenshot. To hide a screenshot, tap the eye button.
+
+In a day's view, swipe left or right (or use the ‹ › buttons or arrow keys) to move between days.
 
 ## Run it
 

@@ -3,14 +3,14 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { ACTIVITIES } from './activities'
 import { Calendar } from './Calendar'
 import { BRANCH, REPO_NAME, REPO_OWNER } from './config'
-import { addMonths, monthTitle, parseKey, todayKey } from './dates'
+import { addMonths, dateKey, monthTitle, parseKey, todayKey } from './dates'
 import { DayView } from './DayView'
 import { EditorSetup } from './EditorSetup'
 import { EntryForm, type EntryDraft } from './EntryForm'
 import { explain, getToken, loadLatest, save, setToken as storeToken, type Change } from './github'
 import { newId } from './images'
 import { Lightbox } from './Lightbox'
-import type { Entry, Journal, Photo, WordleData } from './types'
+import type { Entry, Journal, Photo, WordleData, WordleDay } from './types'
 
 const EMPTY_JOURNAL: Journal = { version: 1, days: {} }
 const EMPTY_WORDLE: WordleData = { photos: {}, hidden: [] }
@@ -32,6 +32,7 @@ export default function App() {
   const [initial] = useState(readUrl)
   const [journal, setJournal] = useState<Journal>(EMPTY_JOURNAL)
   const [wordle, setWordle] = useState<WordleData>(EMPTY_WORDLE)
+  const [answers, setAnswers] = useState<Record<string, string>>({})
   const [loaded, setLoaded] = useState(false)
   const [loadError, setLoadError] = useState('')
   const [token, setTokenState] = useState<string | null>(getToken)
@@ -76,6 +77,13 @@ export default function App() {
     return () => { cancelled = true }
   }, [token])
 
+  useEffect(() => {
+    fetch('/data/wordle-answers.json', { cache: 'no-cache' })
+      .then((r) => (r.ok ? r.json() : {}))
+      .then(setAnswers)
+      .catch(() => {})
+  }, [])
+
   // Keep the address in step so a link to a month or a day can be shared.
   useEffect(() => {
     const p = new URLSearchParams()
@@ -94,21 +102,33 @@ export default function App() {
   const photoUrl = useCallback((path: string) =>
     editing ? `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${BRANCH}/public/${path}` : `/${path}`, [editing])
 
+  // One Wordle per day: typed guesses win, then a screenshot that was read, then any screenshot.
   const wordleByDate = useMemo(() => {
     const hidden = new Set(wordle.hidden ?? [])
-    const map = new Map<string, Entry[]>()
+    const byDate = new Map<string, WordleDay>()
     for (const [guid, w] of Object.entries(wordle.photos)) {
       if (hidden.has(guid)) continue
-      const entry: Entry = { id: `wordle:${guid}`, activity: 'puzzle', title: 'Wordle', photos: [{ src: w.file }], auto: true, ...(w.caption && { note: w.caption }) }
-      map.set(w.date, [...(map.get(w.date) ?? []), entry])
+      const existing = byDate.get(w.date)
+      if (existing && (existing.guesses.length || !w.guesses)) continue
+      byDate.set(w.date, { date: w.date, guesses: w.guesses ?? [], answer: w.answer, typed: false, screenshot: { src: w.file }, guid })
+    }
+    for (const [date, day] of Object.entries(journal.days)) {
+      if (!day.wordle?.length) continue
+      const shot = byDate.get(date)
+      byDate.set(date, { date, guesses: day.wordle, typed: true, screenshot: shot?.screenshot, guid: shot?.guid })
+    }
+    const map = new Map<string, Entry>()
+    for (const [date, info] of byDate) {
+      info.answer = answers[date] ?? info.answer
+      map.set(date, { id: `wordle:${date}`, activity: 'puzzle', title: 'Wordle', auto: true, wordle: info })
     }
     return map
-  }, [wordle])
+  }, [wordle, journal, answers])
 
-  const entriesFor = useCallback((key: string) => [
-    ...(wordleByDate.get(key) ?? []),
-    ...(journal.days[key]?.entries ?? []),
-  ], [journal, wordleByDate])
+  const entriesFor = useCallback((key: string) => {
+    const w = wordleByDate.get(key)
+    return [...(w ? [w] : []), ...(journal.days[key]?.entries ?? [])]
+  }, [journal, wordleByDate])
 
   const hasNote = useCallback((key: string) => !!journal.days[key]?.note, [journal])
 
@@ -178,12 +198,34 @@ export default function App() {
   }
 
   function hideWordle(date: string, entry: Entry) {
-    const guid = entry.id.replace(/^wordle:/, '')
-    if (!confirm('Hide this Wordle from the journal?')) return
+    const guid = entry.wordle?.guid
+    if (!guid || !confirm('Hide this Wordle screenshot from the journal?')) return
     run({
       message: `${date}: hide a Wordle`,
       wordle: (w) => ({ ...w, hidden: [...new Set([...(w.hidden ?? []), guid])] }),
     }, 'Hidden.')
+  }
+
+  function saveWordle(date: string, guesses: string[] | null) {
+    return run({
+      message: `${date}: Wordle`,
+      journal: (j) => {
+        const day = j.days[date] ?? { entries: [] }
+        if (guesses) day.wordle = guesses
+        else delete day.wordle
+        if (!day.entries.length && !day.note && !day.wordle) delete j.days[date]
+        else j.days[date] = day
+        return j
+      },
+    }, 'Wordle saved.')
+  }
+
+  function step(delta: number) {
+    if (!selected) return
+    const { year, month, day } = parseKey(selected)
+    const next = new Date(Date.UTC(year, month, day + delta))
+    setSelected(dateKey(next.getUTCFullYear(), next.getUTCMonth(), next.getUTCDate()))
+    setView({ year: next.getUTCFullYear(), month: next.getUTCMonth() })
   }
 
   function saveNote(date: string, note: string) {
@@ -255,6 +297,7 @@ export default function App() {
 
       {selected && !editingEntry && (
         <DayView
+          key={selected}
           date={selected}
           note={journal.days[selected]?.note}
           entries={entriesFor(selected)}
@@ -267,6 +310,8 @@ export default function App() {
           onDelete={(e) => deleteEntry(selected, e)}
           onHideWordle={(e) => hideWordle(selected, e)}
           onSaveNote={(n) => saveNote(selected, n)}
+          onSaveWordle={(g) => saveWordle(selected, g)}
+          onStep={step}
           onOpenPhoto={(photos, index) => setLightbox({ photos, index })}
         />
       )}
