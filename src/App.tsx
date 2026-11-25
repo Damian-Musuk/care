@@ -1,5 +1,5 @@
 import { ChevronLeft, ChevronRight, Lock, PenLine } from 'lucide-react'
-import { useCallback, useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { ACTIVITIES } from './activities'
 import { Calendar } from './Calendar'
 import { BRANCH, REPO_NAME, REPO_OWNER } from './config'
@@ -7,7 +7,7 @@ import { addMonths, monthTitle, parseKey, todayKey } from './dates'
 import { DayView } from './DayView'
 import { EditorSetup } from './EditorSetup'
 import { EntryForm, type EntryDraft } from './EntryForm'
-import { getToken, loadLatest, save, setToken as storeToken, type Change } from './github'
+import { explain, getToken, loadLatest, save, setToken as storeToken, type Change } from './github'
 import { newId } from './images'
 import { Lightbox } from './Lightbox'
 import type { Entry, Journal, Photo, WordleData } from './types'
@@ -42,6 +42,7 @@ export default function App() {
   const [lightbox, setLightbox] = useState<{ photos: Photo[]; index: number } | null>(null)
   const [busy, setBusy] = useState(false)
   const [toast, setToast] = useState('')
+  const [saveError, setSaveError] = useState('')
   const today = todayKey()
   const editing = !!token
 
@@ -85,7 +86,7 @@ export default function App() {
 
   useEffect(() => {
     if (!toast) return
-    const t = setTimeout(() => setToast(''), 4000)
+    const t = setTimeout(() => setToast(''), toast.startsWith("Couldn't") ? 10000 : 4000)
     return () => clearTimeout(t)
   }, [toast])
 
@@ -115,13 +116,16 @@ export default function App() {
     if (!token) return false
     setBusy(true)
     try {
+      setSaveError('')
       const result = await save(token, change)
       setJournal(result.journal)
       setWordle(result.wordle)
       setToast(`${done} Everyone will see it in about a minute.`)
       return true
     } catch (e) {
-      setToast(`Couldn't save: ${(e as Error).message}`)
+      const message = `Couldn't save. ${explain(e)}`
+      setSaveError(message)
+      setToast(message)
       return false
     } finally {
       setBusy(false)
@@ -274,7 +278,8 @@ export default function App() {
           initial={editingEntry}
           busy={busy}
           photoUrl={photoUrl}
-          onCancel={() => setEditingEntry(null)}
+          error={saveError}
+          onCancel={() => { setSaveError(''); setEditingEntry(null) }}
           onSave={(draft) => saveEntry(selected, draft)}
         />
       )}
@@ -290,7 +295,18 @@ export default function App() {
         />
       )}
 
-      {toast && <div className="toast" role="status">{toast}</div>}
+      {toast && <Toast text={toast} />}
     </div>
   )
+}
+
+/** Shown in the browser's top layer (a popover), so it appears above open dialogs too. */
+function Toast({ text }: { text: string }) {
+  const ref = useRef<HTMLDivElement>(null)
+  useEffect(() => {
+    const el = ref.current
+    try { el?.showPopover() } catch { /* older browsers: it still shows, just under dialogs */ }
+    return () => { try { el?.hidePopover() } catch { /* already hidden */ } }
+  }, [])
+  return <div ref={ref} popover="manual" className="toast" role="status">{text}</div>
 }

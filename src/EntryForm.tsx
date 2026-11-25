@@ -12,10 +12,11 @@ export interface EntryDraft {
   removedPhotos: Photo[]
 }
 
-export function EntryForm({ date, initial, busy, photoUrl, onCancel, onSave }: {
+export function EntryForm({ date, initial, busy, error: saveError, photoUrl, onCancel, onSave }: {
   date: string
   initial: Entry
   busy: boolean
+  error?: string
   photoUrl: (path: string) => string
   onCancel: () => void
   onSave: (draft: EntryDraft) => void
@@ -123,7 +124,7 @@ export function EntryForm({ date, initial, busy, photoUrl, onCancel, onSave }: {
           </div>
         </div>
 
-        {error && <p className="error">{error}</p>}
+        {(error || saveError) && <p className="error" role="alert">{error || saveError}</p>}
 
         <div className="row-end">
           <button type="button" className="btn" onClick={onCancel}>Cancel</button>

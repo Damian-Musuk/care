@@ -51,14 +51,25 @@ async function gh<T>(token: string, path: string, init: RequestInit = {}): Promi
 /** Checks the token can write to the repo. Returns an error message, or null when it is fine. */
 export async function checkToken(token: string): Promise<string | null> {
   try {
-    const repo = await gh<{ permissions?: { push?: boolean } }>(token, '')
-    if (!repo.permissions?.push) return 'That key can read the repo but not save to it. Give it "Contents: Read and write".'
+    await gh(token, '')
+    // The repo's "permissions" field shows the account's rights, not the key's, so test a real write:
+    // a tiny loose blob that no commit points to (GitHub tidies these away).
+    await gh(token, '/git/blobs', { method: 'POST', body: JSON.stringify({ content: 'key check', encoding: 'utf-8' }) })
     return null
   } catch (e) {
-    if (e instanceof GitHubError && e.status === 401) return 'GitHub did not accept that key. Check it was copied in full.'
-    if (e instanceof GitHubError && e.status === 404) return `That key cannot see ${REPO_OWNER}/${REPO_NAME}. Pick that repo when making the key.`
-    return `Could not reach GitHub: ${(e as Error).message}`
+    return explain(e)
   }
+}
+
+/** Turns a GitHub error into something a person can act on. */
+export function explain(e: unknown): string {
+  if (e instanceof GitHubError) {
+    if (e.status === 401) return 'GitHub did not accept that key. It may have expired or been copied short.'
+    if (e.status === 403) return 'Your GitHub key can read the journal but not save to it. On GitHub, edit the key and set Repository permissions › Contents to "Read and write", then try again.'
+    if (e.status === 404) return `That key cannot see ${REPO_OWNER}/${REPO_NAME}. Edit the key on GitHub and add that repo.`
+    return `GitHub said: ${e.message}`
+  }
+  return `Could not reach GitHub: ${(e as Error).message}`
 }
 
 function utf8ToBase64(text: string): string {
