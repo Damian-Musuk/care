@@ -37,8 +37,10 @@ async function post(host, endpoint, body) {
         headers: { 'Content-Type': 'text/plain', Origin: 'https://www.icloud.com' },
         body: JSON.stringify(body),
         redirect: 'manual',
+        signal: AbortSignal.timeout(30_000),
       })
     } catch (e) {
+      console.warn(`  ${host}: ${e.message}`)
       // Newer album links don't always map to a real server; any server will redirect us to the right one.
       if (host === FALLBACK_HOST) throw e
       console.warn(`${host} unreachable, asking ${FALLBACK_HOST} instead`)
@@ -52,6 +54,7 @@ async function post(host, endpoint, body) {
       host = next
       continue
     }
+    console.log(`  ${host} ${endpoint}: HTTP ${res.status}`)
     if (!res.ok) throw new Error(`iCloud ${endpoint}: HTTP ${res.status}`)
     return { host, json: await res.json() }
   }
@@ -67,6 +70,7 @@ async function main() {
   data.photos ??= {}
   data.hidden ??= []
 
+  console.log(`Asking iCloud for the album…`)
   const stream = await post(firstHost(ALBUM_TOKEN), 'webstream', { streamCtag: null })
   const host = stream.host
   const all = stream.json.photos ?? []
@@ -85,7 +89,7 @@ async function main() {
         .sort((a, b) => Number(b.fileSize ?? 0) - Number(a.fileSize ?? 0))[0]
       const loc = best && urls.items?.[best.checksum]
       if (!loc) { console.warn(`No download for ${photo.photoGuid}`); continue }
-      const res = await fetch(`https://${loc.url_location}${loc.url_path}`)
+      const res = await fetch(`https://${loc.url_location}${loc.url_path}`, { signal: AbortSignal.timeout(60_000) })
       if (!res.ok) { console.warn(`Download failed for ${photo.photoGuid}: HTTP ${res.status}`); continue }
 
       const date = perthDate(photo.dateCreated ?? photo.batchDateCreated)
