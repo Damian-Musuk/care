@@ -17,6 +17,8 @@ export interface Entry {
   wordle?: WordleDay
   /** Set on the day's activity rings entry. */
   rings?: Rings
+  /** Set on the day's step count entry. */
+  steps?: number
   /** Don't show this entry's emoji on the calendar (rings that weren't all closed). */
   noEmoji?: boolean
 }
@@ -64,4 +66,10 @@ export interface WordleData {
   photos: Record<string, { date: string; file: string; caption?: string; guesses?: string[]; answer?: string }>
   /** Album photos the editor chose to hide. */
   hidden?: string[]
+}
+
+/** One day in public/data/steps.json. */
+export interface StepsDay {
+  date: string
+  steps: number
 }

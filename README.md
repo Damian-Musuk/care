@@ -37,6 +37,10 @@ Apple Health and opens `/?rings=YYYY-MM-DD&move=…&moveGoal=…&unit=kJ&exercis
 With editing on in that browser, the journal saves them to the day (`rings` in journal.json). ⭕ shows
 on the calendar when all three are closed.
 
+**Steps:** the "Care Rings" Shortcut also writes daily step counts to `public/data/steps.json`
+(`[{"date":"YYYY-MM-DD","steps":1234}, …]`) through the GitHub API. 👟 shows on days at or over
+`STEP_GOAL` in `src/config.ts` (10,000).
+
 In a day's view, swipe left or right (or use the ‹ › buttons or arrow keys) to move between days.
 
 ## Run it

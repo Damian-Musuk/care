@@ -9,6 +9,7 @@ export const ACTIVITIES: Activity[] = [
   { id: 'puzzle', emoji: '🧩', label: 'Puzzle' },
   { id: 'walk', emoji: '🥾', label: 'Walk' },
   { id: 'rings', emoji: '⭕', label: 'Rings closed' },
+  { id: 'steps', emoji: '👟', label: 'Steps' },
   { id: 'music', emoji: '🎸', label: 'Music' },
   { id: 'sourdough', emoji: '🍞', label: 'Sourdough' },
   { id: 'photos', emoji: '📷', label: 'Photos' },
