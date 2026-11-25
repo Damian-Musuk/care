@@ -14,6 +14,16 @@
           "activity": "music",
           "title": "Learned a new song: Bridge Over Troubled Water",
           "link": "https://songs.damian-mus.uk/song/bridge-over-troubled-water"
+        },
+        {
+          "id": "mwviiaqwt1s50",
+          "activity": "photos",
+          "photos": [
+            {
+              "src": "photos/2026/11/mwviiize3htx3.jpg",
+              "thumb": "photos/2026/11/mwviiize3htx3.thumb.jpg"
+            }
+          ]
         }
       ]
     }
