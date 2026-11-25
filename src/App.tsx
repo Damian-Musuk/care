@@ -2,7 +2,7 @@ import { ChevronLeft, ChevronRight, Lock, PenLine } from 'lucide-react'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { ACTIVITIES } from './activities'
 import { Calendar } from './Calendar'
-import { BRANCH, REPO_NAME, REPO_OWNER } from './config'
+import { BRANCH, REPO_NAME, REPO_OWNER, STEP_GOAL } from './config'
 import { addMonths, dateKey, longDate, monthTitle, parseKey, todayKey } from './dates'
 import { DayView } from './DayView'
 import { EditorSetup } from './EditorSetup'
@@ -11,7 +11,7 @@ import { explain, getToken, loadLatest, save, setToken as storeToken, type Chang
 import { newId } from './images'
 import { Lightbox } from './Lightbox'
 import { ringsClosed, ringsFromUrl } from './ringsData'
-import type { Entry, Journal, Photo, WordleData, WordleDay } from './types'
+import type { Entry, Journal, Photo, StepsDay, WordleData, WordleDay } from './types'
 
 const EMPTY_JOURNAL: Journal = { version: 1, days: {} }
 const EMPTY_WORDLE: WordleData = { photos: {}, hidden: [] }
@@ -36,6 +36,7 @@ export default function App() {
   const [journal, setJournal] = useState<Journal>(EMPTY_JOURNAL)
   const [wordle, setWordle] = useState<WordleData>(EMPTY_WORDLE)
   const [answers, setAnswers] = useState<Record<string, string>>({})
+  const [steps, setSteps] = useState<Record<string, number>>({})
   const [loaded, setLoaded] = useState(false)
   const [loadError, setLoadError] = useState('')
   const [token, setTokenState] = useState<string | null>(getToken)
@@ -87,6 +88,21 @@ export default function App() {
       .catch(() => {})
   }, [])
 
+  // Daily steps from the iPhone Shortcut. The editor reads GitHub directly so a fresh upload shows at once.
+  useEffect(() => {
+    const url = token ? `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${BRANCH}/public/data/steps.json` : '/data/steps.json'
+    fetch(url, { cache: 'no-cache' })
+      .then((r) => (r.ok ? r.json() : []))
+      .then((list: StepsDay[]) => {
+        const map: Record<string, number> = {}
+        for (const d of Array.isArray(list) ? list : []) {
+          if (d && /^\d{4}-\d{2}-\d{2}$/.test(d.date) && Number.isFinite(+d.steps)) map[d.date] = Math.round(+d.steps)
+        }
+        setSteps(map)
+      })
+      .catch(() => {})
+  }, [token])
+
   // Keep the address in step so a link to a month or a day can be shared.
   useEffect(() => {
     const p = new URLSearchParams()
@@ -132,8 +148,12 @@ export default function App() {
     const w = wordleByDate.get(key)
     const r = journal.days[key]?.rings
     const rings: Entry[] = r ? [{ id: `rings:${key}`, activity: 'rings', auto: true, rings: r, noEmoji: !ringsClosed(r) }] : []
-    return [...rings, ...(w ? [w] : []), ...(journal.days[key]?.entries ?? [])]
-  }, [journal, wordleByDate])
+    const n = steps[key]
+    const walked: Entry[] = n !== undefined
+      ? [{ id: `steps:${key}`, activity: 'steps', auto: true, steps: n, title: `${n.toLocaleString('en-AU')} steps`, note: n >= STEP_GOAL ? 'Step goal reached.' : `Goal is ${STEP_GOAL.toLocaleString('en-AU')}.`, noEmoji: n < STEP_GOAL }]
+      : []
+    return [...rings, ...walked, ...(w ? [w] : []), ...(journal.days[key]?.entries ?? [])]
+  }, [journal, wordleByDate, steps])
 
   const hasNote = useCallback((key: string) => !!journal.days[key]?.note, [journal])
 

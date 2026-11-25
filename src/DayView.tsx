@@ -139,7 +139,7 @@ export function DayView({ date, note, entries, editing, busy, photoUrl, onClose,
                     <div className="entry-kind">{a.label}</div>
                     {entry.title && <h3 className="entry-title">{entry.title}</h3>}
                   </div>
-                  {editing && (
+                  {editing && entry.activity !== 'steps' && (
                     <div className="entry-actions">
                       {entry.auto ? (
                         <button className="icon-btn" title="Hide this Wordle" aria-label="Hide this Wordle" onClick={() => onHideWordle(entry)} disabled={busy}><EyeOff size={17} /></button>
