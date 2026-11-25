@@ -29,7 +29,9 @@ function firstHost(token) {
 }
 
 async function post(host, endpoint, body) {
+  const tried = new Set()
   for (let hop = 0; hop < 4; hop++) {
+    tried.add(host)
     let res
     try {
       res = await fetch(`https://${host}/${ALBUM_TOKEN}/sharedstreams/${endpoint}`, {
@@ -42,7 +44,7 @@ async function post(host, endpoint, body) {
     } catch (e) {
       console.warn(`  ${host}: ${e.message}`)
       // Newer album links don't always map to a real server; any server will redirect us to the right one.
-      if (host === FALLBACK_HOST) throw e
+      if (tried.has(FALLBACK_HOST)) throw e
       console.warn(`${host} unreachable, asking ${FALLBACK_HOST} instead`)
       host = FALLBACK_HOST
       continue
@@ -109,6 +111,11 @@ async function main() {
 }
 
 main().catch((e) => {
+  // iCloud sometimes stops answering for a while. Skip this run quietly; the next one will catch up.
+  if (e?.name === 'TimeoutError' || e?.name === 'AbortError') {
+    console.log(`::warning::iCloud didn't answer (${e.message}). Will try again next run.`)
+    return
+  }
   console.error(e)
   process.exit(1)
 })
