@@ -2,7 +2,7 @@ import { ChevronLeft, ChevronRight, Lock, PenLine } from 'lucide-react'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { ACTIVITIES } from './activities'
 import { Calendar } from './Calendar'
-import { BRANCH, REPO_NAME, REPO_OWNER, STEP_GOAL } from './config'
+import { BRANCH, REPO_NAME, REPO_OWNER, STEP_GOAL, stepsFileName } from './config'
 import { addMonths, dateKey, longDate, monthTitle, parseKey, todayKey } from './dates'
 import { DayView } from './DayView'
 import { EditorSetup } from './EditorSetup'
@@ -88,20 +88,34 @@ export default function App() {
       .catch(() => {})
   }, [])
 
-  // Daily steps from the iPhone Shortcut. The editor reads GitHub directly so a fresh upload shows at once.
+  // Daily steps from the iPhone Shortcut, one file per month (public/data/steps-January-2026.json).
+  // Loads the month on screen plus the months either side, so swiping across a month edge has them.
+  // The editor reads GitHub directly so a fresh upload shows at once.
+  const stepsMonths = useRef(new Set<string>())
   useEffect(() => {
-    const url = token ? `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${BRANCH}/public/data/steps.json` : '/data/steps.json'
-    fetch(url, { cache: 'no-cache' })
-      .then((r) => (r.ok ? r.json() : []))
-      .then((list: StepsDay[]) => {
-        const map: Record<string, number> = {}
-        for (const d of Array.isArray(list) ? list : []) {
-          if (d && /^\d{4}-\d{2}-\d{2}$/.test(d.date) && Number.isFinite(+d.steps)) map[d.date] = Math.round(+d.steps)
-        }
-        setSteps(map)
-      })
-      .catch(() => {})
-  }, [token])
+    const names = [-1, 0, 1].map((d) => {
+      const m = addMonths(view.year, view.month, d)
+      return stepsFileName(m.year, m.month)
+    })
+    for (const name of names) {
+      const key = `${token ? 'github' : 'site'}:${name}`
+      if (stepsMonths.current.has(key)) continue
+      stepsMonths.current.add(key)
+      const url = token
+        ? `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${BRANCH}/public/data/${name}`
+        : `/data/${name}`
+      fetch(url, { cache: 'no-cache' })
+        .then((r) => (r.ok ? r.json() : []))
+        .then((list: StepsDay[]) => {
+          const found: Record<string, number> = {}
+          for (const d of Array.isArray(list) ? list : []) {
+            if (d && /^\d{4}-\d{2}-\d{2}$/.test(d.date) && Number.isFinite(+d.steps)) found[d.date] = Math.round(+d.steps)
+          }
+          if (Object.keys(found).length) setSteps((s) => ({ ...s, ...found }))
+        })
+        .catch(() => stepsMonths.current.delete(key))
+    }
+  }, [view, token])
 
   // Keep the address in step so a link to a month or a day can be shared.
   useEffect(() => {
