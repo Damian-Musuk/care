@@ -39,7 +39,7 @@ async function post(host, endpoint, body) {
         headers: { 'Content-Type': 'text/plain', Origin: 'https://www.icloud.com' },
         body: JSON.stringify(body),
         redirect: 'manual',
-        signal: AbortSignal.timeout(30_000),
+        signal: AbortSignal.timeout(180_000), // iCloud can take a minute or more to wake an album
       })
     } catch (e) {
       console.warn(`  ${host}: ${e.message}`)
