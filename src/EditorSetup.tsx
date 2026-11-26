@@ -43,34 +43,37 @@ export function EditorSetup({ signedIn, onClose, onToken, onSignOut }: {
   }
 
   return (
-    <Modal title="Edit the journal" onClose={onClose}>
-      <form className="form" onSubmit={submit}>
-        <p>Editing uses a private GitHub key that only works on the <strong>{REPO_OWNER}/{REPO_NAME}</strong> repo. It's kept on this device only.</p>
-        <ol className="steps">
-          <li>Open <a href={NEW_TOKEN_URL} target="_blank" rel="noreferrer">GitHub › New fine-grained token</a>.</li>
-          <li>Name it “Care journal” and pick an expiry. A year is fine.</li>
-          <li>Under <em>Repository access</em>, choose <em>Only select repositories</em> › <strong>{REPO_NAME}</strong>.</li>
-          <li>Under <em>Permissions</em>, set <strong>Contents</strong> to <em>Read and write</em>.</li>
-          <li>Generate it, copy it, and paste it below.</li>
-        </ol>
+    <Modal title="Sign in" onClose={onClose}>
+      {/* A plain username + password form, so the phone's password manager can save the key once and fill it in on every damian-mus.uk app. */}
+      <form className="form" onSubmit={submit} autoComplete="on">
+        <input type="text" name="username" autoComplete="username" value="damian" readOnly hidden aria-hidden />
         <label>
-          <span>GitHub key</span>
+          <span>Please enter password</span>
           <input
             type="password"
+            name="password"
             value={token}
             onChange={(e) => setToken(e.target.value)}
-            placeholder="github_pat_…"
-            autoComplete="off"
+            autoComplete="current-password"
+            autoCapitalize="off"
             spellCheck={false}
+            autoFocus
           />
         </label>
         {error && <p className="error">{error}</p>}
         <div className="row-end">
           <button type="button" className="btn" onClick={onClose}>Cancel</button>
           <button type="submit" className="btn btn-primary" disabled={checking || !token.trim()}>
-            {checking ? 'Checking…' : 'Turn on editing'}
+            {checking ? 'Checking…' : 'Sign in'}
           </button>
         </div>
+        <details className="muted">
+          <summary>No password?</summary>
+          <p>
+            The password is a GitHub fine-grained token with <strong>Contents: Read and write</strong> on <strong>{REPO_OWNER}/{REPO_NAME}</strong>.
+            Make one at <a href={NEW_TOKEN_URL} target="_blank" rel="noreferrer">GitHub › New fine-grained token</a>. It stays on this device only.
+          </p>
+        </details>
       </form>
     </Modal>
   )
