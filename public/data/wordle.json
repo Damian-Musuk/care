@@ -15102,6 +15102,17 @@
         "SPICY"
       ],
       "answer": "SPICY"
+    },
+    "1E9B2A5A-6C10-4AC6-B3DB-7037F05FF58B": {
+      "date": "2026-11-26",
+      "file": "wordle/2026-11-26-1e9b2a5a6c.jpg",
+      "guesses": [
+        "SPICY",
+        "BRUSH",
+        "GLOAT",
+        "TENSE"
+      ],
+      "answer": "TENSE"
     }
   },
   "hidden": []
