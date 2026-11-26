@@ -22,8 +22,9 @@ There's no server or database. Everything is files in this repo:
 | `scripts/read-wordle.py`, `scripts/wordle-letters.npz` | Reads letters and colours off screenshots (matching learned letter shapes) and keeps only reads whose colours check out |
 | `.github/workflows/wordle.yml` | Runs the Wordle import every 3 hours |
 
-**Editing:** tap the 🔒 button and paste a fine-grained GitHub token for this repo only, with
-*Contents: Read and write*. The token stays in that browser. Saving makes one commit, and
+**Editing:** go to https://care.damian-mus.uk/post/ and paste a fine-grained GitHub token for this repo only, with
+*Contents: Read and write*. Once it checks out you're taken back to the journal, and an *Editing*
+button shows at the top (tap it to turn editing off). The front page has no sign-in. The token stays in that browser. Saving makes one commit, and
 Cloudflare rebuilds the site, so everyone sees the change about a minute later.
 
 **Wordle:** the workflow reads the public shared album, saves new screenshots, and files each one

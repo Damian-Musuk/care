@@ -1,4 +1,4 @@
-import { ChevronLeft, ChevronRight, Lock, PenLine } from 'lucide-react'
+import { ChevronLeft, ChevronRight, PenLine } from 'lucide-react'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { ACTIVITIES } from './activities'
 import { Calendar } from './Calendar'
@@ -15,6 +15,8 @@ import type { Entry, Journal, Photo, StepsDay, WordleData, WordleDay } from './t
 
 const EMPTY_JOURNAL: Journal = { version: 1, days: {} }
 const EMPTY_WORDLE: WordleData = { photos: {}, hidden: [] }
+/** The address as it first arrived, before the month/day sync rewrites it (keeps rings from the Shortcut). */
+const START_SEARCH = location.search
 
 function readUrl() {
   const p = new URLSearchParams(location.search)
@@ -314,14 +316,12 @@ export default function App() {
           <h1><span aria-hidden>🍃</span> Care Journal</h1>
           <p className="tagline">A little care, every day.</p>
         </div>
-        <button
-          className={`edit-toggle${editing ? ' is-on' : ''}`}
-          onClick={() => setShowSetup(true)}
-          aria-label={editing ? 'Editing is on' : 'Edit'}
-          title={editing ? 'Editing is on' : 'Edit'}
-        >
-          {editing ? <><PenLine size={16} /> Editing</> : <Lock size={16} />}
-        </button>
+        {/* Editing is turned on at /post/; once on, this opens the sign-out. */}
+        {editing && (
+          <button className="edit-toggle is-on" onClick={() => setShowSetup(true)} title="Editing is on">
+            <PenLine size={16} /> Editing
+          </button>
+        )}
       </header>
 
       <main>
@@ -338,7 +338,7 @@ export default function App() {
             <p>Your rings for {longDate(incomingRings.date)} are ready to save. Turn on editing in this browser to save them.</p>
             <div className="row-end">
               <button className="btn" onClick={() => setIncomingRings(null)}>Not now</button>
-              <button className="btn btn-primary" onClick={() => setShowSetup(true)}>Turn on editing</button>
+              <a className="btn btn-primary" href={`/post/${START_SEARCH}`}>Turn on editing</a>
             </div>
           </div>
         )}
@@ -405,7 +405,7 @@ export default function App() {
         <EditorSetup
           signedIn={editing}
           onClose={() => setShowSetup(false)}
-          onToken={(tok) => { storeToken(tok); setTokenState(tok); setShowSetup(false); setToast('Editing is on. Tap a day to add to it.') }}
+          onToken={(tok) => { storeToken(tok); setTokenState(tok); setShowSetup(false) }}
           onSignOut={() => { storeToken(null); setTokenState(null); setShowSetup(false) }}
         />
       )}
