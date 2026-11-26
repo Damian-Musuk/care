@@ -7,21 +7,21 @@ function mainPage() {
   return `/${location.search}`
 }
 
-/** Saved to a phone's home screen from here, the app opens at /post/ and is called "Care Post". */
-function useHomeScreenAppForPost() {
-  useEffect(() => {
-    document.querySelector('link[rel="manifest"]')?.setAttribute('href', '/manifest-post.webmanifest')
-    document.querySelector('meta[name="apple-mobile-web-app-title"]')?.setAttribute('content', 'Care Post')
-  }, [])
-}
+/** True when opened from a home screen icon rather than in the browser. */
+const standalone =
+  matchMedia('(display-mode: standalone)').matches || (navigator as { standalone?: boolean }).standalone === true
 
 /**
- * /post/: the only place to turn on editing. Once editing is on it waits for OK before going to the journal,
- * so there's time to add the page to the home screen.
+ * /post/: the only place to sign in. It has its own page and manifest (post/index.html), so a home screen icon
+ * saved from here opens here. In the browser it waits for OK once signed in, so there's time to add it to the home screen.
  */
 export function PostPage() {
-  useHomeScreenAppForPost()
   const [signedIn, setSignedIn] = useState(() => !!getToken())
+
+  // From the home screen icon there's nothing to wait for: once signed in, go straight to the journal.
+  useEffect(() => {
+    if (signedIn && standalone) location.replace(mainPage())
+  }, [signedIn])
 
   return (
     <div className="app">
