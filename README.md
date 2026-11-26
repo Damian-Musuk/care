@@ -23,7 +23,9 @@ There's no server or database. Everything is files in this repo:
 | `.github/workflows/wordle.yml` | Runs the Wordle import every 3 hours |
 
 **Editing:** go to https://care.damian-mus.uk/post/ and paste a fine-grained GitHub token for this repo only, with
-*Contents: Read and write*. Once it checks out you're taken back to the journal, and an *Editing*
+*Contents: Read and write*. Once it checks out, /post/ says editing is on and waits for **OK** before going to the
+journal, so there's time to add it to the home screen (Share › Add to Home Screen; it's saved as
+"Care Post" and opens at /post/, using `public/manifest-post.webmanifest`). On the journal an *Editing*
 button shows at the top (tap it to turn editing off). The front page has no sign-in. The token stays in that browser. Saving makes one commit, and
 Cloudflare rebuilds the site, so everyone sees the change about a minute later.
 

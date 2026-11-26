@@ -1,0 +1,25 @@
+{
+  "name": "Care · Post",
+  "short_name": "Care Post",
+  "description": "Add to Damian's care journal.",
+  "start_url": "/post/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f6f3ec",
+  "theme_color": "#275b47",
+  "icons": [
+    { "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    { "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    { "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

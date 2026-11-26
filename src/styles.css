@@ -84,6 +84,7 @@ a { color: var(--green); }
 }
 .icon-btn:hover:not(:disabled) { background: var(--card-2); }
 
+a.btn { text-decoration: none; }
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 6px;
   min-height: 42px; padding: 0 16px; border-radius: 999px;
