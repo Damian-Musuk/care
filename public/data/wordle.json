@@ -15113,6 +15113,16 @@
         "TENSE"
       ],
       "answer": "TENSE"
+    },
+    "A60600A0-74F5-4B78-ABF5-67CA24B6AC81": {
+      "date": "2026-11-27",
+      "file": "wordle/2026-11-27-a60600a074.jpg",
+      "guesses": [
+        "TENSE",
+        "SPEAR",
+        "SHEAF"
+      ],
+      "answer": "SHEAF"
     }
   },
   "hidden": []
