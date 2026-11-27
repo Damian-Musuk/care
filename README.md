@@ -52,6 +52,11 @@ Activity rings against the goals in `src/healthData.ts` (Move 2120 kJ, Exercise 
 Stand grouped by hour counts each hour with at least a minute of standing; a stand file grouped by day
 counts every day in it as 12 hours. Rings saved from a Shortcut link (`?rings=…`) take priority.
 
+**Daily file:** from 27 Nov 2026 the Shortcut also sends `activity-2026-11-27.json`: hourly rows for
+Steps, Stand Time (minutes), Active Calories (kJ) and Exercise Time, e.g.
+`{"date" : "27 Nov 2026 at 9:00 am", "Steps" : "770"}`. Its totals win over the monthly files for that day.
+Days before `DAILY_FILES_FROM` in `src/healthData.ts` aren't looked for.
+
 In a day's view, swipe left or right (or use the ‹ › buttons or arrow keys) to move between days.
 
 ## Run it

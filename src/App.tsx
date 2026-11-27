@@ -11,7 +11,7 @@ import { explain, getToken, loadLatest, save, setToken as storeToken, type Chang
 import { newId } from './images'
 import { Lightbox } from './Lightbox'
 import { ringsClosed, ringsFromUrl } from './ringsData'
-import { HEALTH_ACTIVITIES, RING_GOALS, parseHealthFile, type HealthActivity } from './healthData'
+import { DAILY_FILES_FROM, HEALTH_ACTIVITIES, RING_GOALS, dailyFileName, parseDailyFile, parseHealthFile, type HealthActivity } from './healthData'
 import type { Entry, Journal, Photo, Rings, WordleData, WordleDay } from './types'
 
 const EMPTY_JOURNAL: Journal = { version: 1, days: {} }
@@ -40,6 +40,8 @@ export default function App() {
   const [wordle, setWordle] = useState<WordleData>(EMPTY_WORDLE)
   const [answers, setAnswers] = useState<Record<string, string>>({})
   const [health, setHealth] = useState<Partial<Record<HealthActivity, Record<string, number>>>>({})
+  // Totals from the daily files, kept apart so a monthly file loading later can't overwrite them.
+  const [daily, setDaily] = useState<Record<string, Partial<Record<HealthActivity, number>>>>({})
   const [loaded, setLoaded] = useState(false)
   const [loadError, setLoadError] = useState('')
   const [token, setTokenState] = useState<string | null>(getToken)
@@ -115,6 +117,28 @@ export default function App() {
           .catch(() => healthFiles.current.delete(key))
       }
     }
+    // From DAILY_FILES_FROM the Shortcut sends one file per day (public/data/activity-2026-11-27.json),
+    // which wins over the monthly files for that day. Only days on screen, up to today, are asked for.
+    const first = dateKey(view.year, view.month, 1)
+    for (let day = 1; day <= 31; day++) {
+      const date = dateKey(view.year, view.month, day)
+      if (date.slice(0, 7) !== first.slice(0, 7) || date < DAILY_FILES_FROM || date > todayKey()) continue
+      const name = dailyFileName(date)
+      const key = `${token ? 'github' : 'site'}:${name}`
+      if (healthFiles.current.has(key)) continue
+      healthFiles.current.add(key)
+      const url = token
+        ? `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${BRANCH}/public/data/${name}`
+        : `/data/${name}`
+      fetch(url, { cache: 'no-cache' })
+        .then((r) => (r.ok ? r.text() : ''))
+        .then((text) => {
+          const totals = parseDailyFile(date, text)
+          if (!Object.keys(totals).length) return
+          setDaily((d) => ({ ...d, [date]: totals }))
+        })
+        .catch(() => healthFiles.current.delete(key))
+    }
   }, [view, token])
 
   // Keep the address in step so a link to a month or a day can be shared.
@@ -161,18 +185,19 @@ export default function App() {
   const entriesFor = useCallback((key: string) => {
     const w = wordleByDate.get(key)
     // Rings saved from the Shortcut link win; otherwise build them from the monthly files.
-    const move = health.move?.[key], exercise = health.exercise?.[key], stand = health.stand?.[key]
+    const get = (a: HealthActivity) => daily[key]?.[a] ?? health[a]?.[key]
+    const move = get('move'), exercise = get('exercise'), stand = get('stand')
     const fromFiles: Rings | undefined = move !== undefined || exercise !== undefined || stand !== undefined
       ? { move: move ?? 0, moveGoal: RING_GOALS.move, moveUnit: RING_GOALS.moveUnit, exercise: exercise ?? 0, exerciseGoal: RING_GOALS.exercise, stand: stand ?? 0, standGoal: RING_GOALS.stand }
       : undefined
     const r = journal.days[key]?.rings ?? fromFiles
     const rings: Entry[] = r ? [{ id: `rings:${key}`, activity: 'rings', auto: true, rings: r, noEmoji: !ringsClosed(r) }] : []
-    const n = health.steps?.[key] === undefined ? undefined : Math.round(health.steps[key])
+    const n = get('steps') === undefined ? undefined : Math.round(get('steps')!)
     const walked: Entry[] = n !== undefined
       ? [{ id: `steps:${key}`, activity: 'steps', auto: true, steps: n, title: `${n.toLocaleString('en-AU')} steps`, note: n >= STEP_GOAL ? 'Step goal reached.' : `Goal is ${STEP_GOAL.toLocaleString('en-AU')}.`, noEmoji: n < STEP_GOAL }]
       : []
     return [...rings, ...walked, ...(w ? [w] : []), ...(journal.days[key]?.entries ?? [])]
-  }, [journal, wordleByDate, health])
+  }, [journal, wordleByDate, health, daily])
 
   const hasNote = useCallback((key: string) => !!journal.days[key]?.note, [journal])
 
