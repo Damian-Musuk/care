@@ -68,7 +68,8 @@ export interface WordleData {
   hidden?: string[]
 }
 
-/** One day in a monthly steps file, e.g. public/data/steps-January-2026.json. The Shortcut sends steps as a string. */
+/** One day in a monthly steps file, e.g. public/data/steps-2026-11.json. The Shortcut sends steps as a string,
+ * and the date either as "2026-11-27" or as "27 Nov 2026 at 12:36 am". */
 export interface StepsDay {
   date: string
   steps: number | string

@@ -2,8 +2,8 @@ import { ChevronLeft, ChevronRight, PenLine } from 'lucide-react'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { ACTIVITIES } from './activities'
 import { Calendar } from './Calendar'
-import { BRANCH, REPO_NAME, REPO_OWNER, STEP_GOAL, stepsFileName } from './config'
-import { addMonths, dateKey, longDate, monthTitle, parseKey, todayKey } from './dates'
+import { BRANCH, REPO_NAME, REPO_OWNER, STEP_GOAL, activityFileName } from './config'
+import { addMonths, dateKey, shortcutDateKey, longDate, monthTitle, parseKey, todayKey } from './dates'
 import { DayView } from './DayView'
 import { EditorSetup } from './EditorSetup'
 import { EntryForm, type EntryDraft } from './EntryForm'
@@ -90,14 +90,14 @@ export default function App() {
       .catch(() => {})
   }, [])
 
-  // Daily steps from the iPhone Shortcut, one file per month (public/data/steps-January-2026.json).
+  // Daily steps from the iPhone Shortcut, one file per month (public/data/steps-2026-11.json).
   // Loads the month on screen plus the months either side, so swiping across a month edge has them.
   // The editor reads GitHub directly so a fresh upload shows at once.
   const stepsMonths = useRef(new Set<string>())
   useEffect(() => {
     const names = [-1, 0, 1].map((d) => {
       const m = addMonths(view.year, view.month, d)
-      return stepsFileName(m.year, m.month)
+      return activityFileName('steps', m.year, m.month)
     })
     for (const name of names) {
       const key = `${token ? 'github' : 'site'}:${name}`
@@ -111,7 +111,8 @@ export default function App() {
         .then((list: StepsDay[]) => {
           const found: Record<string, number> = {}
           for (const d of Array.isArray(list) ? list : []) {
-            if (d && /^\d{4}-\d{2}-\d{2}$/.test(d.date) && Number.isFinite(+d.steps)) found[d.date] = Math.round(+d.steps)
+            const date = d && shortcutDateKey(d.date)
+            if (date && Number.isFinite(+d.steps)) found[date] = Math.round(+d.steps)
           }
           if (Object.keys(found).length) setSteps((s) => ({ ...s, ...found }))
         })

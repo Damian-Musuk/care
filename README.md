@@ -41,8 +41,9 @@ With editing on in that browser, the journal saves them to the day (`rings` in j
 on the calendar when all three are closed.
 
 **Steps:** the "Care Rings" Shortcut also writes daily step counts through the GitHub API, one file
-per month: `public/data/steps-January-2026.json`, `public/data/steps-February-2026.json` and so on
-(`[{"date":"YYYY-MM-DD","steps":1234}, …]`, English month name, steps as a number or a string). The
+per month: `public/data/steps-2026-01.json`, `public/data/steps-2026-02.json` and so on
+(`[{"date":"YYYY-MM-DD","steps":1234}, …]`, steps as a number or a string; the date can also be the
+Shortcuts default, e.g. `"27 Nov 2026 at 12:36 am"`). The
 site loads the file for the month on screen. 👟 shows on days at or over `STEP_GOAL` in `src/config.ts` (10,000).
 
 In a day's view, swipe left or right (or use the ‹ › buttons or arrow keys) to move between days.
