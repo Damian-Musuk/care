@@ -3,7 +3,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { ACTIVITIES } from './activities'
 import { Calendar } from './Calendar'
 import { BRANCH, REPO_NAME, REPO_OWNER, STEP_GOAL, activityFileName } from './config'
-import { addMonths, dateKey, shortcutDateKey, longDate, monthTitle, parseKey, todayKey } from './dates'
+import { addMonths, dateKey, longDate, monthTitle, parseKey, todayKey } from './dates'
 import { DayView } from './DayView'
 import { EditorSetup } from './EditorSetup'
 import { EntryForm, type EntryDraft } from './EntryForm'
@@ -11,7 +11,8 @@ import { explain, getToken, loadLatest, save, setToken as storeToken, type Chang
 import { newId } from './images'
 import { Lightbox } from './Lightbox'
 import { ringsClosed, ringsFromUrl } from './ringsData'
-import type { Entry, Journal, Photo, StepsDay, WordleData, WordleDay } from './types'
+import { HEALTH_ACTIVITIES, RING_GOALS, parseHealthFile, type HealthActivity } from './healthData'
+import type { Entry, Journal, Photo, Rings, WordleData, WordleDay } from './types'
 
 const EMPTY_JOURNAL: Journal = { version: 1, days: {} }
 const EMPTY_WORDLE: WordleData = { photos: {}, hidden: [] }
@@ -38,7 +39,7 @@ export default function App() {
   const [journal, setJournal] = useState<Journal>(EMPTY_JOURNAL)
   const [wordle, setWordle] = useState<WordleData>(EMPTY_WORDLE)
   const [answers, setAnswers] = useState<Record<string, string>>({})
-  const [steps, setSteps] = useState<Record<string, number>>({})
+  const [health, setHealth] = useState<Partial<Record<HealthActivity, Record<string, number>>>>({})
   const [loaded, setLoaded] = useState(false)
   const [loadError, setLoadError] = useState('')
   const [token, setTokenState] = useState<string | null>(getToken)
@@ -90,33 +91,29 @@ export default function App() {
       .catch(() => {})
   }, [])
 
-  // Daily steps from the iPhone Shortcut, one file per month (public/data/steps-2026-11.json).
-  // Loads the month on screen plus the months either side, so swiping across a month edge has them.
-  // The editor reads GitHub directly so a fresh upload shows at once.
-  const stepsMonths = useRef(new Set<string>())
+  // Health data from the iPhone Shortcut: one file per activity per month (public/data/steps-2026-11.json,
+  // move-…, exercise-…, stand-…). Loads the month on screen plus the months either side, so swiping across
+  // a month edge has them. The editor reads GitHub directly so a fresh upload shows at once.
+  const healthFiles = useRef(new Set<string>())
   useEffect(() => {
-    const names = [-1, 0, 1].map((d) => {
+    for (const d of [-1, 0, 1]) {
       const m = addMonths(view.year, view.month, d)
-      return activityFileName('steps', m.year, m.month)
-    })
-    for (const name of names) {
-      const key = `${token ? 'github' : 'site'}:${name}`
-      if (stepsMonths.current.has(key)) continue
-      stepsMonths.current.add(key)
-      const url = token
-        ? `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${BRANCH}/public/data/${name}`
-        : `/data/${name}`
-      fetch(url, { cache: 'no-cache' })
-        .then((r) => (r.ok ? r.json() : []))
-        .then((list: StepsDay[]) => {
-          const found: Record<string, number> = {}
-          for (const d of Array.isArray(list) ? list : []) {
-            const date = d && shortcutDateKey(d.date)
-            if (date && Number.isFinite(+d.steps)) found[date] = Math.round(+d.steps)
-          }
-          if (Object.keys(found).length) setSteps((s) => ({ ...s, ...found }))
-        })
-        .catch(() => stepsMonths.current.delete(key))
+      for (const activity of HEALTH_ACTIVITIES) {
+        const name = activityFileName(activity, m.year, m.month)
+        const key = `${token ? 'github' : 'site'}:${name}`
+        if (healthFiles.current.has(key)) continue
+        healthFiles.current.add(key)
+        const url = token
+          ? `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${BRANCH}/public/data/${name}`
+          : `/data/${name}`
+        fetch(url, { cache: 'no-cache' })
+          .then((r) => (r.ok ? r.json() : []))
+          .then((list) => {
+            const found = parseHealthFile(activity, list)
+            if (Object.keys(found).length) setHealth((h) => ({ ...h, [activity]: { ...h[activity], ...found } }))
+          })
+          .catch(() => healthFiles.current.delete(key))
+      }
     }
   }, [view, token])
 
@@ -163,14 +160,19 @@ export default function App() {
 
   const entriesFor = useCallback((key: string) => {
     const w = wordleByDate.get(key)
-    const r = journal.days[key]?.rings
+    // Rings saved from the Shortcut link win; otherwise build them from the monthly files.
+    const move = health.move?.[key], exercise = health.exercise?.[key], stand = health.stand?.[key]
+    const fromFiles: Rings | undefined = move !== undefined || exercise !== undefined || stand !== undefined
+      ? { move: move ?? 0, moveGoal: RING_GOALS.move, moveUnit: RING_GOALS.moveUnit, exercise: exercise ?? 0, exerciseGoal: RING_GOALS.exercise, stand: stand ?? 0, standGoal: RING_GOALS.stand }
+      : undefined
+    const r = journal.days[key]?.rings ?? fromFiles
     const rings: Entry[] = r ? [{ id: `rings:${key}`, activity: 'rings', auto: true, rings: r, noEmoji: !ringsClosed(r) }] : []
-    const n = steps[key]
+    const n = health.steps?.[key] === undefined ? undefined : Math.round(health.steps[key])
     const walked: Entry[] = n !== undefined
       ? [{ id: `steps:${key}`, activity: 'steps', auto: true, steps: n, title: `${n.toLocaleString('en-AU')} steps`, note: n >= STEP_GOAL ? 'Step goal reached.' : `Goal is ${STEP_GOAL.toLocaleString('en-AU')}.`, noEmoji: n < STEP_GOAL }]
       : []
     return [...rings, ...walked, ...(w ? [w] : []), ...(journal.days[key]?.entries ?? [])]
-  }, [journal, wordleByDate, steps])
+  }, [journal, wordleByDate, health])
 
   const hasNote = useCallback((key: string) => !!journal.days[key]?.note, [journal])
 

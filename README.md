@@ -46,6 +46,12 @@ per month: `public/data/steps-2026-01.json`, `public/data/steps-2026-02.json` an
 Shortcuts default, e.g. `"27 Nov 2026 at 12:36 am"`). The
 site loads the file for the month on screen. 👟 shows on days at or over `STEP_GOAL` in `src/config.ts` (10,000).
 
+**Rings:** the same Shortcut sends `move-2026-11.json` (kJ), `exercise-2026-11.json` (minutes) and
+`stand-2026-11.json` (stand minutes), each `[{"date":…,"move":…}, …]`. Days with any of them show the
+Activity rings against the goals in `src/healthData.ts` (Move 2120 kJ, Exercise 30 min, Stand 12 hr).
+Stand grouped by hour counts each hour with at least a minute of standing; a stand file grouped by day
+counts every day in it as 12 hours. Rings saved from a Shortcut link (`?rings=…`) take priority.
+
 In a day's view, swipe left or right (or use the ‹ › buttons or arrow keys) to move between days.
 
 ## Run it
