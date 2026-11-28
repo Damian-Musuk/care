@@ -1,32 +1,63 @@
 [
-{"date" : "1 Jan 2022 at 4:51 am" , "steps" : "9608"}, 
-{"date" : "2 Jan 2022 at 7:50 am" , "steps" : "10571"}, 
-{"date" : "3 Jan 2022 at 6:02 am" , "steps" : "17121"}, 
-{"date" : "4 Jan 2022 at 2:02 am" , "steps" : "10493"}, 
-{"date" : "5 Jan 2022 at 12:21 am" , "steps" : "4147"}, 
-{"date" : "6 Jan 2022 at 6:17 am" , "steps" : "15661"}, 
-{"date" : "7 Jan 2022 at 7:26 am" , "steps" : "11271"}, 
-{"date" : "8 Jan 2022 at 6:56 am" , "steps" : "5830"}, 
-{"date" : "9 Jan 2022 at 7:26 am" , "steps" : "5070"}, 
-{"date" : "10 Jan 2022 at 5:57 am" , "steps" : "11334"}, 
-{"date" : "11 Jan 2022 at 7:03 am" , "steps" : "6089"}, 
-{"date" : "12 Jan 2022 at 7:28 am" , "steps" : "13017"}, 
-{"date" : "13 Jan 2022 at 6:46 am" , "steps" : "15790"}, 
-{"date" : "14 Jan 2022 at 12:11 am" , "steps" : "12613"}, 
-{"date" : "15 Jan 2022 at 6:52 am" , "steps" : "11589"}, 
-{"date" : "16 Jan 2022 at 5:08 am" , "steps" : "7085"}, 
-{"date" : "17 Jan 2022 at 6:52 am" , "steps" : "10999"}, 
-{"date" : "18 Jan 2022 at 6:55 am" , "steps" : "12439"}, 
-{"date" : "19 Jan 2022 at 12:00 am" , "steps" : "6174"}, 
-{"date" : "20 Jan 2022 at 5:56 am" , "steps" : "8941"}, 
-{"date" : "21 Jan 2022 at 6:57 am" , "steps" : "9553"}, 
-{"date" : "22 Jan 2022 at 6:54 am" , "steps" : "6137"}, 
-{"date" : "23 Jan 2022 at 5:32 am" , "steps" : "4749"}, 
-{"date" : "24 Jan 2022 at 6:54 am" , "steps" : "6585"}, 
-{"date" : "25 Jan 2022 at 6:50 am" , "steps" : "12272"}, 
-{"date" : "26 Jan 2022 at 12:00 am" , "steps" : "6270"}, 
-{"date" : "27 Jan 2022 at 6:33 am" , "steps" : "13201"}, 
-{"date" : "28 Jan 2022 at 6:49 am" , "steps" : "3520"}, 
-{"date" : "29 Jan 2022 at 8:00 am" , "steps" : "18191"}, 
-{"date" : "30 Jan 2022 at 8:56 am" , "steps" : "5843"}, 
-{"date" : "31 Jan 2022 at 6:58 am" , "steps" : "5742"}]
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "9608"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "10571"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "17121"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "10493"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "4147"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "15661"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "11271"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "5830"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "5070"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "11334"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "6089"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "13017"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "15790"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "12613"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "11589"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "7085"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "10999"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "12439"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "6174"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "8941"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "9553"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "6137"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "4749"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "6585"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "12272"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "6270"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "13201"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "3520"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "18191"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "5843"}, 
+{"date" : "1 Jan 2022 at 12:00 pm-01
+01" , "steps" : "5742"}]
