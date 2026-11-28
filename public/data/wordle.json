@@ -15123,6 +15123,17 @@
         "SHEAF"
       ],
       "answer": "SHEAF"
+    },
+    "9C47BC56-559C-4C8A-B03F-1F7FDF77A882": {
+      "date": "2026-11-28",
+      "file": "wordle/2026-11-28-9c47bc5655.jpg",
+      "guesses": [
+        "SHEAF",
+        "DRINK",
+        "CLOUT",
+        "WOOZY"
+      ],
+      "answer": "WOOZY"
     }
   },
   "hidden": []
